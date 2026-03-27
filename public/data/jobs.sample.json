@@ -1,0 +1,175 @@
+{
+  "search_metadata": {
+    "generated_at": "2026-03-27T11:58:00-05:00",
+    "report_date": "2026-03-27",
+    "query": "Senior frontend roles emphasizing React, TypeScript, performance, accessibility, and design systems",
+    "location_focus": "United States remote",
+    "total_roles_considered": 18,
+    "notes": [
+      "Sample dataset for the local review UI.",
+      "Replace this file with your automation output to inspect fresh results."
+    ]
+  },
+  "top_matches": [
+    {
+      "company": "Vanta",
+      "job_title": "Senior Software Engineer, Frontend Platform",
+      "location": "Remote, United States",
+      "remote_status": "Remote U.S.",
+      "posting_date": "2026-01-24",
+      "found_date": "2026-03-27",
+      "source_type": "Direct",
+      "source_name": "Ashby",
+      "job_url": "https://jobs.ashbyhq.com/vanta/ad3b2bf9-e879-4339-ba6d-f79a5c51456c",
+      "fit_score": 9.6,
+      "match_reasons": [
+        "Frontend platform scope aligns with architecture, tooling, and performance work.",
+        "Role is explicitly focused on helping engineers ship quality frontend experiences faster.",
+        "Strong React and TypeScript alignment with leverage across teams."
+      ],
+      "red_flags": [
+        "Official posting details were cross-checked through mirrors.",
+        "Remote classification should be verified before applying."
+      ],
+      "skills_alignment": ["React", "TypeScript", "performance", "frontend platform"],
+      "role_signals": ["Platform", "Quality", "Enablement", "Senior IC"],
+      "compensation": {
+        "currency": "USD",
+        "min": 190000,
+        "max": 240000,
+        "interval": "year",
+        "display": "$190k - $240k / year"
+      },
+      "dedupe_key": "vanta-senior-frontend-platform",
+      "confidence": "High"
+    },
+    {
+      "company": "Bestow",
+      "job_title": "Staff Frontend Software Engineer",
+      "location": "United States remote",
+      "remote_status": "Remote",
+      "posting_date": "2026-01-24",
+      "found_date": "2026-03-27",
+      "source_type": "Aggregator",
+      "source_name": "Remote Rocketship",
+      "job_url": "https://www.remoterocketship.com/us/company/bestow-2/jobs/staff-frontend-software-engineer-united-states-remote/",
+      "fit_score": 9.1,
+      "match_reasons": [
+        "Strong Next.js, accessibility, performance, and architecture alignment.",
+        "Role emphasizes platform and scaling concerns instead of only feature churn."
+      ],
+      "red_flags": [
+        "Staff expectations may require broad org-wide leadership.",
+        "Source is a mirror rather than a first-party careers page."
+      ],
+      "skills_alignment": ["React", "Next.js", "accessibility", "performance", "GraphQL"],
+      "role_signals": ["Staff", "Architecture", "Product-heavy frontend"],
+      "compensation": {
+        "currency": "USD",
+        "min": 210000,
+        "max": 250000,
+        "interval": "year"
+      },
+      "dedupe_key": "bestow-staff-frontend",
+      "confidence": "Medium"
+    }
+  ],
+  "strong_maybes": [
+    {
+      "company": "Close",
+      "job_title": "Senior Software Engineer - Frontend/React",
+      "location": "USA only",
+      "remote_status": "100% Remote",
+      "posting_date": "2026-03-20",
+      "found_date": "2026-03-27",
+      "source_type": "Direct",
+      "source_name": "Ashby",
+      "job_url": "https://jobs.ashbyhq.com/close/8b67d1fa-5852-4f7d-b8c2-cedc20b16da7",
+      "fit_score": 8.8,
+      "match_reasons": [
+        "Clear React-first product scope with a fully remote U.S. setup.",
+        "Strong craftsmanship signal and visible compensation range."
+      ],
+      "red_flags": [
+        "Less design-system/platform-heavy than some top matches."
+      ],
+      "skills_alignment": ["React", "TypeScript", "GraphQL", "analytics"],
+      "role_signals": ["Senior", "Product", "Remote"],
+      "compensation": {
+        "display": "$140k - $210k / year"
+      },
+      "dedupe_key": "close-senior-frontend-react",
+      "confidence": "High"
+    },
+    {
+      "company": "Mozilla / Thunderbird",
+      "job_title": "Staff Engineer, Front End (Desktop)",
+      "location": "Remote US",
+      "remote_status": "Remote",
+      "posting_date": "2026-02-12",
+      "found_date": "2026-03-27",
+      "source_type": "Direct",
+      "source_name": "Mozilla Careers",
+      "job_url": "https://www.mozilla.org/en-US/careers/position/gh/7609131/",
+      "fit_score": 8.5,
+      "match_reasons": [
+        "Strong emphasis on accessibility, maintainability, and architecture.",
+        "Mission-driven company with compensation visibility."
+      ],
+      "red_flags": [
+        "Desktop context is slightly less aligned than pure web product roles."
+      ],
+      "skills_alignment": ["accessibility", "architecture", "frontend leadership"],
+      "role_signals": ["Staff", "Mission-driven", "Remote"],
+      "compensation": {
+        "currency": "USD",
+        "min": 185000,
+        "max": 220000,
+        "interval": "year"
+      },
+      "dedupe_key": "mozilla-thunderbird-staff-frontend",
+      "confidence": "High"
+    }
+  ],
+  "rejected": [
+    {
+      "company": "Example Ventures",
+      "job_title": "Frontend Engineer",
+      "location": "San Francisco, CA",
+      "remote_status": "On-site",
+      "posting_date": "2026-03-11",
+      "found_date": "2026-03-27",
+      "source_type": "Aggregator",
+      "source_name": "LinkedIn",
+      "job_url": "https://example.com/jobs/frontend-engineer",
+      "fit_score": 4.2,
+      "match_reasons": [
+        "Frontend title matched initial keyword scan."
+      ],
+      "red_flags": [
+        "On-site requirement does not match remote target.",
+        "Little signal around accessibility, performance, or frontend architecture."
+      ],
+      "skills_alignment": ["React"],
+      "role_signals": ["Office-first", "Generalist"],
+      "compensation": {},
+      "dedupe_key": "example-ventures-frontend-engineer",
+      "confidence": "Low"
+    }
+  ],
+  "summary": {
+    "insights": [
+      "Highest-scoring roles cluster around frontend platform, design systems, accessibility, and performance.",
+      "Direct company postings carry the strongest confidence even when mirrors helped fill in details.",
+      "Visible compensation is common among the strongest remote roles in this sample."
+    ],
+    "highlights": [
+      "Remote-first roles dominate the strongest buckets.",
+      "Platform and staff-leaning roles show the clearest skill overlap."
+    ],
+    "notes": [
+      "The UI validates the JSON shape at runtime and tolerates missing optional fields.",
+      "Use the compact list view when you want faster scanning across many roles."
+    ]
+  }
+}

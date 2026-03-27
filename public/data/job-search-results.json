@@ -1,0 +1,861 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-03-27T12:28:12.8954764-05:00",
+  "meta": {
+    "run_date": "2026-03-27",
+    "target_locations": [
+      "US_REMOTE",
+      "HOUSTON_TX_METRO"
+    ],
+    "date_window": {
+      "from": "2026-03-20",
+      "to": "2026-03-27"
+    },
+    "candidate_profile_summary": "Senior frontend / senior software engineer strongest in React, Next.js, TypeScript, UI engineering, design systems, frontend platform work, accessibility, performance, and product-facing frontend development.",
+    "source_preference": [
+      "DIRECT_COMPANY",
+      "AGGREGATOR",
+      "RECRUITER"
+    ]
+  },
+  "stats": {
+    "jobs_considered": 20,
+    "jobs_included": 12,
+    "jobs_excluded": 8,
+    "top_matches_count": 10,
+    "strong_maybes_count": 2
+  },
+  "jobs": [
+    {
+      "id": "linus-health_frontend-architect-react_remote-united-states",
+      "dedupe_key": "linus-health|frontend-architect-react|remote-united-states",
+      "bucket": "TOP_MATCH",
+      "company": "Linus Health",
+      "normalized_company": "linus health",
+      "job_title": "FrontEnd Architect (React)",
+      "normalized_job_title": "frontend architect react",
+      "location": "Remote, United States",
+      "remote_status": "US_REMOTE",
+      "posting_date": null,
+      "found_date": "2026-03-27",
+      "source_type": "DIRECT_COMPANY",
+      "source_name": "GREENHOUSE",
+      "job_url": "https://job-boards.greenhouse.io/linushealth/jobs/5635405004",
+      "fit_score": 10,
+      "confidence": "HIGH",
+      "match_reasons": [
+        "React-first architecture role with explicit ownership of component libraries and design systems",
+        "Strong accessibility, performance, and cross-functional product collaboration signal",
+        "Seniority and scope align with staff-level frontend platform expectations"
+      ],
+      "red_flags": [
+        "Posting surfaced in search as older than the target 1 to 7 day window"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": true,
+        "ui_engineering": true,
+        "frontend_platform": true,
+        "graphql": false,
+        "accessibility": true,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": true,
+        "product_facing": true,
+        "platform_or_design_systems": true,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 190000,
+        "salary_max": 225000,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 1,
+        "best_for": [
+          "frontend_architecture",
+          "design_systems",
+          "accessibility",
+          "react_platform_leadership"
+        ]
+      }
+    },
+    {
+      "id": "apollo-io_senior-frontend-engineer_remote-united-states",
+      "dedupe_key": "apollo-io|senior-frontend-engineer|remote-united-states",
+      "bucket": "TOP_MATCH",
+      "company": "Apollo.io",
+      "normalized_company": "apollo io",
+      "job_title": "Senior Frontend Engineer",
+      "normalized_job_title": "senior frontend engineer",
+      "location": "Remote, Canada; Remote, United States",
+      "remote_status": "US_REMOTE",
+      "posting_date": null,
+      "found_date": "2026-03-27",
+      "source_type": "DIRECT_COMPANY",
+      "source_name": "GREENHOUSE",
+      "job_url": "https://job-boards.greenhouse.io/apolloio/jobs/5752000004",
+      "fit_score": 10,
+      "confidence": "HIGH",
+      "match_reasons": [
+        "Exact title match for senior frontend scope",
+        "Direct company listing with explicit United States remote option",
+        "Strong product-facing SaaS context with credible company scale"
+      ],
+      "red_flags": [
+        "Compensation not visible",
+        "Search snippet did not expose detailed stack beyond title and location"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": false,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": false
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": true,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 0,
+        "salary_max": 0,
+        "currency": null,
+        "comp_visible": false
+      },
+      "application_metadata": {
+        "priority_rank": 2,
+        "best_for": [
+          "senior_frontend_scope",
+          "product_ui",
+          "b2b_saas"
+        ]
+      }
+    },
+    {
+      "id": "arize-ai_senior-frontend-engineer_remote-united-states",
+      "dedupe_key": "arize-ai|senior-frontend-engineer|remote-united-states",
+      "bucket": "TOP_MATCH",
+      "company": "Arize AI",
+      "normalized_company": "arize ai",
+      "job_title": "Senior Frontend Engineer",
+      "normalized_job_title": "senior frontend engineer",
+      "location": "Remote (United States)",
+      "remote_status": "US_REMOTE",
+      "posting_date": null,
+      "found_date": "2026-03-27",
+      "source_type": "DIRECT_COMPANY",
+      "source_name": "GREENHOUSE",
+      "job_url": "https://job-boards.greenhouse.io/arizeai/jobs/5739165004",
+      "fit_score": 9,
+      "confidence": "HIGH",
+      "match_reasons": [
+        "Direct senior frontend role centered on browser UX for complex AI systems",
+        "High fit for data-heavy UI, stability, and usability work",
+        "Remote United States listing from a credible product company"
+      ],
+      "red_flags": [
+        "Compensation not visible on the senior frontend snippet captured"
+      ],
+      "skills_alignment": {
+        "react": false,
+        "nextjs": false,
+        "typescript": false,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": true,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 0,
+        "salary_max": 0,
+        "currency": null,
+        "comp_visible": false
+      },
+      "application_metadata": {
+        "priority_rank": 3,
+        "best_for": [
+          "data_heavy_ui",
+          "ai_product_frontend",
+          "complex_browser_experience"
+        ]
+      }
+    },
+    {
+      "id": "bolt_staff-software-engineer-frontend-payments-commerce_remote-us-canada",
+      "dedupe_key": "bolt|staff-software-engineer-frontend-payments-commerce|remote-us-canada",
+      "bucket": "TOP_MATCH",
+      "company": "Bolt",
+      "normalized_company": "bolt",
+      "job_title": "Staff Software Engineer – Frontend (Payments & Commerce)",
+      "normalized_job_title": "staff software engineer frontend payments commerce",
+      "location": "Remote; United States or Canada",
+      "remote_status": "US_REMOTE",
+      "posting_date": null,
+      "found_date": "2026-03-27",
+      "source_type": "DIRECT_COMPANY",
+      "source_name": "GREENHOUSE",
+      "job_url": "https://job-boards.greenhouse.io/bolt42/jobs/5624184004",
+      "fit_score": 9,
+      "confidence": "HIGH",
+      "match_reasons": [
+        "Staff-level frontend role with React, TypeScript, GraphQL, design systems, and performance emphasis",
+        "Customer-facing payments and commerce scope matches product UI strengths",
+        "Direct US-remote listing"
+      ],
+      "red_flags": [
+        "Contract-to-hire structure",
+        "Compensation not visible"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": true,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": true,
+        "accessibility": true,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": false,
+        "product_facing": true,
+        "platform_or_design_systems": true,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 0,
+        "salary_max": 0,
+        "currency": null,
+        "comp_visible": false
+      },
+      "application_metadata": {
+        "priority_rank": 4,
+        "best_for": [
+          "staff_frontend_scope",
+          "payments_ui",
+          "design_systems"
+        ]
+      }
+    },
+    {
+      "id": "keeper-security_senior-software-engineer-react-electron_remote-us",
+      "dedupe_key": "keeper-security|senior-software-engineer-react-electron|remote-us",
+      "bucket": "TOP_MATCH",
+      "company": "Keeper Security",
+      "normalized_company": "keeper security",
+      "job_title": "Senior Software Engineer, React & Electron",
+      "normalized_job_title": "senior software engineer react electron",
+      "location": "Remote, US",
+      "remote_status": "US_REMOTE",
+      "posting_date": null,
+      "found_date": "2026-03-27",
+      "source_type": "DIRECT_COMPANY",
+      "source_name": "GREENHOUSE",
+      "job_url": "https://job-boards.greenhouse.io/keepersecurity/jobs/4091171009",
+      "fit_score": 9,
+      "confidence": "HIGH",
+      "match_reasons": [
+        "Frontend-heavy senior role with React, Redux, and TypeScript",
+        "Strong performance and product-quality expectations on core user applications",
+        "Recently surfaced US-remote direct posting"
+      ],
+      "red_flags": [
+        "Electron scope adds desktop-specific work beyond pure web frontend",
+        "Compensation not visible"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": false,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 0,
+        "salary_max": 0,
+        "currency": null,
+        "comp_visible": false
+      },
+      "application_metadata": {
+        "priority_rank": 5,
+        "best_for": [
+          "react_typescript",
+          "security_product_ui",
+          "high_performance_frontend"
+        ]
+      }
+    },
+    {
+      "id": "synmax_front-end-senior-software-engineer-commodity_houston",
+      "dedupe_key": "synmax|front-end-senior-software-engineer-commodity|houston",
+      "bucket": "TOP_MATCH",
+      "company": "SynMax",
+      "normalized_company": "synmax",
+      "job_title": "Front-End Senior Software Engineer (Commodity)",
+      "normalized_job_title": "front end senior software engineer commodity",
+      "location": "Houston",
+      "remote_status": "UNKNOWN",
+      "posting_date": null,
+      "found_date": "2026-03-27",
+      "source_type": "DIRECT_COMPANY",
+      "source_name": "LEVER",
+      "job_url": "https://jobs.lever.co/synmax/e670c205-33ce-4f6b-8a25-9330b5b85847",
+      "fit_score": 9,
+      "confidence": "HIGH",
+      "match_reasons": [
+        "Houston-based listing with explicit frontend senior title",
+        "React, TypeScript, NodeJS, and DeckGL map well to data-heavy UI strengths",
+        "Strong product and cross-functional delivery signal"
+      ],
+      "red_flags": [
+        "ATS exposes location as Houston while also marking the role remote, so enum fit is imperfect",
+        "Posting surfaced outside the target 1 to 7 day window"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": true,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 130000,
+        "salary_max": 160000,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 6,
+        "best_for": [
+          "houston_fit",
+          "data_visualization",
+          "react_typescript"
+        ]
+      }
+    },
+    {
+      "id": "filevine_senior-software-development-engineer-frontend_united-states",
+      "dedupe_key": "filevine|senior-software-development-engineer-frontend|united-states",
+      "bucket": "TOP_MATCH",
+      "company": "Filevine",
+      "normalized_company": "filevine",
+      "job_title": "Senior Software Development Engineer - Frontend",
+      "normalized_job_title": "senior software development engineer frontend",
+      "location": "United States",
+      "remote_status": "US_REMOTE",
+      "posting_date": null,
+      "found_date": "2026-03-27",
+      "source_type": "DIRECT_COMPANY",
+      "source_name": "LEVER",
+      "job_url": "https://jobs.lever.co/filevine/d4dec861-9fa8-464a-bb0b-26b00f4c683a",
+      "fit_score": 8,
+      "confidence": "HIGH",
+      "match_reasons": [
+        "Strong match for complex, data-intensive UI, accessibility, performance, and product collaboration",
+        "Compensation is visible and seniority is on target",
+        "Direct US remote company listing"
+      ],
+      "red_flags": [
+        "Primary framework is Svelte rather than React/Next.js"
+      ],
+      "skills_alignment": {
+        "react": false,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": true,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": true,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": true,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 160000,
+        "salary_max": 200000,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 7,
+        "best_for": [
+          "complex_workflow_ui",
+          "accessibility",
+          "data_heavy_frontend"
+        ]
+      }
+    },
+    {
+      "id": "logicgate_senior-software-engineer-frontend_remote-united-states",
+      "dedupe_key": "logicgate|senior-software-engineer-frontend|remote-united-states",
+      "bucket": "TOP_MATCH",
+      "company": "LogicGate",
+      "normalized_company": "logicgate",
+      "job_title": "Senior Software Engineer (Frontend)",
+      "normalized_job_title": "senior software engineer frontend",
+      "location": "Remote - United States",
+      "remote_status": "US_REMOTE",
+      "posting_date": null,
+      "found_date": "2026-03-27",
+      "source_type": "DIRECT_COMPANY",
+      "source_name": "GREENHOUSE",
+      "job_url": "https://job-boards.greenhouse.io/logicgate/jobs/4660058005",
+      "fit_score": 8,
+      "confidence": "HIGH",
+      "match_reasons": [
+        "Current US-remote frontend opening with senior scope",
+        "Explicit TypeScript frontend stack and emphasis on speed, reliability, and scalability",
+        "Enterprise product context likely to involve dense workflow UI"
+      ],
+      "red_flags": [
+        "Angular-centered stack is a weaker React/Next.js match",
+        "Compensation not visible"
+      ],
+      "skills_alignment": {
+        "react": false,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": true,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 0,
+        "salary_max": 0,
+        "currency": null,
+        "comp_visible": false
+      },
+      "application_metadata": {
+        "priority_rank": 8,
+        "best_for": [
+          "enterprise_ui",
+          "typescript_frontend",
+          "senior_ic_scope"
+        ]
+      }
+    },
+    {
+      "id": "keeper-security_senior-software-engineer-browser-extension_remote-us",
+      "dedupe_key": "keeper-security|senior-software-engineer-browser-extension|remote-us",
+      "bucket": "TOP_MATCH",
+      "company": "Keeper Security",
+      "normalized_company": "keeper security",
+      "job_title": "Senior Software Engineer, Browser Extension",
+      "normalized_job_title": "senior software engineer browser extension",
+      "location": "Remote, US",
+      "remote_status": "US_REMOTE",
+      "posting_date": null,
+      "found_date": "2026-03-27",
+      "source_type": "DIRECT_COMPANY",
+      "source_name": "GREENHOUSE",
+      "job_url": "https://job-boards.greenhouse.io/keepersecurity/jobs/4178645009",
+      "fit_score": 8,
+      "confidence": "HIGH",
+      "match_reasons": [
+        "React, Redux, and TypeScript are explicit requirements",
+        "Frontend architecture, performance, and UX quality are central to the work",
+        "Recently surfaced US-remote direct posting"
+      ],
+      "red_flags": [
+        "Extension-specific domain is narrower than general product frontend",
+        "Compensation not visible"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": true,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": false,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 0,
+        "salary_max": 0,
+        "currency": null,
+        "comp_visible": false
+      },
+      "application_metadata": {
+        "priority_rank": 9,
+        "best_for": [
+          "react_typescript",
+          "performance_work",
+          "security_ui"
+        ]
+      }
+    },
+    {
+      "id": "profile-technologies_senior-frontend-engineer-react_remote-pst-or-est",
+      "dedupe_key": "profile-technologies|senior-frontend-engineer-react|remote-pst-or-est",
+      "bucket": "TOP_MATCH",
+      "company": "Profile Technologies Inc.",
+      "normalized_company": "profile technologies inc",
+      "job_title": "Senior Frontend Engineer (react)",
+      "normalized_job_title": "senior frontend engineer react",
+      "location": "Remote - PST or EST Preferred; New York, NY (hybrid or remote)",
+      "remote_status": "US_REMOTE",
+      "posting_date": null,
+      "found_date": "2026-03-27",
+      "source_type": "DIRECT_COMPANY",
+      "source_name": "GREENHOUSE",
+      "job_url": "https://job-boards.greenhouse.io/profiletechnologiesinc/jobs/4602531008",
+      "fit_score": 8,
+      "confidence": "HIGH",
+      "match_reasons": [
+        "Exact senior frontend React title",
+        "Remote option appears available from the direct company listing",
+        "Startup product-building scope with strong ownership signal"
+      ],
+      "red_flags": [
+        "Rails, Hotwire, and Stimulus imply a less TypeScript-first stack",
+        "Remote eligibility appears timezone constrained"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": false,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": false
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": true,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 0,
+        "salary_max": 0,
+        "currency": null,
+        "comp_visible": false
+      },
+      "application_metadata": {
+        "priority_rank": 10,
+        "best_for": [
+          "react_product_engineering",
+          "startup_ownership",
+          "product_ui"
+        ]
+      }
+    },
+    {
+      "id": "vercel_design-engineer_remote-united-states",
+      "dedupe_key": "vercel|design-engineer|remote-united-states",
+      "bucket": "STRONG_MAYBE",
+      "company": "Vercel",
+      "normalized_company": "vercel",
+      "job_title": "Design Engineer",
+      "normalized_job_title": "design engineer",
+      "location": "Remote - United States",
+      "remote_status": "US_REMOTE",
+      "posting_date": null,
+      "found_date": "2026-03-27",
+      "source_type": "DIRECT_COMPANY",
+      "source_name": "GREENHOUSE",
+      "job_url": "https://job-boards.greenhouse.io/vercel/jobs/5709080004",
+      "fit_score": 7,
+      "confidence": "HIGH",
+      "match_reasons": [
+        "Very strong Next.js, polish, accessibility, and performance signal",
+        "High-credibility company aligned with frontend tooling interests",
+        "Remote US and recent search visibility"
+      ],
+      "red_flags": [
+        "Growth and marketing surface focus is less product-frontend than preferred",
+        "Compensation not visible on the captured listing text"
+      ],
+      "skills_alignment": {
+        "react": false,
+        "nextjs": true,
+        "typescript": false,
+        "design_systems": true,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": true,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": false,
+        "product_facing": true,
+        "platform_or_design_systems": true,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 0,
+        "salary_max": 0,
+        "currency": null,
+        "comp_visible": false
+      },
+      "application_metadata": {
+        "priority_rank": 11,
+        "best_for": [
+          "nextjs_brand_surfaces",
+          "interaction_polish",
+          "design_engineering"
+        ]
+      }
+    },
+    {
+      "id": "flex_senior-software-engineer-mobile-and-web_remote-us",
+      "dedupe_key": "flex|senior-software-engineer-mobile-and-web|remote-us",
+      "bucket": "STRONG_MAYBE",
+      "company": "Flex",
+      "normalized_company": "flex",
+      "job_title": "Senior Software Engineer, Mobile & Web",
+      "normalized_job_title": "senior software engineer mobile and web",
+      "location": "Remote (U.S.); New York, New York; San Francisco, California",
+      "remote_status": "US_REMOTE",
+      "posting_date": null,
+      "found_date": "2026-03-27",
+      "source_type": "DIRECT_COMPANY",
+      "source_name": "GREENHOUSE",
+      "job_url": "https://job-boards.greenhouse.io/flex/jobs/4585778005",
+      "fit_score": 7,
+      "confidence": "HIGH",
+      "match_reasons": [
+        "React, React Native, and TypeScript are explicit",
+        "Strong product-facing UI scope with scale and performance expectations",
+        "Compensation is visible and location fit is valid"
+      ],
+      "red_flags": [
+        "Mobile and React Native scope dilutes pure frontend-web focus",
+        "Role is broader than the most frontend-specialized targets"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": false,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 146000,
+        "salary_max": 210000,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 12,
+        "best_for": [
+          "react_typescript",
+          "consumer_product_ui",
+          "high_scale_product_delivery"
+        ]
+      }
+    }
+  ],
+  "excluded_jobs": [
+    {
+      "id": "remotecom_senior-frontend-engineer_remote-emea",
+      "dedupe_key": "remotecom|senior-frontend-engineer|remote-emea",
+      "company": "Remote",
+      "job_title": "Senior Frontend Engineer",
+      "location": "Remote-EMEA",
+      "job_url": "https://job-boards.greenhouse.io/remotecom/jobs/7579312003",
+      "rejection_reasons": [
+        "Non-U.S. remote location"
+      ]
+    },
+    {
+      "id": "digibee_senior-frontend-engineer_sao-paulo",
+      "dedupe_key": "digibee|senior-frontend-engineer|sao-paulo",
+      "company": "Digibee Inc.",
+      "job_title": "Senior Frontend Engineer",
+      "location": "São Paulo",
+      "job_url": "https://job-boards.greenhouse.io/digibeeinc/jobs/4554149005",
+      "rejection_reasons": [
+        "Onsite role outside Houston metro"
+      ]
+    },
+    {
+      "id": "eltropy_senior-frontend-engineer_india",
+      "dedupe_key": "eltropy|senior-frontend-engineer|india",
+      "company": "Eltropy Inc.",
+      "job_title": "Senior Frontend Engineer",
+      "location": "India",
+      "job_url": "https://job-boards.greenhouse.io/eltropyinc/jobs/4113083009",
+      "rejection_reasons": [
+        "Non-U.S. location"
+      ]
+    },
+    {
+      "id": "easyship_senior-frontend-engineer_bangalore",
+      "dedupe_key": "easyship|senior-frontend-engineer|bangalore",
+      "company": "Easyship",
+      "job_title": "Senior Frontend Engineer",
+      "location": "Bangalore",
+      "job_url": "https://job-boards.greenhouse.io/easyship/jobs/4574454006",
+      "rejection_reasons": [
+        "Onsite role outside Houston metro"
+      ]
+    },
+    {
+      "id": "sigma-computing_senior-software-engineer-frontend_sf-nyc",
+      "dedupe_key": "sigma-computing|senior-software-engineer-frontend|sf-nyc",
+      "company": "Sigma Computing",
+      "job_title": "Senior Software Engineer - Frontend",
+      "location": "San Francisco, CA; New York City, NY",
+      "job_url": "https://job-boards.greenhouse.io/sigmacomputing",
+      "rejection_reasons": [
+        "Onsite role outside Houston metro"
+      ]
+    },
+    {
+      "id": "vercel_software-engineer-accounts_remote-united-states",
+      "dedupe_key": "vercel|software-engineer-accounts|remote-united-states",
+      "company": "Vercel",
+      "job_title": "Software Engineer, Accounts",
+      "location": "Remote - United States",
+      "job_url": "https://job-boards.greenhouse.io/vercel/jobs/5430088004",
+      "rejection_reasons": [
+        "Role is more identity and account systems focused than frontend-first",
+        "React is present but UI engineering is not central"
+      ]
+    },
+    {
+      "id": "tines_frontend-result_stale-board-signal",
+      "dedupe_key": "tines|frontend-result|stale-board-signal",
+      "company": "Tines",
+      "job_title": "Frontend-related search result",
+      "location": "United States (Remote)",
+      "job_url": "https://job-boards.greenhouse.io/tines",
+      "rejection_reasons": [
+        "Current board inspection did not show a matching frontend role",
+        "Likely stale search result"
+      ]
+    },
+    {
+      "id": "customer-io_senior-frontend-engineer_americas-remote",
+      "dedupe_key": "customer-io|senior-frontend-engineer|americas-remote",
+      "company": "Customer.io",
+      "job_title": "Senior Frontend Engineer",
+      "location": "Americas Remote",
+      "job_url": "https://job-boards.greenhouse.io/customerio/jobs/7001374",
+      "rejection_reasons": [
+        "Americas-wide remote is not explicit enough for U.S.-remote filtering",
+        "Posting surfaced well outside the target freshness window"
+      ]
+    }
+  ],
+  "summary": {
+    "best_overall": {
+      "job_id": "linus-health_frontend-architect-react_remote-united-states",
+      "company": "Linus Health",
+      "job_title": "FrontEnd Architect (React)",
+      "job_url": "https://job-boards.greenhouse.io/linushealth/jobs/5635405004"
+    },
+    "best_react_nextjs_fit": {
+      "job_id": "apollo-io_senior-frontend-engineer_remote-united-states",
+      "company": "Apollo.io",
+      "job_title": "Senior Frontend Engineer",
+      "job_url": "https://job-boards.greenhouse.io/apolloio/jobs/5752000004"
+    },
+    "best_design_systems_fit": {
+      "job_id": "linus-health_frontend-architect-react_remote-united-states",
+      "company": "Linus Health",
+      "job_title": "FrontEnd Architect (React)",
+      "job_url": "https://job-boards.greenhouse.io/linushealth/jobs/5635405004"
+    },
+    "best_comp_visible_role": {
+      "job_id": "linus-health_frontend-architect-react_remote-united-states",
+      "company": "Linus Health",
+      "job_title": "FrontEnd Architect (React)",
+      "job_url": "https://job-boards.greenhouse.io/linushealth/jobs/5635405004"
+    },
+    "market_notes": [
+      "Direct company ATS pages produced a solid US-remote frontend set, but many boards omitted exact posting dates.",
+      "AI, security, fintech, and workflow-heavy B2B SaaS companies dominated the strongest frontend matches this run.",
+      "Houston-area frontend opportunities were sparse; SynMax was the clearest local fit surfaced.",
+      "Several search hits were stale or geo-misaligned, so aggressive exclusion was necessary to keep the dataset application-ready."
+    ]
+  }
+}

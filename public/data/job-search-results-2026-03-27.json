@@ -1,0 +1,190 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-03-27T13:21:59.8066481-05:00",
+  "meta": {
+    "run_date": "2026-03-27",
+    "target_locations": [
+      "US_REMOTE",
+      "HOUSTON_TX_METRO"
+    ],
+    "date_window": {
+      "from": "2026-03-26",
+      "to": "2026-03-27"
+    },
+    "candidate_profile_summary": "Senior frontend / senior software engineer strongest in React, Next.js, TypeScript, UI engineering, design systems, frontend platform work, accessibility, performance, and product-facing frontend development.",
+    "source_preference": [
+      "DIRECT_COMPANY",
+      "AGGREGATOR",
+      "RECRUITER"
+    ]
+  },
+  "stats": {
+    "jobs_considered": 11,
+    "jobs_included": 0,
+    "jobs_excluded": 11,
+    "top_matches_count": 0,
+    "strong_maybes_count": 0
+  },
+  "jobs": [],
+  "excluded_jobs": [
+    {
+      "id": "goodwin_senior-front-end-engineer_remote-us",
+      "dedupe_key": "goodwin|senior-front-end-engineer|remote-us",
+      "company": "Goodwin",
+      "job_title": "Senior Front-End Engineer",
+      "location": "Remote, United States",
+      "job_url": "https://jobgether.com/offer/696b9d4596ae97ba4ad70de7-senior-front-end-engineer",
+      "rejection_reasons": [
+        "Freshness conflict: aggregator surfaced it as recent, but the direct employer listing appears older",
+        "Excluded as a likely repost under the last-24-hours rule"
+      ]
+    },
+    {
+      "id": "sapience-ai_senior-frontend-engineer-mobile-first-ai-integration_remote-us",
+      "dedupe_key": "sapience-ai|senior-frontend-engineer-mobile-first-ai-integration|remote-us",
+      "company": "Sapience AI",
+      "job_title": "Senior Frontend Engineer - Mobile-First AI Integration",
+      "location": "Remote, United States",
+      "job_url": "https://wellfound.com/jobs/3919728-senior-frontend-engineer-mobile-first-ai-integration",
+      "rejection_reasons": [
+        "Freshness was visible in search snippets but could not be confirmed on a direct employer page",
+        "Excluded rather than guessing on the posting age"
+      ]
+    },
+    {
+      "id": "ravenna_senior-frontend-engineer_remote-us",
+      "dedupe_key": "ravenna|senior-frontend-engineer|remote-us",
+      "company": "Ravenna",
+      "job_title": "Senior Frontend Engineer",
+      "location": "Remote, United States",
+      "job_url": "https://wellfound.com/jobs/3919349-senior-frontend-engineer",
+      "rejection_reasons": [
+        "Freshness was visible in search snippets but could not be verified to be within the last 24 hours on a higher-confidence source"
+      ]
+    },
+    {
+      "id": "ravenna_design-engineer_remote-us",
+      "dedupe_key": "ravenna|design-engineer|remote-us",
+      "company": "Ravenna",
+      "job_title": "Design Engineer",
+      "location": "Remote, United States",
+      "job_url": "https://wellfound.com/jobs/3919350-design-engineer",
+      "rejection_reasons": [
+        "Location fit appears acceptable, but freshness could not be confirmed confidently enough for inclusion"
+      ]
+    },
+    {
+      "id": "feathr_senior-frontend-software-engineer_remote-us",
+      "dedupe_key": "feathr|senior-frontend-software-engineer|remote-us",
+      "company": "Feathr",
+      "job_title": "Senior Frontend Software Engineer",
+      "location": "United States",
+      "job_url": "https://wellfound.com/jobs/3918873-senior-frontend-software-engineer",
+      "rejection_reasons": [
+        "Search results suggested same-day freshness, but the last-24-hours window could not be verified directly"
+      ]
+    },
+    {
+      "id": "kovo_senior-product-engineer_remote-us",
+      "dedupe_key": "kovo|senior-product-engineer|remote-us",
+      "company": "Kovo",
+      "job_title": "Senior Product Engineer",
+      "location": "Remote, United States",
+      "job_url": "https://wellfound.com/jobs/3921808-senior-product-engineer",
+      "rejection_reasons": [
+        "Frontend relevance looked promising, but the title is broader than the target frontend-first scope",
+        "Freshness was not verified at direct-source confidence"
+      ]
+    },
+    {
+      "id": "frame-set_senior-software-engineer_remote-us",
+      "dedupe_key": "frame-set|senior-software-engineer|remote-us",
+      "company": "Frame Set",
+      "job_title": "Senior Software Engineer",
+      "location": "Remote, United States",
+      "job_url": "https://wellfound.com/jobs/3921194-senior-software-engineer",
+      "rejection_reasons": [
+        "Role scope reads as generic software engineering rather than clearly frontend-first",
+        "Freshness could not be verified strongly enough for inclusion"
+      ]
+    },
+    {
+      "id": "meds-com_front-end-developer_united-states",
+      "dedupe_key": "meds-com|front-end-developer|united-states",
+      "company": "Meds.com",
+      "job_title": "Front-End Developer",
+      "location": "United States",
+      "job_url": "https://www.linkedin.com/jobs/view/4346084680/",
+      "rejection_reasons": [
+        "Role is explicitly junior at 0-3 years of experience",
+        "Below the target seniority band despite recent posting activity"
+      ]
+    },
+    {
+      "id": "eventeny_front-end-developer_remote-us",
+      "dedupe_key": "eventeny|front-end-developer|remote-us",
+      "company": "Eventeny",
+      "job_title": "Front End Developer",
+      "location": "Remote, United States",
+      "job_url": "https://www.indeed.com/viewjob?jk=8b8ca6551c1ebf8c",
+      "rejection_reasons": [
+        "Title and listing context skew below the target senior/frontend-platform level"
+      ]
+    },
+    {
+      "id": "wayflyer_frontend-engineer_united-states",
+      "dedupe_key": "wayflyer|frontend-engineer|united-states",
+      "company": "Wayflyer",
+      "job_title": "Frontend Engineer",
+      "location": "United States",
+      "job_url": "https://www.linkedin.com/jobs/view/wayflyer-frontend-engineer-at-wayflyer-4347963215",
+      "rejection_reasons": [
+        "United States location was visible, but remote eligibility was not explicit enough for this filter",
+        "Title is less clearly senior than the target profile"
+      ]
+    },
+    {
+      "id": "scanifly_front-end-engineer_remote",
+      "dedupe_key": "scanifly|front-end-engineer|remote",
+      "company": "Scanifly",
+      "job_title": "Front End Engineer",
+      "location": "Remote",
+      "job_url": "https://www.tealhq.com/job/front-end-engineer_7ea1a4aad2e8fa20a121c6bdb2ff426fa2ab1",
+      "rejection_reasons": [
+        "Recent surfacing conflicted with stale-source signals",
+        "Title is not a strong seniority match"
+      ]
+    }
+  ],
+  "summary": {
+    "best_overall": {
+      "job_id": null,
+      "company": null,
+      "job_title": null,
+      "job_url": null
+    },
+    "best_react_nextjs_fit": {
+      "job_id": null,
+      "company": null,
+      "job_title": null,
+      "job_url": null
+    },
+    "best_design_systems_fit": {
+      "job_id": null,
+      "company": null,
+      "job_title": null,
+      "job_url": null
+    },
+    "best_comp_visible_role": {
+      "job_id": null,
+      "company": null,
+      "job_title": null,
+      "job_url": null
+    },
+    "market_notes": [
+      "High-confidence, last-24-hours frontend matches were sparse after filtering for US-remote or Houston-metro only.",
+      "Several search results showed same-day freshness in aggregator snippets, but direct-source validation did not consistently support inclusion.",
+      "This run favors precision over volume to avoid stale or low-signal leads entering the dataset."
+    ]
+  }
+}

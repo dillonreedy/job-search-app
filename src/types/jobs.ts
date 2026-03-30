@@ -88,8 +88,7 @@ export type SortOption =
 
 export type FilterState = {
   runDate: string;
-  section: "all" | JobSectionKey;
-  hideExcluded: boolean;
+  sections: JobSectionKey[];
   remoteStatus: string;
   sourceType: string;
   confidence: ConfidenceFilter;

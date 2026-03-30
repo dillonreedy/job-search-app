@@ -3,8 +3,7 @@
 function buildDefaults(): FilterState {
   return {
     runDate: getDefaultRunDate(),
-    section: "all",
-    hideExcluded: false,
+    sections: ["top_matches", "strong_maybes"],
     remoteStatus: "all",
     sourceType: "all",
     confidence: "all",
@@ -24,17 +23,15 @@ export function getDefaultFilters(): FilterState {
 export function readFiltersFromUrl() {
   const defaults = buildDefaults();
   const params = new URLSearchParams(window.location.search);
-  const section = params.get("section");
+  const sections = parseSections(params.get("section"), defaults.sections);
   const sortBy = params.get("sortBy");
   const viewMode = params.get("view");
   const confidenceParam = params.get("confidence");
-  const showExcluded = params.get("showExcluded");
   const runDate = params.get("runDate");
 
   return {
     runDate: isDateInputValue(runDate) ? runDate : defaults.runDate,
-    section: isSection(section) ? section : defaults.section,
-    hideExcluded: showExcluded === "1",
+    sections,
     remoteStatus: defaults.remoteStatus,
     sourceType: defaults.sourceType,
     confidence: isConfidence(confidenceParam) ? confidenceParam : defaults.confidence,
@@ -55,8 +52,7 @@ export function writeFiltersToUrl(filters: FilterState, selectedId: string | nul
   const params = new URLSearchParams();
 
   if (filters.runDate !== defaults.runDate) params.set("runDate", filters.runDate);
-  if (filters.section !== defaults.section) params.set("section", filters.section);
-  if (filters.hideExcluded !== defaults.hideExcluded) params.set("showExcluded", "1");
+  if (!sameSections(filters.sections, defaults.sections)) params.set("section", filters.sections.join(","));
   if (filters.confidence !== defaults.confidence) params.set("confidence", filters.confidence);
   if (filters.minFitScore !== defaults.minFitScore) params.set("minFit", String(filters.minFitScore));
   if (filters.search) params.set("q", filters.search);
@@ -99,8 +95,8 @@ function isDateInputValue(value: string | null): value is string {
   return Boolean(value && /^\d{4}-\d{2}-\d{2}$/.test(value));
 }
 
-function isSection(value: string | null): value is "all" | JobSectionKey {
-  return value === "all" || value === "top_matches" || value === "strong_maybes" || value === "rejected";
+function isSection(value: string): value is JobSectionKey {
+  return value === "top_matches" || value === "strong_maybes" || value === "rejected";
 }
 
 function isConfidence(value: string | null): value is FilterState["confidence"] {
@@ -121,5 +117,22 @@ function isSort(value: string | null): value is SortOption {
 
 function isView(value: string | null): value is ViewMode {
   return value === "cards" || value === "list";
+}
+
+function parseSections(value: string | null, fallback: JobSectionKey[]) {
+  if (!value) {
+    return [...fallback];
+  }
+
+  const parsed = value
+    .split(",")
+    .map((item) => item.trim())
+    .filter(isSection);
+
+  return parsed.length > 0 ? parsed : [...fallback];
+}
+
+function sameSections(left: JobSectionKey[], right: JobSectionKey[]) {
+  return left.length === right.length && left.every((item, index) => item === right[index]);
 }
 

@@ -293,7 +293,7 @@ img {
 
 .filter-primary {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   gap: 14px;
   margin-top: 18px;
 }
@@ -331,9 +331,9 @@ img {
 }
 
 .filter-field--search-hero input {
-  min-height: 58px;
-  padding: 0 58px 0 18px;
-  font-size: 1.04rem;
+  min-height: 70px;
+  padding: 0 62px 0 20px;
+  font-size: 1.08rem;
 }
 
 .search-input-button {
@@ -409,17 +409,20 @@ img {
 .advanced-filters {
   flex: 0 0 auto;
   position: relative;
-  align-self: flex-start;
-  margin-top: 34px;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
 }
 
 .advanced-filters summary {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 58px;
+  min-height: 70px;
   gap: 8px;
-  padding: 0 4px;
+  padding: 0 8px;
   border: 0;
   border-radius: 0;
   background: transparent;
@@ -493,9 +496,43 @@ img {
   gap: 14px;
 }
 
-.filter-checkbox--panel {
-  grid-column: 1 / -1;
-  margin-top: 0;
+.filter-field--section-group {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}
+
+.section-filter-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.section-chip {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.78);
+  color: var(--ink-soft);
+  font-weight: 700;
+  padding: 10px 14px;
+  cursor: pointer;
+  transition:
+    transform 160ms ease,
+    background-color 160ms ease,
+    color 160ms ease,
+    border-color 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.section-chip:hover {
+  transform: translateY(-1px);
+}
+
+.section-chip.is-active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: white;
 }
 
 .tag-row {

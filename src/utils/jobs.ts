@@ -98,11 +98,7 @@ export function filterAndSortJobs(jobs: SectionedJob[], filters: FilterState) {
         return false;
       }
 
-      if (filters.hideExcluded && job.section === "rejected") {
-        return false;
-      }
-
-      if (filters.section !== "all" && job.section !== filters.section) {
+      if (!filters.sections.includes(job.section)) {
         return false;
       }
 

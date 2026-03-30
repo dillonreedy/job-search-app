@@ -113,12 +113,6 @@ export default function App() {
   }, [filters, selectedId]);
 
   useEffect(() => {
-    if (filters.hideExcluded && filters.section === "rejected") {
-      setFilters((current) => ({ ...current, section: "all" }));
-    }
-  }, [filters.hideExcluded, filters.section]);
-
-  useEffect(() => {
     if (selectedId && !allJobs.some((job) => job.id === selectedId)) {
       setSelectedId(null);
     }
@@ -218,7 +212,7 @@ export default function App() {
             </div>
           </div>
 
-          {hasNoIncludedRoles && filters.section !== "rejected" ? (
+          {hasNoIncludedRoles && !filters.sections.includes("rejected") ? (
             <EmptyState
               title="This run didn’t produce any included roles"
               description={buildNoIncludedRolesMessage(

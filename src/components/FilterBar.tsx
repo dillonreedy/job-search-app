@@ -37,9 +37,9 @@ export function FilterBar({ filters, onChange }: FilterBarProps) {
 
       <div className="filter-primary">
         <label className="filter-field filter-field--search-hero" htmlFor="search-filter">
-          <span>Search</span>
           <div className="search-input-wrap">
             <input
+              aria-label="Search roles"
               autoComplete="off"
               id="search-filter"
               name="search"
@@ -88,22 +88,6 @@ export function FilterBar({ filters, onChange }: FilterBarProps) {
             </div>
 
             <div className="advanced-filters__grid">
-              <label className="filter-checkbox filter-checkbox--panel">
-                <input
-                  checked={filters.hideExcluded}
-                  onChange={(event) =>
-                    onChange({
-                      ...filters,
-                      hideExcluded: event.target.checked,
-                      section:
-                        event.target.checked && filters.section === "rejected" ? "all" : filters.section,
-                    })
-                  }
-                  type="checkbox"
-                />
-                <span>Hide excluded job postings</span>
-              </label>
-
               <label className="filter-field" htmlFor="run-date-filter">
                 <span>Run Date</span>
                 <input
@@ -114,23 +98,33 @@ export function FilterBar({ filters, onChange }: FilterBarProps) {
                 />
               </label>
 
-              <label className="filter-field" htmlFor="section-filter">
+              <fieldset className="filter-field filter-field--section-group">
                 <span>Section</span>
-                <select
-                  id="section-filter"
-                  onChange={(event) =>
-                    onChange({ ...filters, section: event.target.value as FilterState["section"] })
-                  }
-                  value={filters.section}
-                >
-                  <option value="all">All Sections</option>
+                <div className="section-filter-list" role="group" aria-label="Section filters">
                   {Object.entries(SECTION_LABELS).map(([value, label]) => (
-                    <option key={value} value={value}>
+                    <button
+                      aria-pressed={filters.sections.includes(value as keyof typeof SECTION_LABELS)}
+                      className={`section-chip ${filters.sections.includes(value as keyof typeof SECTION_LABELS) ? "is-active" : ""}`}
+                      key={value}
+                      onClick={() => {
+                        const section = value as keyof typeof SECTION_LABELS;
+                        const isActive = filters.sections.includes(section);
+                        const nextSections = isActive
+                          ? filters.sections.filter((item) => item !== section)
+                          : [...filters.sections, section];
+
+                        onChange({
+                          ...filters,
+                          sections: nextSections.length > 0 ? nextSections : filters.sections,
+                        });
+                      }}
+                      type="button"
+                    >
                       {label}
-                    </option>
+                    </button>
                   ))}
-                </select>
-              </label>
+                </div>
+              </fieldset>
 
               <label className="filter-field" htmlFor="confidence-filter">
                 <span>Confidence</span>

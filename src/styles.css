@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   color-scheme: light;
   font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
   line-height: 1.5;
@@ -185,7 +185,7 @@ img {
 
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(7, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 14px;
   margin-top: 20px;
 }
@@ -292,25 +292,34 @@ img {
 
 .filter-grid {
   display: grid;
-  grid-template-columns: repeat(14, minmax(0, 1fr));
+  grid-template-columns: repeat(12, minmax(0, 1fr));
   gap: 10px 12px;
   margin-top: 18px;
-  align-items: center;
+  align-items: start;
 }
 
-.filter-grid label {
+.filter-field {
   display: flex;
-  align-items: center;
-  min-height: 44px;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 8px;
+  grid-column: span 2;
   color: var(--ink-soft);
   font-size: 0.92rem;
   font-weight: 600;
 }
 
-.filter-grid input,
-.filter-grid select,
+.filter-field--search {
+  grid-column: span 3;
+}
+
+.filter-field--sort {
+  grid-column: span 3;
+}
+
+.filter-field input,
+.filter-field select,
 .range-control {
-  grid-column: span 1;
   width: 100%;
   min-height: 44px;
   padding: 0 12px;
@@ -722,6 +731,12 @@ img {
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
+  .filter-field,
+  .filter-field--search,
+  .filter-field--sort {
+    grid-column: span 2;
+  }
+
   .workspace,
   .hero,
   .summary-columns {
@@ -777,3 +792,4 @@ img {
     text-align: left;
   }
 }
+

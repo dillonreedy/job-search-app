@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+ï»¿import { useEffect, useMemo, useState } from "react";
 import { EmptyState } from "./components/EmptyState";
 import { FilterBar } from "./components/FilterBar";
 import { JobCard } from "./components/JobCard";
@@ -9,7 +9,6 @@ import type { FilterState, SectionedJob } from "./types/jobs";
 import {
   filterAndSortJobs,
   flattenJobs,
-  formatDate,
   formatScore,
   getOptions,
   getSummaryStats,
@@ -136,7 +135,7 @@ export default function App() {
         </a>
         <section className="hero" aria-live="polite">
           <p className="eyebrow">Local Job Review</p>
-          <h1>Loading your latest search results…</h1>
+          <h1>Loading your latest search resultsâ€¦</h1>
         </section>
       </main>
     );
@@ -180,7 +179,7 @@ export default function App() {
             {loadState.data.reportCount} report{loadState.data.reportCount === 1 ? "" : "s"}
           </strong>
           <p>
-            {loadState.data.data.search_metadata.report_date || "Unknown report date"} · {" "}
+            {loadState.data.data.search_metadata.report_date || "Unknown report date"} Â· {" "}
             {loadState.data.sourceFiles.length} file
             {loadState.data.sourceFiles.length === 1 ? "" : "s"} loaded
           </p>
@@ -196,10 +195,6 @@ export default function App() {
           <StatCard
             label="Avg Top Fit"
             value={summaryStats.averageFitScore ? formatScore(summaryStats.averageFitScore) : "N/A"}
-          />
-          <StatCard
-            label="Newest Posting"
-            value={summaryStats.newestPostingDate ? formatDate(summaryStats.newestPostingDate) : "Unknown"}
           />
           <StatCard
             label="Compensation Visible"
@@ -230,7 +225,7 @@ export default function App() {
 
           {hasNoIncludedRoles && filters.section !== "rejected" ? (
             <EmptyState
-              title="This run didn’t produce any included roles"
+              title="This run didnâ€™t produce any included roles"
               description={buildNoIncludedRolesMessage(
                 loadState.data.data.search_metadata.total_roles_considered,
                 rejectedRolesCount,
@@ -310,3 +305,4 @@ export default function App() {
     </main>
   );
 }
+

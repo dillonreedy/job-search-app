@@ -1,4 +1,4 @@
-import type { FilterState, JobSectionKey, SortOption, ViewMode } from "../types/jobs";
+﻿import type { FilterState, JobSectionKey, SortOption, ViewMode } from "../types/jobs";
 
 const DEFAULTS: FilterState = {
   section: "all",
@@ -83,9 +83,16 @@ function isConfidence(value: string | null): value is FilterState["confidence"] 
 }
 
 function isSort(value: string | null): value is SortOption {
-  return value === "fit_desc" || value === "posting_newest" || value === "company_asc" || value === "compensation_desc";
+  return value === "fit_desc"
+    || value === "posting_newest"
+    || value === "posting_oldest"
+    || value === "scraped_newest"
+    || value === "scraped_oldest"
+    || value === "company_asc"
+    || value === "compensation_desc";
 }
 
 function isView(value: string | null): value is ViewMode {
   return value === "cards" || value === "list";
 }
+

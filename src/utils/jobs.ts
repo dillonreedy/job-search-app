@@ -1,4 +1,4 @@
-import type {
+﻿import type {
   Compensation,
   FilterState,
   Job,
@@ -147,6 +147,18 @@ function sortJobs(left: SectionedJob, right: SectionedJob, sortBy: FilterState["
     return (parseDate(getDisplayPostingDateValue(right)) ?? 0) - (parseDate(getDisplayPostingDateValue(left)) ?? 0);
   }
 
+  if (sortBy === "posting_oldest") {
+    return (parseDate(getDisplayPostingDateValue(left)) ?? 0) - (parseDate(getDisplayPostingDateValue(right)) ?? 0);
+  }
+
+  if (sortBy === "scraped_newest") {
+    return (parseDate(right.found_date) ?? 0) - (parseDate(left.found_date) ?? 0);
+  }
+
+  if (sortBy === "scraped_oldest") {
+    return (parseDate(left.found_date) ?? 0) - (parseDate(right.found_date) ?? 0);
+  }
+
   if (sortBy === "company_asc") {
     return left.company.localeCompare(right.company);
   }
@@ -264,3 +276,4 @@ export function getCompensationMax(compensation: Compensation) {
 export function hasCompensation(compensation: Compensation) {
   return Boolean(compensation?.display || compensation?.min || compensation?.max);
 }
+

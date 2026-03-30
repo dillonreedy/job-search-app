@@ -1,4 +1,4 @@
-import { z } from "zod";
+﻿import { z } from "zod";
 
 const stringArray = z.array(z.string()).default([]);
 
@@ -78,6 +78,9 @@ export type ViewMode = "cards" | "list";
 export type SortOption =
   | "fit_desc"
   | "posting_newest"
+  | "posting_oldest"
+  | "scraped_newest"
+  | "scraped_oldest"
   | "company_asc"
   | "compensation_desc";
 
@@ -383,3 +386,4 @@ function compactStrings(values: Array<string | undefined>) {
 function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null;
 }
+

@@ -104,6 +104,16 @@ export function FilterBar({ filters, onChange }: FilterBarProps) {
                 <span>Hide excluded job postings</span>
               </label>
 
+              <label className="filter-field" htmlFor="run-date-filter">
+                <span>Run Date</span>
+                <input
+                  id="run-date-filter"
+                  onChange={(event) => onChange({ ...filters, runDate: event.target.value })}
+                  type="date"
+                  value={filters.runDate}
+                />
+              </label>
+
               <label className="filter-field" htmlFor="section-filter">
                 <span>Section</span>
                 <select

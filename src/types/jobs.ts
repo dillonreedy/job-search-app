@@ -87,6 +87,7 @@ export type SortOption =
   | "compensation_desc";
 
 export type FilterState = {
+  runDate: string;
   section: "all" | JobSectionKey;
   hideExcluded: boolean;
   remoteStatus: string;

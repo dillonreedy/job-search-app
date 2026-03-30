@@ -63,6 +63,12 @@ export async function loadJobsData(): Promise<LoadedJobsData> {
 function mergeReports(
   reports: Array<{ path: string; data: JobsData }>,
 ): JobsData {
+  const latestReport =
+    reports
+      .slice()
+      .sort((left, right) => getReportTimestamp(right.data) - getReportTimestamp(left.data))[0]
+    ?? null;
+
   const mergedSections = {
     top_matches: [] as LoadedJob[],
     strong_maybes: [] as LoadedJob[],
@@ -116,17 +122,7 @@ function mergeReports(
     top_matches: mergedSections.top_matches,
     strong_maybes: mergedSections.strong_maybes,
     rejected: mergedSections.rejected,
-    summary: {
-      insights: dedupeStrings(
-        reports.flatMap((report) => report.data.summary.insights ?? []),
-      ),
-      highlights: dedupeStrings(
-        reports.flatMap((report) => report.data.summary.highlights ?? []),
-      ),
-      notes: dedupeStrings(
-        reports.flatMap((report) => report.data.summary.notes ?? []),
-      ),
-    },
+    summary: latestReport?.data.summary ?? {},
   };
 }
 
@@ -138,4 +134,8 @@ function getLatestValue(values: Array<string | undefined>) {
   return values
     .filter((value): value is string => Boolean(value))
     .sort((left, right) => Date.parse(right) - Date.parse(left))[0];
+}
+
+function getReportTimestamp(data: JobsData) {
+  return Date.parse(data.search_metadata.report_date || data.search_metadata.generated_at || "") || 0;
 }

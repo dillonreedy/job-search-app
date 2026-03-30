@@ -94,6 +94,10 @@ export function filterAndSortJobs(jobs: SectionedJob[], filters: FilterState) {
 
   return jobs
     .filter((job) => {
+      if (formatDateFilterValue(job.run_date) !== filters.runDate) {
+        return false;
+      }
+
       if (filters.hideExcluded && job.section === "rejected") {
         return false;
       }
@@ -214,6 +218,19 @@ export function parseDate(value: string | undefined) {
   }
   const parsed = Date.parse(value);
   return Number.isNaN(parsed) ? null : parsed;
+}
+
+function formatDateFilterValue(value: string | undefined) {
+  const parsed = parseDate(value);
+  if (parsed === null) {
+    return "";
+  }
+
+  const date = new Date(parsed);
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
 }
 
 export function formatDate(value: string | Date | undefined) {

@@ -29,95 +29,100 @@ export function JobDetailPanel({ job, onClose }: JobDetailPanelProps) {
 
   return (
     <aside aria-labelledby="detail-panel-heading" className="detail-panel">
-      <div className="detail-panel__header">
-        <div>
-          <p className="eyebrow">{SECTION_LABELS[job.section]}</p>
-          <h2 id="detail-panel-heading">{job.job_title}</h2>
-          <p className="detail-panel__company">{job.company}</p>
+      <div className="detail-panel__scroll">
+        <div className="detail-panel__header">
+          <div>
+            <p className="eyebrow">{SECTION_LABELS[job.section]}</p>
+            <h2 id="detail-panel-heading">{job.job_title}</h2>
+            <p className="detail-panel__company">{job.company}</p>
+          </div>
+          <button aria-label="Close detail panel" className="detail-close" onClick={onClose} type="button">
+            <svg aria-hidden="true" fill="none" height="20" viewBox="0 0 20 20" width="20">
+              <path d="M5 5L15 15" stroke="currentColor" strokeLinecap="round" strokeWidth="1.8" />
+              <path d="M15 5L5 15" stroke="currentColor" strokeLinecap="round" strokeWidth="1.8" />
+            </svg>
+          </button>
         </div>
-        <button aria-label="Close detail panel" className="detail-close" onClick={onClose} type="button">
-          Close
-        </button>
+
+        <div className="detail-panel__meta">
+          <Badge label={job.remote_status || "Unknown remote"} tone="neutral" />
+          <Badge label={job.source_type || "Unknown source"} tone="muted" />
+          <Badge label={`Confidence: ${job.confidence || "Unknown"}`} tone="accent" />
+        </div>
+
+        <section className="detail-score">
+          <div>
+            <span>Fit Score</span>
+            <strong>{formatScore(job.fit_score)}</strong>
+          </div>
+          <div>
+            <span>Compensation</span>
+            <strong>{formatCompensation(job.compensation)}</strong>
+          </div>
+        </section>
+
+        <dl className="detail-grid">
+          <div>
+            <dt>Location</dt>
+            <dd>{job.location || "Unknown"}</dd>
+          </div>
+          <div>
+            <dt>Posting Date</dt>
+            <dd>{formatDate(getDisplayPostingDateValue(job))}</dd>
+          </div>
+          <div>
+            <dt>Found Date</dt>
+            <dd>{formatDate(job.found_date)}</dd>
+          </div>
+          <div>
+            <dt>Run Date</dt>
+            <dd>{formatDate(job.run_date)}</dd>
+          </div>
+          <div>
+            <dt>Source Name</dt>
+            <dd>{job.source_name || "Unknown"}</dd>
+          </div>
+          <div>
+            <dt>Dedupe Key</dt>
+            <dd>{job.dedupe_key || "Unavailable"}</dd>
+          </div>
+        </dl>
+
+        <div className="detail-actions">
+          {job.job_url ? (
+            <a className="apply-link" href={job.job_url} rel="noreferrer" target="_blank">
+              Open Application
+            </a>
+          ) : (
+            <span aria-disabled="true" className="apply-link apply-link--disabled">
+              Application Link Unavailable
+            </span>
+          )}
+        </div>
+
+        <SectionBlock
+          title="Match Reasons"
+          items={job.match_reasons}
+          emptyLabel="No match reasons were provided."
+          collapsible
+        />
+        <SectionBlock
+          title="Red Flags"
+          items={job.red_flags}
+          emptyLabel="No red flags were listed."
+          collapsible
+        />
+        <SectionBlock
+          title="Skills Alignment"
+          items={job.skills_alignment}
+          emptyLabel="No skill alignment notes were provided."
+        />
+        <SectionBlock
+          title="Role Signals"
+          items={job.role_signals}
+          emptyLabel="No role signals were provided."
+        />
       </div>
-
-      <div className="detail-panel__meta">
-        <Badge label={job.remote_status || "Unknown remote"} tone="neutral" />
-        <Badge label={job.source_type || "Unknown source"} tone="muted" />
-        <Badge label={`Confidence: ${job.confidence || "Unknown"}`} tone="accent" />
-      </div>
-
-      <section className="detail-score">
-        <div>
-          <span>Fit Score</span>
-          <strong>{formatScore(job.fit_score)}</strong>
-        </div>
-        <div>
-          <span>Compensation</span>
-          <strong>{formatCompensation(job.compensation)}</strong>
-        </div>
-      </section>
-
-      <dl className="detail-grid">
-        <div>
-          <dt>Location</dt>
-          <dd>{job.location || "Unknown"}</dd>
-        </div>
-        <div>
-          <dt>Posting Date</dt>
-          <dd>{formatDate(getDisplayPostingDateValue(job))}</dd>
-        </div>
-        <div>
-          <dt>Found Date</dt>
-          <dd>{formatDate(job.found_date)}</dd>
-        </div>
-        <div>
-          <dt>Run Date</dt>
-          <dd>{formatDate(job.run_date)}</dd>
-        </div>
-        <div>
-          <dt>Source Name</dt>
-          <dd>{job.source_name || "Unknown"}</dd>
-        </div>
-        <div>
-          <dt>Dedupe Key</dt>
-          <dd>{job.dedupe_key || "Unavailable"}</dd>
-        </div>
-      </dl>
-
-      <div className="detail-actions">
-        {job.job_url ? (
-          <a className="apply-link" href={job.job_url} rel="noreferrer" target="_blank">
-            Open Application
-          </a>
-        ) : (
-          <span aria-disabled="true" className="apply-link apply-link--disabled">
-            Application Link Unavailable
-          </span>
-        )}
-      </div>
-
-      <SectionBlock
-        title="Match Reasons"
-        items={job.match_reasons}
-        emptyLabel="No match reasons were provided."
-        collapsible
-      />
-      <SectionBlock
-        title="Red Flags"
-        items={job.red_flags}
-        emptyLabel="No red flags were listed."
-        collapsible
-      />
-      <SectionBlock
-        title="Skills Alignment"
-        items={job.skills_alignment}
-        emptyLabel="No skill alignment notes were provided."
-      />
-      <SectionBlock
-        title="Role Signals"
-        items={job.role_signals}
-        emptyLabel="No role signals were provided."
-      />
     </aside>
   );
 }

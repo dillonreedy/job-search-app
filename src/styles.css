@@ -224,9 +224,6 @@ img {
 }
 
 .filter-bar {
-  position: sticky;
-  top: 16px;
-  z-index: 10;
   margin-top: 20px;
   padding: 22px;
   border-radius: 24px;
@@ -742,9 +739,48 @@ img {
 
 .detail-panel {
   position: sticky;
-  top: 144px;
+  top: 20px;
+  max-height: calc(100vh - 36px);
   padding: 22px;
   border-radius: var(--radius-xl);
+  overflow: hidden;
+}
+
+.detail-panel__scroll {
+  height: 100%;
+  max-height: calc(100vh - 80px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(24, 33, 47, 0.28) transparent;
+  padding-right: 6px;
+}
+
+.detail-panel__scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+.detail-panel__scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.detail-panel__scroll::-webkit-scrollbar-thumb {
+  background: rgba(24, 33, 47, 0.22);
+  border: 2px solid transparent;
+  border-radius: 999px;
+  background-clip: padding-box;
+}
+
+.detail-panel__scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(24, 33, 47, 0.34);
+  background-clip: padding-box;
+}
+
+.detail-panel__scroll::-webkit-scrollbar-button {
+  display: none;
+  width: 0;
+  height: 0;
 }
 
 .detail-panel--empty {
@@ -766,8 +802,17 @@ img {
 }
 
 .detail-close {
-  background: rgba(255, 255, 255, 0.92);
-  border: 1px solid var(--line);
+  min-height: auto;
+  padding: 4px;
+  border: 0;
+  background: transparent;
+  color: #435063;
+  border-radius: 999px;
+}
+
+.detail-close:hover,
+.detail-close:focus-visible {
+  background: rgba(24, 33, 47, 0.06);
   color: #18212f;
 }
 

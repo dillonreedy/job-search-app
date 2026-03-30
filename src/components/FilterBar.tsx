@@ -171,6 +171,8 @@ export function FilterBar({ filters, onChange }: FilterBarProps) {
                   <option value="posting_oldest">Posted Date (Oldest First)</option>
                   <option value="scraped_newest">Scraped Date (Newest First)</option>
                   <option value="scraped_oldest">Scraped Date (Oldest First)</option>
+                  <option value="run_newest">Run Date (Newest First)</option>
+                  <option value="run_oldest">Run Date (Oldest First)</option>
                   <option value="company_asc">Company (A to Z)</option>
                   <option value="compensation_desc">Compensation Max (High to Low)</option>
                 </select>

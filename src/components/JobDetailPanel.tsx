@@ -71,6 +71,10 @@ export function JobDetailPanel({ job, onClose }: JobDetailPanelProps) {
           <dd>{formatDate(job.found_date)}</dd>
         </div>
         <div>
+          <dt>Run Date</dt>
+          <dd>{formatDate(job.run_date)}</dd>
+        </div>
+        <div>
           <dt>Source Name</dt>
           <dd>{job.source_name || "Unknown"}</dd>
         </div>

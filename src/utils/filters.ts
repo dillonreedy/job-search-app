@@ -9,7 +9,7 @@ const DEFAULTS: FilterState = {
   minFitScore: 0,
   search: "",
   keywordTags: [],
-  sortBy: "posting_newest",
+  sortBy: "run_newest",
   viewMode: "cards",
 };
 
@@ -86,6 +86,8 @@ function isSort(value: string | null): value is SortOption {
     || value === "posting_oldest"
     || value === "scraped_newest"
     || value === "scraped_oldest"
+    || value === "run_newest"
+    || value === "run_oldest"
     || value === "company_asc"
     || value === "compensation_desc";
 }

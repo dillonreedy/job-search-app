@@ -151,6 +151,14 @@ function sortJobs(left: SectionedJob, right: SectionedJob, sortBy: FilterState["
     return (parseDate(left.found_date) ?? 0) - (parseDate(right.found_date) ?? 0);
   }
 
+  if (sortBy === "run_newest") {
+    return (parseDate(right.run_date) ?? 0) - (parseDate(left.run_date) ?? 0);
+  }
+
+  if (sortBy === "run_oldest") {
+    return (parseDate(left.run_date) ?? 0) - (parseDate(right.run_date) ?? 0);
+  }
+
   if (sortBy === "company_asc") {
     return left.company.localeCompare(right.company);
   }

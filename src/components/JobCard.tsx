@@ -69,6 +69,10 @@ export function JobCard({ job, selected, viewMode, onSelect }: JobCardProps) {
 
       <dl className="job-card__facts">
         <div>
+          <dt>Run Date</dt>
+          <dd>{formatDate(job.run_date)}</dd>
+        </div>
+        <div>
           <dt>Posting Date</dt>
           <dd>{formatDate(job.posting_date)}</dd>
         </div>

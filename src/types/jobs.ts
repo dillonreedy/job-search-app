@@ -66,7 +66,7 @@ export type Compensation = z.infer<typeof compensationSchema>;
 export type Job = z.infer<typeof jobSchema>;
 export type JobsData = z.infer<typeof jobsDataSchema>;
 export type JobSectionKey = "top_matches" | "strong_maybes" | "rejected";
-export type LoadedJob = Job & { sourceFile?: string };
+export type LoadedJob = Job & { sourceFile?: string; run_date?: string };
 
 export type SectionedJob = LoadedJob & {
   section: JobSectionKey;
@@ -81,6 +81,8 @@ export type SortOption =
   | "posting_oldest"
   | "scraped_newest"
   | "scraped_oldest"
+  | "run_newest"
+  | "run_oldest"
   | "company_asc"
   | "compensation_desc";
 

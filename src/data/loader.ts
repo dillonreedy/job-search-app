@@ -81,7 +81,11 @@ function mergeReports(
           return;
         }
         seenKeys.add(dedupeKey);
-        mergedSections[section].push({ ...job, sourceFile: report.path });
+        mergedSections[section].push({
+          ...job,
+          sourceFile: report.path,
+          run_date: report.data.search_metadata.report_date,
+        });
       });
     });
   }

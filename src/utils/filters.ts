@@ -9,7 +9,7 @@ const DEFAULTS: FilterState = {
   minFitScore: 0,
   search: "",
   keywordTags: [],
-  sortBy: "fit_desc",
+  sortBy: "posting_newest",
   viewMode: "cards",
 };
 

@@ -292,12 +292,15 @@ img {
   color: white;
 }
 
-.filter-grid {
-  display: grid;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
-  gap: 10px 12px;
+.filter-primary {
+  display: flex;
+  align-items: flex-end;
+  gap: 14px;
   margin-top: 18px;
-  align-items: start;
+}
+
+.filter-primary > * {
+  min-width: 0;
 }
 
 .filter-field {
@@ -311,8 +314,54 @@ img {
   font-weight: 600;
 }
 
+.filter-field span {
+  display: block;
+}
+
 .filter-field--search {
   grid-column: span 3;
+}
+
+.filter-field--search-hero {
+  flex: 1 1 auto;
+  gap: 10px;
+}
+
+.search-input-wrap {
+  position: relative;
+}
+
+.filter-field--search-hero input {
+  min-height: 58px;
+  padding: 0 58px 0 18px;
+  font-size: 1.04rem;
+}
+
+.search-input-button {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: #435063;
+  cursor: pointer;
+  transform: translateY(-50%);
+  transition:
+    color 160ms ease,
+    background-color 160ms ease,
+    transform 160ms ease;
+}
+
+.search-input-button:hover {
+  color: #18212f;
+  background: rgba(24, 33, 47, 0.06);
 }
 
 .filter-field--compact {
@@ -321,6 +370,11 @@ img {
 
 .filter-field--sort {
   grid-column: span 3;
+}
+
+.filter-field--slider,
+.filter-field--sort {
+  grid-column: span 2;
 }
 
 .filter-field input,
@@ -342,7 +396,7 @@ img {
   padding-right: 14px;
 }
 
-.filter-grid input[type="range"] {
+.range-control input[type="range"] {
   padding: 0;
   border: 0;
   background: transparent;
@@ -353,11 +407,109 @@ img {
   font-variant-numeric: tabular-nums;
 }
 
+.advanced-filters {
+  flex: 0 0 auto;
+  position: relative;
+  align-self: flex-start;
+  margin-top: 34px;
+}
+
+.advanced-filters summary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 58px;
+  gap: 8px;
+  padding: 0 4px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #435063;
+  font-weight: 700;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+  transition:
+    transform 160ms ease,
+    color 160ms ease;
+}
+
+.advanced-filters summary::-webkit-details-marker {
+  display: none;
+}
+
+.advanced-filters summary:hover {
+  transform: translateY(-1px);
+  color: #18212f;
+}
+
+.advanced-filters summary svg {
+  transition: transform 160ms ease;
+}
+
+.advanced-filters[open] summary svg {
+  transform: rotate(180deg);
+}
+
+.advanced-filters__panel {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 10px);
+  width: min(760px, calc(100vw - 80px));
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: rgba(255, 251, 246, 0.98);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 24px 48px rgba(59, 44, 22, 0.16);
+  z-index: 20;
+}
+
+.advanced-filters__actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 14px;
+}
+
+.advanced-filters__clear {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: #435063;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    color 160ms ease,
+    transform 160ms ease;
+}
+
+.advanced-filters__clear:hover {
+  color: #18212f;
+  transform: translateY(-1px);
+}
+
+.advanced-filters__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.filter-checkbox--panel {
+  grid-column: 1 / -1;
+  margin-top: 0;
+}
+
 .tag-row {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   margin-top: 14px;
+}
+
+.tag-row--panel {
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
 }
 
 .tag-toggle {
@@ -725,15 +877,28 @@ img {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .filter-grid {
-    grid-template-columns: repeat(6, minmax(0, 1fr));
+  .filter-primary {
+    flex-direction: column;
+    align-items: stretch;
   }
 
   .filter-field,
   .filter-field--search,
+  .filter-field--search-hero,
   .filter-field--compact,
+  .filter-field--slider,
   .filter-field--sort {
     grid-column: span 2;
+  }
+
+  .advanced-filters__panel {
+    width: min(100%, 720px);
+    left: 0;
+    right: auto;
+  }
+
+  .advanced-filters {
+    margin-top: 0;
   }
 
   .workspace,
@@ -773,7 +938,7 @@ img {
   .detail-grid,
   .detail-score,
   .summary-columns,
-  .filter-grid {
+  .advanced-filters__grid {
     grid-template-columns: 1fr;
   }
 
@@ -785,6 +950,12 @@ img {
   .job-card__header,
   .detail-panel__header {
     flex-direction: column;
+  }
+
+  .advanced-filters__panel {
+    position: static;
+    width: 100%;
+    margin-top: 10px;
   }
 
   .score-chip {

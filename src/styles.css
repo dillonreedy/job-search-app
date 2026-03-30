@@ -702,15 +702,19 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  align-items: flex-start;
 }
 
 .skill-tag {
+  display: inline-flex;
+  flex: 0 0 auto;
   padding: 8px 10px;
   border-radius: 999px;
   background: rgba(16, 42, 86, 0.06);
   color: var(--score);
   font-size: 0.82rem;
   font-weight: 600;
+  white-space: nowrap;
 }
 
 .apply-link,

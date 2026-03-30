@@ -62,16 +62,12 @@ export function JobCard({ job, selected, viewMode, onSelect }: JobCardProps) {
 
       <div className="job-card__meta">
         <Badge label={SECTION_LABELS[job.section]} tone="accent" />
-        <Badge label={job.remote_status || "Unknown remote"} tone="neutral" />
-        <Badge label={job.source_type || "Unknown source"} tone="muted" />
-        <Badge label={`${confidence} confidence`} tone={getConfidenceTone(confidence)} />
+        {confidence !== "unknown" ? (
+          <Badge label={`${confidence} confidence`} tone={getConfidenceTone(confidence)} />
+        ) : null}
       </div>
 
       <dl className="job-card__facts">
-        <div>
-          <dt>Location</dt>
-          <dd>{job.location || "Unknown"}</dd>
-        </div>
         <div>
           <dt>Posting Date</dt>
           <dd>{formatDate(job.posting_date)}</dd>
@@ -83,10 +79,6 @@ export function JobCard({ job, selected, viewMode, onSelect }: JobCardProps) {
         <div>
           <dt>Compensation</dt>
           <dd>{formatCompensation(job.compensation)}</dd>
-        </div>
-        <div>
-          <dt>Source</dt>
-          <dd>{job.source_name || "Unknown"}</dd>
         </div>
       </dl>
 

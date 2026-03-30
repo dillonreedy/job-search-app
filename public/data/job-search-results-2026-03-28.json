@@ -1,0 +1,160 @@
+﻿{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-03-28T08:35:26.7202712-05:00",
+  "meta": {
+    "run_date": "2026-03-28",
+    "target_locations": [
+      "US_REMOTE",
+      "HOUSTON_TX_METRO"
+    ],
+    "date_window": {
+      "from": "2026-03-27",
+      "to": "2026-03-28"
+    },
+    "candidate_profile_summary": "Senior frontend-focused software engineer strongest in React, Next.js, TypeScript, UI engineering, design systems, frontend platform work, accessibility, performance, and product-facing data-heavy interfaces.",
+    "source_preference": [
+      "DIRECT_COMPANY",
+      "AGGREGATOR",
+      "RECRUITER"
+    ]
+  },
+  "stats": {
+    "jobs_considered": 8,
+    "jobs_included": 0,
+    "jobs_excluded": 8,
+    "top_matches_count": 0,
+    "strong_maybes_count": 0
+  },
+  "jobs": [],
+  "excluded_jobs": [
+    {
+      "id": "itbrainiac-senior-frontend-engineer-react-typescript-mui-2026-03-28",
+      "dedupe_key": "itbrainiac|senior_frontend_engineer_react_typescript_mui|houston_tx",
+      "company": "ITBrainiac Inc",
+      "job_title": "Senior Frontend Engineer (React, TypeScript, MUI)",
+      "location": "Houston, TX 77056",
+      "job_url": "https://www.dice.com/job-detail/8292dadf-1c7a-47b5-b0d9-da5371a9c15b/",
+      "rejection_reasons": [
+        "Obvious staffing-firm contract listing rather than a direct company posting.",
+        "Low-confidence freshness because the search result changed from 5 hours ago to 6 days ago during verification.",
+        "Likely duplicate requisition circulating through multiple recruiter channels."
+      ]
+    },
+    {
+      "id": "itech-us-react-js-developer-2026-03-28",
+      "dedupe_key": "itech_us|react_js_engineer|houston_tx",
+      "company": "iTech US, Inc.",
+      "job_title": "React JS Developer",
+      "location": "Houston, TX",
+      "job_url": "https://www.dice.com/job-detail/ad937812-316f-49d3-a0d2-51129753a2e2/",
+      "rejection_reasons": [
+        "Recruiter/staffing listing rather than a direct employer post.",
+        "Appears materially similar to the Houston React/TypeScript/MUI contract already excluded as a duplicate market repost.",
+        "Contract submission language and sponsorship restrictions reduce practical application value."
+      ]
+    },
+    {
+      "id": "launchdarkly-frontend-engineer-guarded-releases-2026-03-28",
+      "dedupe_key": "launchdarkly|frontend_engineer_guarded_releases|us_remote",
+      "company": "LaunchDarkly",
+      "job_title": "Frontend Engineer, Guarded Releases",
+      "location": "United States Remote",
+      "job_url": "https://careers.redpoint.com/companies/launchdarkly/jobs/70611549-frontend-engineer-guarded-releases",
+      "rejection_reasons": [
+        "Direct-source verification shows the job was posted on 2026-03-13, outside the last-24-hours filter.",
+        "Fresh aggregator copies marked it as 1 day ago or newer, but they are syndications of an older direct posting."
+      ]
+    },
+    {
+      "id": "veeam-frontend-developer-data-intelligence-2026-03-28",
+      "dedupe_key": "veeam|frontend_developer_data_intelligence|us_remote",
+      "company": "Veeam",
+      "job_title": "Frontend Developer, Data Intelligence",
+      "location": "United States",
+      "job_url": "https://careers.veeam.com/job/united-states/frontend-developer-data-intelligence/22681/91093481936",
+      "rejection_reasons": [
+        "Direct-source verification shows the job was posted on 2026-01-27, outside the last-24-hours filter.",
+        "Remotive surfaced it as posted today, but that appears to be a stale resyndication of an older employer listing."
+      ]
+    },
+    {
+      "id": "bestow-senior-frontend-software-engineer-ii-2026-03-28",
+      "dedupe_key": "bestow|senior_frontend_software_engineer_ii|us_remote",
+      "company": "Bestow",
+      "job_title": "Senior Frontend Software Engineer II",
+      "location": "United States Remote",
+      "job_url": "https://jobs.8vc.com/companies/bestow/jobs/60247313-senior-frontend-software-engineer-ii",
+      "rejection_reasons": [
+        "Direct-source verification shows the role was posted on 2025-10-10, far outside the last-24-hours filter.",
+        "Recent aggregator and syndication pages are reposts of an old requisition, including removed copies."
+      ]
+    },
+    {
+      "id": "renewed-vision-software-engineer-react-nextjs-react-native-2026-03-28",
+      "dedupe_key": "renewed_vision|software_engineer_react_next_js_react_native|us_remote",
+      "company": "Renewed Vision",
+      "job_title": "Software Engineer — React / Next.js / React Native",
+      "location": "Remote",
+      "job_url": "https://job-boards.greenhouse.io/renewedvision/jobs/5142014008",
+      "rejection_reasons": [
+        "Strong stack fit, but verification sources place it at roughly 4 to 5 days old rather than within the last 24 hours.",
+        "Role also leans partially mobile because React Native is a core requirement."
+      ]
+    },
+    {
+      "id": "comcast-react-web-developer-2026-03-28",
+      "dedupe_key": "comcast|react_web_developer|us_remote",
+      "company": "Comcast",
+      "job_title": "React Web Developer",
+      "location": "USA Remote",
+      "job_url": "https://remotive.com/remote/jobs/software-development/react-web-developer-3981506",
+      "rejection_reasons": [
+        "Fresh posting, but title and description indicate an Analyst II level role below the target seniority band.",
+        "Role appears more application-support/dashboard oriented than clearly senior frontend-first product engineering."
+      ]
+    },
+    {
+      "id": "veracyte-software-development-engineer-2026-03-28",
+      "dedupe_key": "veracyte|software_development_engineer|us_remote",
+      "company": "Veracyte",
+      "job_title": "Software Development Engineer",
+      "location": "USA Remote",
+      "job_url": "https://remotive.com/remote/jobs/software-development/software-development-engineer-3814284",
+      "rejection_reasons": [
+        "Fresh posting, but the title is too generic and not clearly senior frontend-first.",
+        "Description mixes interface work with supporting services and cloud work, making it a weaker fit than the target frontend-focused profile."
+      ]
+    }
+  ],
+  "summary": {
+    "best_overall": {
+      "job_id": null,
+      "company": null,
+      "job_title": null,
+      "job_url": null
+    },
+    "best_react_nextjs_fit": {
+      "job_id": null,
+      "company": null,
+      "job_title": null,
+      "job_url": null
+    },
+    "best_design_systems_fit": {
+      "job_id": null,
+      "company": null,
+      "job_title": null,
+      "job_url": null
+    },
+    "best_comp_visible_role": {
+      "job_id": null,
+      "company": null,
+      "job_title": null,
+      "job_url": null
+    },
+    "market_notes": [
+      "Fresh frontend-targeted results in this 24-hour window were dominated by recruiter contracts, stale reposts, and aggregator resyndications.",
+      "Several strong-fit remote roles surfaced again, but direct ATS verification showed them to be older than the allowed freshness window.",
+      "A conservative empty include set is higher quality for the app than backfilling with stale or low-confidence postings."
+    ]
+  }
+}

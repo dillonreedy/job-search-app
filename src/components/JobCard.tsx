@@ -25,13 +25,27 @@ export function JobCard({ job, selected, viewMode, onSelect }: JobCardProps) {
   const labelId = `job-title-${job.id}`;
 
   return (
-    <article aria-labelledby={labelId} className={cardClassName}>
+    <article
+      aria-labelledby={labelId}
+      aria-pressed={selected}
+      className={cardClassName}
+      onClick={() => onSelect(job.id)}
+      onKeyDown={(event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          onSelect(job.id);
+        }
+      }}
+      role="button"
+      tabIndex={0}
+    >
       <div className="job-card__header job-card__header--top">
         <div className="job-card__title-block">
           <p className="job-card__company">
             <a
               className="job-card__company-link"
               href={companySearchUrl}
+              onClick={(event) => event.stopPropagation()}
               rel="noreferrer"
               target="_blank"
             >
@@ -85,17 +99,6 @@ export function JobCard({ job, selected, viewMode, onSelect }: JobCardProps) {
           ))}
         </div>
       ) : null}
-
-      <div className="job-card__actions">
-        <button
-          aria-pressed={selected}
-          className="job-card__select"
-          onClick={() => onSelect(job.id)}
-          type="button"
-        >
-          {selected ? "Inspecting Role" : "Inspect Role"}
-        </button>
-      </div>
     </article>
   );
 }

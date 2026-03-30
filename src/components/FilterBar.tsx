@@ -3,12 +3,10 @@ import { KEYWORD_TAGS, SECTION_LABELS } from "../utils/jobs";
 
 type FilterBarProps = {
   filters: FilterState;
-  remoteOptions: string[];
-  sourceOptions: string[];
   onChange: (next: FilterState) => void;
 };
 
-export function FilterBar({ filters, remoteOptions, sourceOptions, onChange }: FilterBarProps) {
+export function FilterBar({ filters, onChange }: FilterBarProps) {
   return (
     <section aria-labelledby="filters-heading" className="filter-bar">
       <div className="filter-bar__topline">
@@ -84,38 +82,6 @@ export function FilterBar({ filters, remoteOptions, sourceOptions, onChange }: F
           </select>
         </label>
 
-        <label className="filter-field" htmlFor="remote-filter">
-          <span>Remote Status</span>
-          <select
-            id="remote-filter"
-            onChange={(event) => onChange({ ...filters, remoteStatus: event.target.value })}
-            value={filters.remoteStatus}
-          >
-            <option value="all">All</option>
-            {remoteOptions.map((option) => (
-              <option key={option} value={option}>
-                {option}
-              </option>
-            ))}
-          </select>
-        </label>
-
-        <label className="filter-field" htmlFor="source-filter">
-          <span>Source Type</span>
-          <select
-            id="source-filter"
-            onChange={(event) => onChange({ ...filters, sourceType: event.target.value })}
-            value={filters.sourceType}
-          >
-            <option value="all">All</option>
-            {sourceOptions.map((option) => (
-              <option key={option} value={option}>
-                {option}
-              </option>
-            ))}
-          </select>
-        </label>
-
         <label className="filter-field" htmlFor="confidence-filter">
           <span>Confidence</span>
           <select
@@ -140,16 +106,16 @@ export function FilterBar({ filters, remoteOptions, sourceOptions, onChange }: F
               id="fit-score-filter"
               max="10"
               min="0"
-              onChange={(event) =>
-                onChange({ ...filters, minFitScore: Number(event.target.value) })
-              }
-              step="0.5"
-              type="range"
-              value={filters.minFitScore}
-            />
-            <strong className="range-value">{filters.minFitScore.toFixed(1)}</strong>
-          </div>
-        </label>
+            onChange={(event) =>
+              onChange({ ...filters, minFitScore: Number(event.target.value) })
+            }
+            step="1"
+            type="range"
+            value={filters.minFitScore}
+          />
+          <strong className="range-value">{filters.minFitScore}</strong>
+        </div>
+      </label>
 
         <label className="filter-field filter-field--sort" htmlFor="sort-filter">
           <span>Sort By</span>

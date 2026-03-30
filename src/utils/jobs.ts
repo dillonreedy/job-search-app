@@ -102,14 +102,6 @@ export function filterAndSortJobs(jobs: SectionedJob[], filters: FilterState) {
         return false;
       }
 
-      if (filters.remoteStatus !== "all" && (job.remote_status ?? "Unknown") !== filters.remoteStatus) {
-        return false;
-      }
-
-      if (filters.sourceType !== "all" && (job.source_type ?? "Unknown") !== filters.sourceType) {
-        return false;
-      }
-
       if (!matchesConfidence(job.confidence, filters.confidence)) {
         return false;
       }

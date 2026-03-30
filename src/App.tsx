@@ -10,7 +10,6 @@ import {
   filterAndSortJobs,
   flattenJobs,
   formatScore,
-  getOptions,
   getSummaryStats,
 } from "./utils/jobs";
 import {
@@ -84,8 +83,6 @@ export default function App() {
     () => (loadState.status === "ready" ? flattenJobs(loadState.data.data) : []),
     [loadState],
   );
-  const remoteOptions = useMemo(() => getOptions(allJobs, "remote_status"), [allJobs]);
-  const sourceOptions = useMemo(() => getOptions(allJobs, "source_type"), [allJobs]);
   const visibleJobs = useMemo(() => filterAndSortJobs(allJobs, filters), [allJobs, filters]);
   const summaryStats = useMemo(
     () => (loadState.status === "ready" ? getSummaryStats(loadState.data.data, allJobs) : null),
@@ -205,8 +202,6 @@ export default function App() {
 
       <FilterBar
         filters={filters}
-        remoteOptions={remoteOptions}
-        sourceOptions={sourceOptions}
         onChange={setFilters}
       />
 

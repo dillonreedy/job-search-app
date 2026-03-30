@@ -28,8 +28,8 @@ export function readFiltersFromUrl() {
   return {
     section: isSection(section) ? section : DEFAULTS.section,
     hideExcluded: showExcluded !== "1",
-    remoteStatus: params.get("remote") || DEFAULTS.remoteStatus,
-    sourceType: params.get("source") || DEFAULTS.sourceType,
+    remoteStatus: DEFAULTS.remoteStatus,
+    sourceType: DEFAULTS.sourceType,
     confidence: isConfidence(confidenceParam) ? confidenceParam : DEFAULTS.confidence,
     minFitScore: clampScore(Number(params.get("minFit"))),
     search: params.get("q") || DEFAULTS.search,
@@ -48,8 +48,6 @@ export function writeFiltersToUrl(filters: FilterState, selectedId: string | nul
 
   if (filters.section !== DEFAULTS.section) params.set("section", filters.section);
   if (filters.hideExcluded !== DEFAULTS.hideExcluded) params.set("showExcluded", "1");
-  if (filters.remoteStatus !== DEFAULTS.remoteStatus) params.set("remote", filters.remoteStatus);
-  if (filters.sourceType !== DEFAULTS.sourceType) params.set("source", filters.sourceType);
   if (filters.confidence !== DEFAULTS.confidence) params.set("confidence", filters.confidence);
   if (filters.minFitScore !== DEFAULTS.minFitScore) params.set("minFit", String(filters.minFitScore));
   if (filters.search) params.set("q", filters.search);
@@ -71,7 +69,7 @@ function clampScore(value: number) {
   if (Number.isNaN(value)) {
     return DEFAULTS.minFitScore;
   }
-  return Math.max(0, Math.min(10, value));
+  return Math.max(0, Math.min(10, Math.round(value)));
 }
 
 function isSection(value: string | null): value is "all" | JobSectionKey {

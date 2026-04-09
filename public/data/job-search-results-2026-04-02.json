@@ -1,0 +1,388 @@
+﻿{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-04-02T08:09:16.2250901-05:00",
+  "meta": {
+    "run_date": "2026-04-02",
+    "target_locations": [
+      "US_REMOTE",
+      "HOUSTON_TX_METRO"
+    ],
+    "date_window": {
+      "from": "2026-04-01",
+      "to": "2026-04-02"
+    },
+    "candidate_profile_summary": "Senior frontend and senior software engineer focused on React, Next.js, TypeScript, UI engineering, design systems, frontend platform, product-facing frontend, accessibility, performance, and polished data-heavy UX.",
+    "source_preference": [
+      "DIRECT_COMPANY",
+      "AGGREGATOR",
+      "RECRUITER"
+    ]
+  },
+  "stats": {
+    "jobs_considered": 11,
+    "jobs_included": 4,
+    "jobs_excluded": 7,
+    "top_matches_count": 3,
+    "strong_maybes_count": 1
+  },
+  "jobs": [
+    {
+      "id": "1password-senior-developer-growth-2026-04-01",
+      "dedupe_key": "1password|senior_developer_growth|2026-04-01",
+      "bucket": "TOP_MATCH",
+      "company": "1Password",
+      "normalized_company": "1password",
+      "job_title": "Senior Developer, Growth",
+      "normalized_job_title": "senior_developer_growth",
+      "location": "Remote (United States | Canada)",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-04-01",
+      "found_date": "2026-04-02",
+      "source_type": "AGGREGATOR",
+      "source_name": "Accel Job Board",
+      "job_url": "https://jobs.accel.com/companies/1password/jobs/72960720-senior-developer-growth",
+      "fit_score": 8,
+      "confidence": "HIGH",
+      "match_reasons": [
+        "Fresh Apr 1 posting with explicit U.S. remote eligibility",
+        "Customer-facing web work with explicit React and TypeScript requirements",
+        "Senior-level scope with strong product, experimentation, and UX collaboration signals",
+        "Compensation is visible"
+      ],
+      "red_flags": [
+        "Role is growth-oriented rather than purely frontend-first",
+        "Backend service experience is also emphasized"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": false,
+        "data_heavy_ui": false,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 153000,
+        "salary_max": 214000,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 1,
+        "best_for": [
+          "React and TypeScript product engineering",
+          "Senior customer-facing experimentation work",
+          "Remote U.S. applications with visible compensation"
+        ]
+      }
+    },
+    {
+      "id": "healthmark-senior-software-engineer-2026-04-01",
+      "dedupe_key": "healthmark_medical|senior_software_engineer|2026-04-01",
+      "bucket": "TOP_MATCH",
+      "company": "Healthmark Medical",
+      "normalized_company": "healthmark_medical",
+      "job_title": "Senior Software Engineer",
+      "normalized_job_title": "senior_software_engineer",
+      "location": "United States Remote",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-04-01",
+      "found_date": "2026-04-02",
+      "source_type": "AGGREGATOR",
+      "source_name": "TA Associates Job Board",
+      "job_url": "https://careers.ta.com/companies/healthmark-medical/jobs/72915208-senior-software-engineer",
+      "fit_score": 7,
+      "confidence": "HIGH",
+      "match_reasons": [
+        "Fresh Apr 1 U.S.-remote posting",
+        "Explicit experience with modern frontend frameworks including React",
+        "Ownership-heavy senior IC role in a small product team",
+        "Web applications and modernization scope align with frontend-adjacent product engineering"
+      ],
+      "red_flags": [
+        "Role is full-stack and Microsoft-stack heavy",
+        "Frontend is important but not clearly the central focus",
+        "Compensation is not visible"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": false,
+        "design_systems": false,
+        "ui_engineering": false,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": false
+      },
+      "role_signals": {
+        "frontend_first": false,
+        "data_heavy_ui": false,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 0,
+        "salary_max": 0,
+        "currency": null,
+        "comp_visible": false
+      },
+      "application_metadata": {
+        "priority_rank": 2,
+        "best_for": [
+          "Senior product-minded engineering roles",
+          "Remote ownership and modernization work",
+          "React-capable teams that still value broad engineering depth"
+        ]
+      }
+    },
+    {
+      "id": "pairsoft-senior-software-engineer-net-full-stack-2026-04-01",
+      "dedupe_key": "pairsoft|senior_software_engineer_net_full_stack|2026-04-01",
+      "bucket": "TOP_MATCH",
+      "company": "Pairsoft",
+      "normalized_company": "pairsoft",
+      "job_title": "Senior Software Engineer (.Net Full Stack)",
+      "normalized_job_title": "senior_software_engineer_net_full_stack",
+      "location": "Remote",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-04-01",
+      "found_date": "2026-04-02",
+      "source_type": "AGGREGATOR",
+      "source_name": "TA Associates Job Board",
+      "job_url": "https://careers.ta.com/companies/pairsoft-2/jobs/72915160-senior-software-engineer-net-full-stack",
+      "fit_score": 6,
+      "confidence": "MEDIUM",
+      "match_reasons": [
+        "Fresh Apr 1 remote posting",
+        "Mentions modern frontend architectures alongside performance and scalability work",
+        "Senior-level technical leadership scope"
+      ],
+      "red_flags": [
+        "Role is clearly full-stack with substantial backend and cloud emphasis",
+        "React and TypeScript are not explicitly confirmed on the posting excerpt",
+        "U.S.-remote eligibility is not fully spelled out beyond remote location"
+      ],
+      "skills_alignment": {
+        "react": false,
+        "nextjs": false,
+        "typescript": false,
+        "design_systems": false,
+        "ui_engineering": false,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": false,
+        "data_heavy_ui": false,
+        "product_facing": false,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 0,
+        "salary_max": 0,
+        "currency": null,
+        "comp_visible": false
+      },
+      "application_metadata": {
+        "priority_rank": 3,
+        "best_for": [
+          "Senior applicants willing to consider broader full-stack scope",
+          "Architecture-minded engineers",
+          "Remote searches with limited fresh frontend-first supply"
+        ]
+      }
+    },
+    {
+      "id": "pairsoft-software-engineer-net-full-stack-2026-04-01",
+      "dedupe_key": "pairsoft|software_engineer_net_full_stack|2026-04-01",
+      "bucket": "STRONG_MAYBE",
+      "company": "Pairsoft",
+      "normalized_company": "pairsoft",
+      "job_title": "Software Engineer (.Net Full Stack)",
+      "normalized_job_title": "software_engineer_net_full_stack",
+      "location": "Remote",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-04-01",
+      "found_date": "2026-04-02",
+      "source_type": "AGGREGATOR",
+      "source_name": "TA Associates Job Board",
+      "job_url": "https://careers.ta.com/companies/pairsoft-2/jobs/72915162-software-engineer-net-full-stack",
+      "fit_score": 5,
+      "confidence": "MEDIUM",
+      "match_reasons": [
+        "Fresh Apr 1 remote posting",
+        "Explicit Angular and React mention in a cloud-first product environment",
+        "Reasonable fallback option when optimizing for recency over purity of frontend scope"
+      ],
+      "red_flags": [
+        "Not senior by title",
+        "Full-stack .NET role rather than frontend-centered role",
+        "TypeScript is not explicitly mentioned"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": false,
+        "design_systems": false,
+        "ui_engineering": false,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": false
+      },
+      "role_signals": {
+        "frontend_first": false,
+        "data_heavy_ui": false,
+        "product_facing": false,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 0,
+        "salary_max": 0,
+        "currency": null,
+        "comp_visible": false
+      },
+      "application_metadata": {
+        "priority_rank": 4,
+        "best_for": [
+          "Fresh remote pipeline coverage",
+          "Engineers open to seniority-flex roles",
+          "React-capable full-stack applications"
+        ]
+      }
+    }
+  ],
+  "excluded_jobs": [
+    {
+      "id": "grow-therapy-frontend-platform-engineer-2026-03-29",
+      "dedupe_key": "grow_therapy|frontend_platform_engineer|2026-03-29",
+      "company": "Grow Therapy",
+      "job_title": "Frontend Platform Engineer",
+      "location": "New York City / Seattle / San Francisco",
+      "job_url": "https://wellfound.com/jobs/4030041-frontend-platform-engineer",
+      "rejection_reasons": [
+        "Posted 4 days ago on the live listing, outside the 24-hour window",
+        "Location is not U.S. remote or Houston metro"
+      ]
+    },
+    {
+      "id": "ravennasoftware-senior-frontend-engineer-null",
+      "dedupe_key": "ravenna_software|senior_frontend_engineer|null",
+      "company": "Ravenna Software",
+      "job_title": "Senior Frontend Engineer",
+      "location": "Remote (United States)",
+      "job_url": "https://wellfound.com/jobs/4012363-senior-frontend-engineer",
+      "rejection_reasons": [
+        "Search result looked fresh but the live listing did not provide verified within-24-hours evidence during review",
+        "Excluded conservatively to avoid stale aggregator recency"
+      ]
+    },
+    {
+      "id": "sapience-ai-senior-frontend-engineer-null",
+      "dedupe_key": "sapience_ai|senior_frontend_engineer|null",
+      "company": "Sapience AI",
+      "job_title": "Senior Frontend Engineer",
+      "location": "Remote (United States)",
+      "job_url": "https://wellfound.com/jobs/4035550-senior-frontend-engineer",
+      "rejection_reasons": [
+        "Search result freshness could not be verified cleanly on the live listing",
+        "Excluded to keep the dataset strict on posting-age confidence"
+      ]
+    },
+    {
+      "id": "kovo-senior-product-engineer-null",
+      "dedupe_key": "kovo|senior_product_engineer|null",
+      "company": "Kovo",
+      "job_title": "Senior Product Engineer",
+      "location": "Remote (United States)",
+      "job_url": "https://wellfound.com/jobs/4036486-senior-product-engineer",
+      "rejection_reasons": [
+        "Recency could not be verified confidently from the live listing",
+        "Role is product-engineering oriented rather than clearly frontend-first"
+      ]
+    },
+    {
+      "id": "bindery-lead-product-engineer-null",
+      "dedupe_key": "bindery|lead_product_engineer|null",
+      "company": "Bindery",
+      "job_title": "Lead Product Engineer",
+      "location": "Remote (United States)",
+      "job_url": "https://wellfound.com/jobs/4036469-lead-product-engineer",
+      "rejection_reasons": [
+        "Recency was not verified cleanly from the live listing",
+        "Role mixes product engineering breadth with lead scope rather than frontend specialization"
+      ]
+    },
+    {
+      "id": "perplexity-frontend-engineer-design-systems-null",
+      "dedupe_key": "perplexity|frontend_engineer_design_systems|null",
+      "company": "Perplexity",
+      "job_title": "Frontend Engineer - Design Systems",
+      "location": "San Francisco, CA",
+      "job_url": "https://jobs.ashbyhq.com/perplexity/08084d42-3f0b-4f7f-b66d-f883b6d860dd",
+      "rejection_reasons": [
+        "Onsite San Francisco role does not satisfy U.S.-remote or Houston-metro rules"
+      ]
+    },
+    {
+      "id": "slb-senior-front-end-software-engineer-2026-03-27",
+      "dedupe_key": "slb|senior_front_end_software_engineer|2026-03-27",
+      "company": "SLB",
+      "job_title": "Senior Front End Software Engineer",
+      "location": "Houston, TX",
+      "job_url": "https://www.linkedin.com/jobs/view/principal-frontend-engineer-at-clickup-4326050635",
+      "rejection_reasons": [
+        "Houston fit is good, but the observed listing was 6 days old and outside the 24-hour window",
+        "Available source was an aggregator result rather than a verified fresh direct posting"
+      ]
+    }
+  ],
+  "summary": {
+    "best_overall": {
+      "job_id": "1password-senior-developer-growth-2026-04-01",
+      "company": "1Password",
+      "job_title": "Senior Developer, Growth",
+      "job_url": "https://jobs.accel.com/companies/1password/jobs/72960720-senior-developer-growth"
+    },
+    "best_react_nextjs_fit": {
+      "job_id": "1password-senior-developer-growth-2026-04-01",
+      "company": "1Password",
+      "job_title": "Senior Developer, Growth",
+      "job_url": "https://jobs.accel.com/companies/1password/jobs/72960720-senior-developer-growth"
+    },
+    "best_design_systems_fit": {
+      "job_id": null,
+      "company": null,
+      "job_title": null,
+      "job_url": null
+    },
+    "best_comp_visible_role": {
+      "job_id": "1password-senior-developer-growth-2026-04-01",
+      "company": "1Password",
+      "job_title": "Senior Developer, Growth",
+      "job_url": "https://jobs.accel.com/companies/1password/jobs/72960720-senior-developer-growth"
+    },
+    "market_notes": [
+      "Verified fresh frontend-leaning roles in the last 24 hours were limited; many promising search hits turned out to be stale once opened.",
+      "The cleanest in-window matches skewed toward broad product or full-stack engineering rather than pure frontend specialization.",
+      "Houston-metro produced no high-confidence within-window matches worth including.",
+      "Most usable fresh evidence came from investor portfolio job boards rather than direct employer career pages this run."
+    ]
+  }
+}

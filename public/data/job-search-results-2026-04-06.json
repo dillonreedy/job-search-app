@@ -1,0 +1,423 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-04-06T08:08:45.4440667-05:00",
+  "meta": {
+    "run_date": "2026-04-06",
+    "target_locations": [
+      "US_REMOTE",
+      "HOUSTON_TX_METRO"
+    ],
+    "date_window": {
+      "from": "2026-04-05",
+      "to": "2026-04-06"
+    },
+    "candidate_profile_summary": "Senior frontend-leaning software engineer focused on React, Next.js, TypeScript, UI engineering, design systems, frontend platform work, accessibility, performance, and product-facing data-heavy interfaces.",
+    "source_preference": [
+      "DIRECT_COMPANY",
+      "AGGREGATOR",
+      "RECRUITER"
+    ]
+  },
+  "stats": {
+    "jobs_considered": 10,
+    "jobs_included": 5,
+    "jobs_excluded": 5,
+    "top_matches_count": 3,
+    "strong_maybes_count": 2
+  },
+  "jobs": [
+    {
+      "id": "workboard__sr-frontend-engineer__2026-04-06",
+      "dedupe_key": "workboard__sr-frontend-engineer__us-remote",
+      "bucket": "TOP_MATCH",
+      "company": "WorkBoard",
+      "normalized_company": "workboard",
+      "job_title": "Sr. Frontend Engineer",
+      "normalized_job_title": "senior frontend engineer",
+      "location": "United States - Remote",
+      "remote_status": "US_REMOTE",
+      "posting_date": null,
+      "found_date": "2026-04-06",
+      "source_type": "DIRECT_COMPANY",
+      "source_name": "Greenhouse",
+      "job_url": "https://job-boards.greenhouse.io/workboard/jobs/8462238002",
+      "fit_score": 10,
+      "confidence": "MEDIUM",
+      "match_reasons": [
+        "Direct company posting for a senior frontend-focused remote U.S. role",
+        "Strong React and TypeScript emphasis with explicit accessibility and performance expectations",
+        "Calls out component architecture, data-rich UI, frontend craftsmanship, and design/product collaboration",
+        "Compensation is visible and competitive for senior frontend scope"
+      ],
+      "red_flags": [
+        "Employer page did not expose an exact posting date",
+        "Freshness was corroborated by a secondary source showing the role as posted yesterday"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": true,
+        "ui_engineering": true,
+        "frontend_platform": true,
+        "graphql": false,
+        "accessibility": true,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": true,
+        "product_facing": true,
+        "platform_or_design_systems": true,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 170000,
+        "salary_max": 170000,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 1,
+        "best_for": [
+          "senior react typescript leadership",
+          "data-rich ui and performance",
+          "frontend architecture and quality bar"
+        ]
+      }
+    },
+    {
+      "id": "arize-ai__senior-frontend-engineer__2026-04-06",
+      "dedupe_key": "arize-ai__senior-frontend-engineer__us-remote",
+      "bucket": "TOP_MATCH",
+      "company": "Arize AI",
+      "normalized_company": "arize-ai",
+      "job_title": "Senior Frontend Engineer",
+      "normalized_job_title": "senior frontend engineer",
+      "location": "Remote (United States)",
+      "remote_status": "US_REMOTE",
+      "posting_date": null,
+      "found_date": "2026-04-06",
+      "source_type": "DIRECT_COMPANY",
+      "source_name": "Greenhouse",
+      "job_url": "https://job-boards.greenhouse.io/arizeai/jobs/4764835008",
+      "fit_score": 9,
+      "confidence": "MEDIUM",
+      "match_reasons": [
+        "Senior frontend remit at a credible product company with remote U.S. eligibility",
+        "Strong match for product-facing UI engineering in an AI platform context",
+        "Recent freshness signal from a secondary listing indicated the role appeared within the last day",
+        "Likely strong overlap with complex product surfaces and cross-functional product work"
+      ],
+      "red_flags": [
+        "Exact employer posting date was not exposed on the direct listing",
+        "Compensation in indexed copies appeared estimated rather than employer-provided"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": true,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 0,
+        "salary_max": 0,
+        "currency": null,
+        "comp_visible": false
+      },
+      "application_metadata": {
+        "priority_rank": 2,
+        "best_for": [
+          "ai product ui",
+          "senior frontend ownership",
+          "complex application surfaces"
+        ]
+      }
+    },
+    {
+      "id": "wayflyer__frontend-engineer-react-typescript__2026-04-06",
+      "dedupe_key": "wayflyer__frontend-engineer-react-typescript__us-remote",
+      "bucket": "TOP_MATCH",
+      "company": "Wayflyer",
+      "normalized_company": "wayflyer",
+      "job_title": "Frontend Engineer (React, TypeScript)",
+      "normalized_job_title": "frontend engineer",
+      "location": "United States",
+      "remote_status": "US_REMOTE",
+      "posting_date": null,
+      "found_date": "2026-04-06",
+      "source_type": "AGGREGATOR",
+      "source_name": "LinkedIn",
+      "job_url": "https://www.linkedin.com/jobs/view/frontend-engineer-react-typescript-at-wayflyler-4343284090",
+      "fit_score": 8,
+      "confidence": "MEDIUM",
+      "match_reasons": [
+        "Fresh U.S. role with explicit React and TypeScript focus",
+        "Product-facing fintech frontend work is likely aligned with polished user experience needs",
+        "Flexible remote working language suggests viable U.S. remote fit"
+      ],
+      "red_flags": [
+        "Title is not senior or staff level",
+        "Remote status appears inferred from U.S.-wide location plus flexible remote wording rather than a direct employer remote tag",
+        "No compensation was visible in the surfaced listing"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": false,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 0,
+        "salary_max": 0,
+        "currency": null,
+        "comp_visible": false
+      },
+      "application_metadata": {
+        "priority_rank": 3,
+        "best_for": [
+          "react and typescript execution",
+          "product engineering",
+          "remote fintech frontend"
+        ]
+      }
+    },
+    {
+      "id": "eventeny__front-end-developer__2026-04-06",
+      "dedupe_key": "eventeny__front-end-developer__us-remote",
+      "bucket": "STRONG_MAYBE",
+      "company": "Eventeny",
+      "normalized_company": "eventeny",
+      "job_title": "Front End Developer",
+      "normalized_job_title": "front end developer",
+      "location": "United States",
+      "remote_status": "US_REMOTE",
+      "posting_date": null,
+      "found_date": "2026-04-06",
+      "source_type": "AGGREGATOR",
+      "source_name": "DailyRemote",
+      "job_url": "https://dailyremote.com/remote-job/front-end-developer-4548111",
+      "fit_score": 7,
+      "confidence": "HIGH",
+      "match_reasons": [
+        "Explicitly remote within the U.S. and posted within the last 24 hours",
+        "Strong React and TypeScript alignment with accessibility, UX, performance, and component architecture language",
+        "Direct mention of reusable component architecture and design system work",
+        "Compensation is visible"
+      ],
+      "red_flags": [
+        "Mid-level experience band rather than senior",
+        "Flutter and marketing-support work dilute the frontend product focus slightly"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": true,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": true,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": false,
+        "product_facing": true,
+        "platform_or_design_systems": true,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 65000,
+        "salary_max": 70000,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 4,
+        "best_for": [
+          "design systems adjacent work",
+          "react and typescript ui delivery",
+          "accessibility and ux craft"
+        ]
+      }
+    },
+    {
+      "id": "meds-com__front-end-developer__2026-04-06",
+      "dedupe_key": "meds-com__front-end-developer__us-remote",
+      "bucket": "STRONG_MAYBE",
+      "company": "Meds.com",
+      "normalized_company": "meds-com",
+      "job_title": "Front-End Developer",
+      "normalized_job_title": "front end developer",
+      "location": "United States",
+      "remote_status": "US_REMOTE",
+      "posting_date": null,
+      "found_date": "2026-04-06",
+      "source_type": "AGGREGATOR",
+      "source_name": "LinkedIn",
+      "job_url": "https://www.linkedin.com/jobs/view/4346084680/",
+      "fit_score": 6,
+      "confidence": "HIGH",
+      "match_reasons": [
+        "Fresh U.S. role with strong UI and UX language",
+        "TypeScript and high-traffic consumer web product exposure are relevant",
+        "Product-facing healthcare platform scope could be practical application value"
+      ],
+      "red_flags": [
+        "Experience band is 0-3 years, well below senior target",
+        "Angular appears to be the primary frontend framework rather than React or Next.js",
+        "On-site final interview language mentions Austin or Chicago offices, though the role is listed as United States"
+      ],
+      "skills_alignment": {
+        "react": false,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": false
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": false,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 0,
+        "salary_max": 0,
+        "currency": null,
+        "comp_visible": false
+      },
+      "application_metadata": {
+        "priority_rank": 5,
+        "best_for": [
+          "consumer product ui",
+          "typescript frontend delivery",
+          "high-traffic web experiences"
+        ]
+      }
+    }
+  ],
+  "excluded_jobs": [
+    {
+      "id": "umatr__senior-frontend-engineer-react-typescript-next-js__2026-04-06",
+      "dedupe_key": "umatr__senior-frontend-engineer-react-typescript-next-js__new-york",
+      "company": "UMATR",
+      "job_title": "Senior Frontend Engineer (React, Typescript, Next.js)",
+      "location": "New York, United States",
+      "job_url": "https://www.linkedin.com/jobs/view/senior-frontend-engineer-react-typescript-next-js-at-umatr-4356162360",
+      "rejection_reasons": [
+        "Location is not U.S. remote or Houston metro",
+        "Listing appears tied to New York rather than a qualifying location"
+      ]
+    },
+    {
+      "id": "clickhouse__frontend-engineer-hyperdx__2026-04-06",
+      "dedupe_key": "clickhouse__frontend-engineer-hyperdx__us-remote",
+      "company": "ClickHouse",
+      "job_title": "Frontend Engineer, HyperDX",
+      "location": "Remote, US",
+      "job_url": "https://job-boards.greenhouse.io/clickhouse/jobs/6885806",
+      "rejection_reasons": [
+        "Posting freshness could not be verified within the last 24 hours",
+        "Included as an audit candidate only because role fit was otherwise strong"
+      ]
+    },
+    {
+      "id": "quantaleap__reactjs-developer__2026-04-06",
+      "dedupe_key": "quantaleap__reactjs-developer__us-remote",
+      "company": "Quantaleap",
+      "job_title": "ReactJs Developer",
+      "location": "United States",
+      "job_url": "https://dailyremote.com/remote-job/react-js-developer-4302316",
+      "rejection_reasons": [
+        "Short-term contract-style role rather than a strong direct company opportunity",
+        "Looks closer to staffing or contingent work than the preferred target set"
+      ]
+    },
+    {
+      "id": "bluechew__front-end-developer__2026-04-06",
+      "dedupe_key": "bluechew__front-end-developer__us-remote",
+      "company": "BlueChew",
+      "job_title": "Front-End Developer",
+      "location": "United States",
+      "job_url": "https://www.linkedin.com/jobs/view/front-end-developer-at-bluechew-4346036968",
+      "rejection_reasons": [
+        "Duplicate-brand version of the same underlying Meds.com role",
+        "Lower-seniority fit made it less useful than keeping the fuller Meds.com listing"
+      ]
+    },
+    {
+      "id": "walmart__senior-software-engineer-front-end-javascript-react__2026-04-06",
+      "dedupe_key": "walmart__senior-software-engineer-front-end-javascript-react__remote-or-sunnyvale",
+      "company": "Walmart",
+      "job_title": "Senior, Software Engineer, Frontend / ReactJS / Node / GQL",
+      "location": "Remote or Sunnyvale, California",
+      "job_url": "https://careers.walmart.com/us/en/jobs/R-2415779",
+      "rejection_reasons": [
+        "Primary direct employer listing surfaced as Sunnyvale-based rather than explicitly U.S. remote",
+        "Remote eligibility could not be confirmed cleanly enough from the employer source"
+      ]
+    }
+  ],
+  "summary": {
+    "best_overall": {
+      "job_id": "workboard__sr-frontend-engineer__2026-04-06",
+      "company": "WorkBoard",
+      "job_title": "Sr. Frontend Engineer",
+      "job_url": "https://job-boards.greenhouse.io/workboard/jobs/8462238002"
+    },
+    "best_react_nextjs_fit": {
+      "job_id": "wayflyer__frontend-engineer-react-typescript__2026-04-06",
+      "company": "Wayflyer",
+      "job_title": "Frontend Engineer (React, TypeScript)",
+      "job_url": "https://www.linkedin.com/jobs/view/frontend-engineer-react-typescript-at-wayflyler-4343284090"
+    },
+    "best_design_systems_fit": {
+      "job_id": "eventeny__front-end-developer__2026-04-06",
+      "company": "Eventeny",
+      "job_title": "Front End Developer",
+      "job_url": "https://dailyremote.com/remote-job/front-end-developer-4548111"
+    },
+    "best_comp_visible_role": {
+      "job_id": "workboard__sr-frontend-engineer__2026-04-06",
+      "company": "WorkBoard",
+      "job_title": "Sr. Frontend Engineer",
+      "job_url": "https://job-boards.greenhouse.io/workboard/jobs/8462238002"
+    },
+    "market_notes": [
+      "The last-24-hours window produced a thin set of strong senior frontend matches once U.S.-remote-or-Houston-only filtering was enforced.",
+      "Several strong-fit roles were excluded because freshness or location could not be confirmed cleanly enough from employer sources.",
+      "Recent qualifying postings skewed toward mid-level frontend execution rather than staff-level frontend platform or design-systems roles."
+    ]
+  }
+}

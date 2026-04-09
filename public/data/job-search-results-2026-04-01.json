@@ -1,0 +1,671 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-04-01T08:18:04.9337433-05:00",
+  "meta": {
+    "run_date": "2026-04-01",
+    "target_locations": [
+      "US_REMOTE",
+      "HOUSTON_TX_METRO"
+    ],
+    "date_window": {
+      "from": "2026-03-31",
+      "to": "2026-04-01"
+    },
+    "candidate_profile_summary": "Senior frontend and senior software engineer focused on React, Next.js, TypeScript, UI engineering, design systems, frontend platform work, polished UX, accessibility, performance, and product-facing web applications.",
+    "source_preference": [
+      "DIRECT_COMPANY",
+      "AGGREGATOR",
+      "RECRUITER"
+    ]
+  },
+  "stats": {
+    "jobs_considered": 15,
+    "jobs_included": 9,
+    "jobs_excluded": 6,
+    "top_matches_count": 6,
+    "strong_maybes_count": 3
+  },
+  "jobs": [
+    {
+      "id": "postscript-senior-frontend-engineer-2026-04-01",
+      "dedupe_key": "postscript|senior_frontend_engineer|2026-04-01|us_remote",
+      "bucket": "TOP_MATCH",
+      "company": "Postscript",
+      "normalized_company": "postscript",
+      "job_title": "Senior Frontend Engineer",
+      "normalized_job_title": "senior_frontend_engineer",
+      "location": "Remote, United States",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-04-01",
+      "found_date": "2026-04-01",
+      "source_type": "AGGREGATOR",
+      "source_name": "Remote Rocketship",
+      "job_url": "https://www.remoterocketship.com/us/company/postscript/jobs/senior-frontend-engineer-united-states-remote/",
+      "fit_score": 10,
+      "confidence": "MEDIUM",
+      "match_reasons": [
+        "Clear senior frontend role centered on React and TypeScript",
+        "Shared infrastructure, component libraries, accessibility, and performance work align tightly with UI platform strengths",
+        "Product-facing ecommerce SaaS scope fits polished UX and cross-functional frontend ownership",
+        "Visible compensation is strong"
+      ],
+      "red_flags": [
+        "Accessible source was an aggregator page rather than the native ATS page",
+        "Posting freshness was verified as same-day but not with an exact employer timestamp"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": true,
+        "ui_engineering": true,
+        "frontend_platform": true,
+        "graphql": false,
+        "accessibility": true,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": false,
+        "product_facing": true,
+        "platform_or_design_systems": true,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 172000,
+        "salary_max": 203000,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 1,
+        "best_for": [
+          "React and TypeScript depth",
+          "Design systems and shared frontend patterns",
+          "Polished product UI ownership"
+        ]
+      }
+    },
+    {
+      "id": "reddit-senior-web-engineer-ui-platform-2026-04-01",
+      "dedupe_key": "reddit|senior_web_engineer_ui_platform|2026-04-01|us_remote",
+      "bucket": "TOP_MATCH",
+      "company": "Reddit, Inc.",
+      "normalized_company": "reddit",
+      "job_title": "Senior Web Engineer, UI Platform",
+      "normalized_job_title": "senior_web_engineer_ui_platform",
+      "location": "Remote, United States",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-04-01",
+      "found_date": "2026-04-01",
+      "source_type": "AGGREGATOR",
+      "source_name": "Remote Rocketship",
+      "job_url": "https://www.remoterocketship.com/company/reddit-inc/jobs/senior-web-engineer-ui-platform-united-states-remote",
+      "fit_score": 9,
+      "confidence": "MEDIUM",
+      "match_reasons": [
+        "UI platform title strongly implies shared frontend architecture ownership",
+        "React and TypeScript alignment plus large-scale consumer web performance relevance",
+        "Senior level and visible compensation fit the target profile well",
+        "Fresh same-day posting"
+      ],
+      "red_flags": [
+        "Accessible source was an aggregator page rather than Reddit's native careers page",
+        "Snippet does not expose detailed responsibility text beyond stack and title"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": true,
+        "graphql": false,
+        "accessibility": false,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": true,
+        "product_facing": true,
+        "platform_or_design_systems": true,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 190800,
+        "salary_max": 267100,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 2,
+        "best_for": [
+          "Frontend platform work",
+          "High-scale consumer UI",
+          "Performance-sensitive interfaces"
+        ]
+      }
+    },
+    {
+      "id": "utility-inc-senior-frontend-engineer-react-2026-04-01",
+      "dedupe_key": "utility_inc|senior_frontend_engineer_react|2026-04-01|us_remote",
+      "bucket": "TOP_MATCH",
+      "company": "Utility, Inc.",
+      "normalized_company": "utility_inc",
+      "job_title": "Senior Frontend Engineer, React",
+      "normalized_job_title": "senior_frontend_engineer_react",
+      "location": "Remote, United States",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-04-01",
+      "found_date": "2026-04-01",
+      "source_type": "AGGREGATOR",
+      "source_name": "Remote Rocketship",
+      "job_url": "https://www.remoterocketship.com/company/utility/jobs/senior-frontend-engineer-react-united-states-remote",
+      "fit_score": 9,
+      "confidence": "MEDIUM",
+      "match_reasons": [
+        "Explicit senior React role with end-to-end app architecture ownership",
+        "Strong frontend leadership and scalable product UI emphasis",
+        "Same-day posting in U.S. remote scope",
+        "Directly relevant to large React application architecture"
+      ],
+      "red_flags": [
+        "No salary surfaced in the accessible listing",
+        "Role references leadership and mentoring heavily, which may bring more coordination overhead than pure IC execution"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": false,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 0,
+        "salary_max": 0,
+        "currency": null,
+        "comp_visible": false
+      },
+      "application_metadata": {
+        "priority_rank": 3,
+        "best_for": [
+          "React architecture ownership",
+          "Senior IC frontend leadership",
+          "Greenfield or major app builds"
+        ]
+      }
+    },    {
+      "id": "files-com-front-end-engineer-2026-04-01",
+      "dedupe_key": "files_com|front_end_engineer|2026-04-01|us_remote",
+      "bucket": "TOP_MATCH",
+      "company": "Files.com",
+      "normalized_company": "files_com",
+      "job_title": "Front End Engineer",
+      "normalized_job_title": "front_end_engineer",
+      "location": "Remote, United States",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-04-01",
+      "found_date": "2026-04-01",
+      "source_type": "AGGREGATOR",
+      "source_name": "Remote Rocketship",
+      "job_url": "https://www.remoterocketship.com/company/files-com/jobs/front-end-engineer-united-states-remote/",
+      "fit_score": 8,
+      "confidence": "MEDIUM",
+      "match_reasons": [
+        "Direct frontend title with React and TypeScript",
+        "Security and workflow product suggests complex user-facing interfaces",
+        "Visible compensation is strong and broad",
+        "Same-day U.S.-remote listing"
+      ],
+      "red_flags": [
+        "Title is not explicitly senior even though the source categorizes it in a senior band",
+        "Accessible details are thinner than the best listings"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": true,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 110000,
+        "salary_max": 250000,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 4,
+        "best_for": [
+          "React and TypeScript frontend delivery",
+          "Workflow-heavy SaaS UI",
+          "Compensation-visible remote roles"
+        ]
+      }
+    },
+    {
+      "id": "northbeam-senior-fullstack-engineer-typescript-2026-04-01",
+      "dedupe_key": "northbeam|senior_fullstack_engineer_typescript|2026-04-01|us_remote",
+      "bucket": "TOP_MATCH",
+      "company": "Northbeam",
+      "normalized_company": "northbeam",
+      "job_title": "Senior Fullstack Engineer, TypeScript",
+      "normalized_job_title": "senior_fullstack_engineer_typescript",
+      "location": "Remote, United States",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-04-01",
+      "found_date": "2026-04-01",
+      "source_type": "AGGREGATOR",
+      "source_name": "Remote Rocketship",
+      "job_url": "https://www.remoterocketship.com/company/northbeam/jobs/senior-fullstack-engineer-typescript-united-states-remote",
+      "fit_score": 8,
+      "confidence": "MEDIUM",
+      "match_reasons": [
+        "TypeScript, React, and GraphQL map well to the profile",
+        "Marketing intelligence product suggests data-heavy UI and product-facing work",
+        "Visible compensation is strong",
+        "Source categorizes it in a frontend-leaning band despite full-stack title"
+      ],
+      "red_flags": [
+        "Full-stack title means frontend centrality is somewhat inferred",
+        "Accessible listing is aggregator-mediated"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": true,
+        "accessibility": false,
+        "performance": false
+      },
+      "role_signals": {
+        "frontend_first": false,
+        "data_heavy_ui": true,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 170000,
+        "salary_max": 200000,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 5,
+        "best_for": [
+          "TypeScript-heavy product engineering",
+          "Analytics and data-rich UI",
+          "Senior startup ownership"
+        ]
+      }
+    },
+    {
+      "id": "cacheflow-senior-frontend-full-stack-engineer-2026-04-01",
+      "dedupe_key": "cacheflow|senior_frontend_full_stack_engineer|2026-04-01|us_remote",
+      "bucket": "TOP_MATCH",
+      "company": "Cacheflow",
+      "normalized_company": "cacheflow",
+      "job_title": "Senior Frontend/Full Stack Engineer",
+      "normalized_job_title": "senior_frontend_full_stack_engineer",
+      "location": "Remote, United States",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-04-01",
+      "found_date": "2026-04-01",
+      "source_type": "AGGREGATOR",
+      "source_name": "Remote Rocketship",
+      "job_url": "https://www.remoterocketship.com/us/company/getcacheflow/jobs/senior-frontend-full-stack-engineer-united-states-remote/",
+      "fit_score": 8,
+      "confidence": "MEDIUM",
+      "match_reasons": [
+        "Frontend-leaning senior title with React and TypeScript",
+        "Product ownership and architecture scope at an early-stage company",
+        "Same-day posting and U.S.-remote fit",
+        "Clear product engineering relevance"
+      ],
+      "red_flags": [
+        "Backend expectations are meaningful, so the role is not purely frontend-first",
+        "No compensation was visible in the accessible listing"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": false
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": false,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 0,
+        "salary_max": 0,
+        "currency": null,
+        "comp_visible": false
+      },
+      "application_metadata": {
+        "priority_rank": 6,
+        "best_for": [
+          "Startup product ownership",
+          "React and TypeScript breadth",
+          "Fast-moving frontend-heavy execution"
+        ]
+      }
+    },    {
+      "id": "anlatan-frontend-developer-aetherroom-2026-04-01",
+      "dedupe_key": "anlatan|frontend_developer_aetherroom|2026-04-01|us_remote",
+      "bucket": "STRONG_MAYBE",
+      "company": "Anlatan",
+      "normalized_company": "anlatan",
+      "job_title": "Frontend Developer [AetherRoom]",
+      "normalized_job_title": "frontend_developer_aetherroom",
+      "location": "Remote, United States",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-04-01",
+      "found_date": "2026-04-01",
+      "source_type": "DIRECT_COMPANY",
+      "source_name": "Lever",
+      "job_url": "https://jobs.lever.co/Anlatan/b6f4e48b-7453-4eb1-9db4-d98bd41f7c56",
+      "fit_score": 8,
+      "confidence": "HIGH",
+      "match_reasons": [
+        "Direct ATS listing with React, Next.js, React Native, and TypeScript",
+        "Cross-platform frontend scope with real product-building ownership",
+        "Fresh same-day posting",
+        "Strong UI engineering overlap even though mobile is part of the stack"
+      ],
+      "red_flags": [
+        "Title is not explicitly senior",
+        "React Native is a meaningful part of the role, so it is not purely web-first"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": true,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": false
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": false,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 0,
+        "salary_max": 0,
+        "currency": null,
+        "comp_visible": false
+      },
+      "application_metadata": {
+        "priority_rank": 7,
+        "best_for": [
+          "React and Next.js fit",
+          "Cross-platform product UI",
+          "Direct ATS applications"
+        ]
+      }
+    },
+    {
+      "id": "vianai-frontend-developer-2026-04-01",
+      "dedupe_key": "vianai|frontend_developer|2026-04-01|us_remote",
+      "bucket": "STRONG_MAYBE",
+      "company": "Vianai Systems",
+      "normalized_company": "vianai_systems",
+      "job_title": "Frontend Developer",
+      "normalized_job_title": "frontend_developer",
+      "location": "Remote, United States",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-04-01",
+      "found_date": "2026-04-01",
+      "source_type": "DIRECT_COMPANY",
+      "source_name": "Breezy HR",
+      "job_url": "https://vianai-systems.breezy.hr/p/ee5bc84426de-frontend-developer",
+      "fit_score": 7,
+      "confidence": "MEDIUM",
+      "match_reasons": [
+        "Direct ATS listing focused on building complex enterprise interfaces from the ground up",
+        "Human-centered AI product work implies rich UI and data-heavy interface problems",
+        "Visible compensation and fresh same-day remote surfacing",
+        "React is explicitly called out"
+      ],
+      "red_flags": [
+        "Direct ATS page shows a Palo Alto location with remote-any labeling artifacts, so U.S.-remote scope is inferred from the discovery source",
+        "Experience band skews a bit lower than the target senior profile",
+        "TypeScript was not explicitly stated on the ATS page"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": false,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": false
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": true,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 110000,
+        "salary_max": 160000,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 8,
+        "best_for": [
+          "Enterprise AI interfaces",
+          "Data visualization and complex UI",
+          "Direct ATS with visible compensation"
+        ]
+      }
+    },
+    {
+      "id": "customer-io-senior-software-engineer-frontend-2026-04-01",
+      "dedupe_key": "customer_io|senior_software_engineer_frontend|2026-04-01|us_remote",
+      "bucket": "STRONG_MAYBE",
+      "company": "Customer.io",
+      "normalized_company": "customer_io",
+      "job_title": "Senior Software Engineer, Frontend",
+      "normalized_job_title": "senior_software_engineer_frontend",
+      "location": "Remote, United States",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-04-01",
+      "found_date": "2026-04-01",
+      "source_type": "AGGREGATOR",
+      "source_name": "Remote Rocketship",
+      "job_url": "https://www.remoterocketship.com/company/customer-io/jobs/senior-software-engineer-frontend-united-states-remote/",
+      "fit_score": 7,
+      "confidence": "MEDIUM",
+      "match_reasons": [
+        "Explicit senior frontend title with visible compensation",
+        "U.S.-remote same-day listing",
+        "Customer engagement product suggests product-facing UI work"
+      ],
+      "red_flags": [
+        "Source emphasizes Ember alongside React, which weakens React-first alignment",
+        "Accessible listing is aggregator-mediated with limited detail"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": false,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": false
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": false,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 150000,
+        "salary_max": 200000,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 9,
+        "best_for": [
+          "Senior frontend ownership",
+          "Compensation-visible remote role",
+          "Messaging and customer experience products"
+        ]
+      }
+    }
+  ],
+  "excluded_jobs": [    {
+      "id": "higher-logic-senior-front-end-software-engineer-react",
+      "dedupe_key": "higher_logic|senior_front_end_software_engineer_react|2026-03-29|us_remote",
+      "company": "Higher Logic",
+      "job_title": "Senior Front-End Software Engineer, React",
+      "location": "Remote, United States",
+      "job_url": "https://www.remoterocketship.com/us/company/higher-logic/jobs/senior-front-end-software-engineer-react-united-states-remote/",
+      "rejection_reasons": [
+        "Accessible listing showed it was posted 3 days ago, outside the last-24-hours window"
+      ]
+    },
+    {
+      "id": "new-relic-growth-web-engineer",
+      "dedupe_key": "new_relic|growth_web_engineer|2026-03-29|multi_city",
+      "company": "New Relic",
+      "job_title": "Growth Web Engineer",
+      "location": "Arlington, Virginia; Atlanta, Georgia; Austin, Texas; Chicago, Illinois; Hartford, Connecticut; Jersey City, New Jersey; Raleigh, North Carolina",
+      "job_url": "https://job-boards.greenhouse.io/newrelic/jobs/5153292008",
+      "rejection_reasons": [
+        "Accessible direct listing showed it was posted 3 days ago, outside the last-24-hours window",
+        "Role is web-growth and Drupal-heavy rather than a stronger React or Next.js fit"
+      ]
+    },
+    {
+      "id": "halliburton-senior-developer-advocate",
+      "dedupe_key": "halliburton|senior_developer_advocate|2026-03-31|houston_onsite",
+      "company": "Halliburton",
+      "job_title": "Senior Developer Advocate",
+      "location": "Houston, Texas",
+      "job_url": "https://careers.halliburton.com/job/houston/senior-developer-advocate/543/93434826576",
+      "rejection_reasons": [
+        "Houston location fit is acceptable, but the role is developer advocacy rather than frontend-first product engineering",
+        "Compensation was not visible and the scope appears devrel-oriented"
+      ]
+    },
+    {
+      "id": "tpd-frontend-developer",
+      "dedupe_key": "tpd|frontend_developer|2026-04-01|us_remote",
+      "company": "TPD",
+      "job_title": "Frontend Developer",
+      "location": "Remote, United States",
+      "job_url": "https://www.remoterocketship.com/us/company/trafficpd/jobs/frontend-developer-united-states-remote/",
+      "rejection_reasons": [
+        "Role is WordPress and digital-marketing oriented rather than the target React, Next.js, and UI-platform profile",
+        "Frontend centrality is present but the stack fit is weak"
+      ]
+    },
+    {
+      "id": "files-com-saas-product-designer-visual-design-frontend",
+      "dedupe_key": "files_com|saas_product_designer_visual_design_frontend|2026-04-01|us_remote",
+      "company": "Files.com",
+      "job_title": "SaaS Product Designer, Visual Design, Frontend",
+      "location": "Remote, United States",
+      "job_url": "https://www.remoterocketship.com/company/files-com/jobs/saas-product-designer-visual-design-frontend-united-states-remote/",
+      "rejection_reasons": [
+        "Design role rather than software engineering role",
+        "Not a match for the user's target engineering search"
+      ]
+    },
+    {
+      "id": "tennr-senior-frontend-engineer",
+      "dedupe_key": "tennr|senior_frontend_engineer|2026-04-01|nyc",
+      "company": "tennr",
+      "job_title": "Senior Frontend Engineer",
+      "location": "New York City",
+      "job_url": "https://wellfound.com/jobs/3316352-senior-frontend-engineer",
+      "rejection_reasons": [
+        "Not remote in the United States and not Houston metro",
+        "Location rule disqualifies the role despite strong stack fit"
+      ]
+    }
+  ],
+  "summary": {
+    "best_overall": {
+      "job_id": "postscript-senior-frontend-engineer-2026-04-01",
+      "company": "Postscript",
+      "job_title": "Senior Frontend Engineer",
+      "job_url": "https://www.remoterocketship.com/us/company/postscript/jobs/senior-frontend-engineer-united-states-remote/"
+    },
+    "best_react_nextjs_fit": {
+      "job_id": "anlatan-frontend-developer-aetherroom-2026-04-01",
+      "company": "Anlatan",
+      "job_title": "Frontend Developer [AetherRoom]",
+      "job_url": "https://jobs.lever.co/Anlatan/b6f4e48b-7453-4eb1-9db4-d98bd41f7c56"
+    },    "best_design_systems_fit": {
+      "job_id": "postscript-senior-frontend-engineer-2026-04-01",
+      "company": "Postscript",
+      "job_title": "Senior Frontend Engineer",
+      "job_url": "https://www.remoterocketship.com/us/company/postscript/jobs/senior-frontend-engineer-united-states-remote/"
+    },
+    "best_comp_visible_role": {
+      "job_id": "reddit-senior-web-engineer-ui-platform-2026-04-01",
+      "company": "Reddit, Inc.",
+      "job_title": "Senior Web Engineer, UI Platform",
+      "job_url": "https://www.remoterocketship.com/company/reddit-inc/jobs/senior-web-engineer-ui-platform-united-states-remote"
+    },
+    "market_notes": [
+      "Fresh frontend openings inside the last 24 hours were concentrated in U.S.-remote roles; Houston-metro matches remained weak.",
+      "Remote Rocketship surfaced most of the truly fresh matches today, but several were only accessible as aggregator pages rather than direct ATS pages.",
+      "The strongest cluster today was React and TypeScript-heavy senior frontend work with product ownership and some platform or shared-UI emphasis.",
+      "Several otherwise relevant roles were excluded for being just outside the 24-hour window or for weak stack alignment such as WordPress, Ember-heavy, or Drupal-heavy work."
+    ]
+  }
+}

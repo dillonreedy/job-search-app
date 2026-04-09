@@ -1,0 +1,491 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-04-08T08:00:47.1096856-05:00",
+  "meta": {
+    "run_date": "2026-04-08",
+    "target_locations": [
+      "US_REMOTE",
+      "HOUSTON_TX_METRO"
+    ],
+    "date_window": {
+      "from": "2026-04-07",
+      "to": "2026-04-08"
+    },
+    "candidate_profile_summary": "Senior frontend-leaning software engineer focused on React, Next.js, TypeScript, UI engineering, design systems, frontend platform work, accessibility, performance, and product-facing data-heavy interfaces.",
+    "source_preference": [
+      "DIRECT_COMPANY",
+      "AGGREGATOR",
+      "RECRUITER"
+    ]
+  },
+  "stats": {
+    "jobs_considered": 12,
+    "jobs_included": 6,
+    "jobs_excluded": 6,
+    "top_matches_count": 5,
+    "strong_maybes_count": 1
+  },
+  "jobs": [
+    {
+      "id": "luxury-presence__staff-frontend-engineer-us-remote__2026-04-08",
+      "dedupe_key": "luxury-presence__staff-frontend-engineer__us-remote",
+      "bucket": "TOP_MATCH",
+      "company": "Luxury Presence",
+      "normalized_company": "luxury-presence",
+      "job_title": "Staff Frontend Engineer - US (Remote)",
+      "normalized_job_title": "staff frontend engineer",
+      "location": "United States",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-04-08",
+      "found_date": "2026-04-08",
+      "source_type": "DIRECT_COMPANY",
+      "source_name": "Luxury Presence Lever",
+      "job_url": "https://jobs.lever.co/luxurypresence/b31bf523-2917-4422-b74f-33c87528c7c9",
+      "fit_score": 10,
+      "confidence": "HIGH",
+      "match_reasons": [
+        "Direct company posting with a same-day posting signal on April 8, 2026",
+        "Role is explicitly frontend-platform and design-systems heavy",
+        "React and TypeScript are core requirements, with micro-frontends and component architecture called out",
+        "Strong alignment with accessibility, performance, UI engineering, and cross-functional product work"
+      ],
+      "red_flags": [
+        "Compensation surfaced only as an estimate in a secondary source rather than a confirmed employer range"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": true,
+        "ui_engineering": true,
+        "frontend_platform": true,
+        "graphql": true,
+        "accessibility": true,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": true,
+        "product_facing": true,
+        "platform_or_design_systems": true,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 0,
+        "salary_max": 0,
+        "currency": null,
+        "comp_visible": false
+      },
+      "application_metadata": {
+        "priority_rank": 1,
+        "best_for": [
+          "design systems leadership",
+          "frontend platform architecture",
+          "react typescript staff-level ownership"
+        ]
+      }
+    },
+    {
+      "id": "binance-us__lead-software-engineer-frontend-web__2026-04-08",
+      "dedupe_key": "binance-us__lead-software-engineer-frontend-web__us-remote",
+      "bucket": "TOP_MATCH",
+      "company": "Binance.US",
+      "normalized_company": "binance-us",
+      "job_title": "Lead Software Engineer, Frontend (Web)",
+      "normalized_job_title": "lead software engineer frontend web",
+      "location": "USA",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-04-08",
+      "found_date": "2026-04-08",
+      "source_type": "AGGREGATOR",
+      "source_name": "Remotive",
+      "job_url": "https://remotive.com/remote/jobs/software-development/lead-software-engineer-frontend-web-4283735",
+      "fit_score": 10,
+      "confidence": "HIGH",
+      "match_reasons": [
+        "Freshness was explicitly shown as posted today on April 8, 2026",
+        "Next.js, React, and TypeScript are all explicitly required",
+        "Role centers on scalable frontend architecture, reusable UI components, accessibility, and performance",
+        "Salary is visible and the remote scope is USA-only"
+      ],
+      "red_flags": [
+        "Reviewed source was an aggregator rather than a direct employer page",
+        "Fintech and crypto domain may be less attractive if domain preference is conservative"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": true,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": true,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": false,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 200000,
+        "salary_max": 220000,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 2,
+        "best_for": [
+          "nextjs react typescript fit",
+          "performance-heavy web engineering",
+          "comp-visible remote role"
+        ]
+      }
+    },
+    {
+      "id": "reddit__senior-frontend-software-engineer-home-experience__2026-04-07",
+      "dedupe_key": "reddit__senior-frontend-software-engineer-home-experience__us-remote",
+      "bucket": "TOP_MATCH",
+      "company": "Reddit",
+      "normalized_company": "reddit",
+      "job_title": "Senior Frontend Software Engineer, Home Experience",
+      "normalized_job_title": "senior frontend software engineer home experience",
+      "location": "United States - Remote",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-04-07",
+      "found_date": "2026-04-08",
+      "source_type": "AGGREGATOR",
+      "source_name": "Remote Rocketship",
+      "job_url": "https://www.remoterocketship.com/company/reddit-inc/jobs/senior-frontend-software-engineer-home-experience-united-states-remote",
+      "fit_score": 9,
+      "confidence": "HIGH",
+      "match_reasons": [
+        "Freshness was explicitly shown as 13 hours ago, which places the posting in the April 7 to April 8 window",
+        "Frontend-first role on a high-scale product surface with strong UX emphasis",
+        "React, TypeScript, and GraphQL are all present in the surfaced requirements",
+        "Compensation is visible and the role is explicitly remote within the United States"
+      ],
+      "red_flags": [
+        "Reviewed source was an aggregator rather than a job-specific direct Reddit page",
+        "Next.js and design systems were not called out"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": true,
+        "accessibility": false,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": true,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 190800,
+        "salary_max": 267100,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 3,
+        "best_for": [
+          "high-scale consumer web ui",
+          "react graphql product work",
+          "senior frontend delivery"
+        ]
+      }
+    },
+    {
+      "id": "workwhile__staff-software-engineer-frontend__2026-04-08",
+      "dedupe_key": "workwhile__staff-software-engineer-frontend__us-remote",
+      "bucket": "TOP_MATCH",
+      "company": "WorkWhile",
+      "normalized_company": "workwhile",
+      "job_title": "Staff Software Engineer, Frontend",
+      "normalized_job_title": "staff software engineer frontend",
+      "location": "Remote (Canada + United States), company based in San Francisco",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-04-08",
+      "found_date": "2026-04-08",
+      "source_type": "AGGREGATOR",
+      "source_name": "Wellfound",
+      "job_url": "https://wellfound.com/jobs/4068207-staff-software-engineer-frontend",
+      "fit_score": 9,
+      "confidence": "MEDIUM",
+      "match_reasons": [
+        "Wellfound showed the role as posted today with United States remote eligibility",
+        "Clear frontend-first scope with product, design, and engineering leadership partnership",
+        "Strong seniority fit at the staff level with salary visible",
+        "Good alignment for product-facing frontend architecture and mentoring without being a people-manager role"
+      ],
+      "red_flags": [
+        "Freshness relied on Wellfound rather than a direct employer posting",
+        "TypeScript was not explicitly called out in the reviewed snippet"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": false,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": false
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": false,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 220000,
+        "salary_max": 250000,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 4,
+        "best_for": [
+          "staff-level product frontend",
+          "high-comp remote role",
+          "frontend leadership without management"
+        ]
+      }
+    },
+    {
+      "id": "sapience-ai__senior-frontend-engineer-mobile-first-ai-integration__2026-04-08",
+      "dedupe_key": "sapience-ai__senior-frontend-engineer-mobile-first-ai-integration__us-remote",
+      "bucket": "TOP_MATCH",
+      "company": "Sapience AI",
+      "normalized_company": "sapience-ai",
+      "job_title": "Senior Frontend Engineer - Mobile-First AI Integration",
+      "normalized_job_title": "senior frontend engineer mobile first ai integration",
+      "location": "Remote (Canada and United States), company based in Seattle",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-04-08",
+      "found_date": "2026-04-08",
+      "source_type": "AGGREGATOR",
+      "source_name": "Wellfound",
+      "job_url": "https://wellfound.com/jobs/3939352-senior-frontend-engineer-mobile-first-ai-integration",
+      "fit_score": 9,
+      "confidence": "MEDIUM",
+      "match_reasons": [
+        "Wellfound showed the role as posted today with United States remote eligibility",
+        "Very strong React, Next.js, TypeScript, accessibility, and performance alignment",
+        "Role emphasizes polished UX, real-time interfaces, and data visualization",
+        "Compensation is visible and the scope is explicitly frontend-first"
+      ],
+      "red_flags": [
+        "Startup appears very small, which increases execution and company-risk variance",
+        "Freshness relied on Wellfound rather than a direct company posting"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": true,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": true,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": true,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 150000,
+        "salary_max": 180000,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 5,
+        "best_for": [
+          "nextjs ai-native frontend",
+          "performance and ux craft",
+          "small-team ownership"
+        ]
+      }
+    },
+    {
+      "id": "workwhile__senior-software-engineer-frontend__2026-04-08",
+      "dedupe_key": "workwhile__senior-software-engineer-frontend__us-remote",
+      "bucket": "STRONG_MAYBE",
+      "company": "WorkWhile",
+      "normalized_company": "workwhile",
+      "job_title": "Senior Software Engineer, Frontend",
+      "normalized_job_title": "senior software engineer frontend",
+      "location": "Remote (Canada + United States), company based in San Francisco",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-04-08",
+      "found_date": "2026-04-08",
+      "source_type": "AGGREGATOR",
+      "source_name": "Wellfound",
+      "job_url": "https://wellfound.com/jobs/4068201-senior-software-engineer-frontend",
+      "fit_score": 8,
+      "confidence": "MEDIUM",
+      "match_reasons": [
+        "Wellfound showed the role as posted today with United States remote eligibility",
+        "Frontend-first product role with React and explicit focus on performance, accessibility, and maintainability",
+        "Compensation is visible and the company is credible"
+      ],
+      "red_flags": [
+        "TypeScript and Next.js were not explicitly called out in the reviewed snippet",
+        "This is the second frontend opening from the same company, so application sequencing may matter"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": false,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": true,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": false,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 150000,
+        "salary_max": 200000,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 6,
+        "best_for": [
+          "senior product frontend",
+          "react accessibility performance",
+          "mission-driven marketplace product"
+        ]
+      }
+    }
+  ],
+  "excluded_jobs": [
+    {
+      "id": "over99__senior-frontend-engineer-remote__2026-04-08",
+      "dedupe_key": "over99__senior-frontend-engineer__fully-remote",
+      "company": "over99",
+      "job_title": "Senior Frontend Engineer (Remote)",
+      "location": "Fully Remote",
+      "job_url": "https://hiring.over99.com/jobs/7038355-senior-frontend-engineer-remote",
+      "rejection_reasons": [
+        "Direct company page showed the role was published 2 months ago, outside the last-24-hours rule"
+      ]
+    },
+    {
+      "id": "postscript__senior-frontend-engineer__2026-04-08",
+      "dedupe_key": "postscript__senior-frontend-engineer__us-remote",
+      "company": "Postscript",
+      "job_title": "Senior Frontend Engineer",
+      "location": "Remote",
+      "job_url": "https://wellfound.com/jobs/4044788-senior-frontend-engineer",
+      "rejection_reasons": [
+        "Freshness signals conflicted across sources, with other sources showing the same role as 2 days ago, 3 days ago, or older",
+        "Excluded to preserve a strict last-24-hours dataset"
+      ]
+    },
+    {
+      "id": "ravenna-software__senior-frontend-engineer__2026-04-08",
+      "dedupe_key": "ravenna-software__senior-frontend-engineer__us-remote",
+      "company": "Ravenna Software",
+      "job_title": "Senior Frontend Engineer",
+      "location": "Seattle, WA / Remote United States",
+      "job_url": "https://wellfound.com/jobs/3982820-senior-frontend-engineer",
+      "rejection_reasons": [
+        "Wellfound showed posted today, but other current sources showed the same role as 4 to 5 days old",
+        "Excluded because posting freshness could not be confirmed within the last 24 hours"
+      ]
+    },
+    {
+      "id": "clickup__senior-frontend-engineer-performance__2026-04-08",
+      "dedupe_key": "clickup__senior-frontend-engineer-performance__us-remote",
+      "company": "ClickUp",
+      "job_title": "Senior Frontend Engineer, Performance",
+      "location": "United States",
+      "job_url": "https://www.linkedin.com/jobs/view/senior-frontend-engineer-at-clickup-4346020257",
+      "rejection_reasons": [
+        "Current source showed the posting as 1 week old, outside the last-24-hours rule"
+      ]
+    },
+    {
+      "id": "veeva__senior-software-engineer-react-and-typescript__2026-04-08",
+      "dedupe_key": "veeva__senior-software-engineer-react-and-typescript__us-remote",
+      "company": "Veeva",
+      "job_title": "Senior Software Engineer - React and Typescript",
+      "location": "Remote / Madison, WI",
+      "job_url": "https://careers.veeva.com/job/75bce668-2e37-4c78-9a0d-2fc94369f256/senior-software-engineer-react-and-typescript-madison-wi/",
+      "rejection_reasons": [
+        "Direct employer page showed the requisition was published long before the last-24-hours window",
+        "Role also mixes substantial full-stack scope rather than being clearly frontend-first"
+      ]
+    },
+    {
+      "id": "gametime__senior-frontend-engineer-web-first-cross-platform__2026-04-08",
+      "dedupe_key": "gametime__senior-frontend-engineer-web-first-cross-platform__us-remote",
+      "company": "Gametime",
+      "job_title": "Senior Frontend Engineer (Web-first, Cross-Platform)",
+      "location": "US-Anywhere Remote",
+      "job_url": "https://www.theladders.com/job/senior-frontend-engineer-web-first-cross-platform-gametime-united-virtual-travel_86308936",
+      "rejection_reasons": [
+        "Reviewed sources showed the posting as last week or yesterday, not a clean direct same-day or within-24-hours employer signal",
+        "Excluded because freshness confidence was too weak for the strict filter"
+      ]
+    }
+  ],
+  "summary": {
+    "best_overall": {
+      "job_id": "luxury-presence__staff-frontend-engineer-us-remote__2026-04-08",
+      "company": "Luxury Presence",
+      "job_title": "Staff Frontend Engineer - US (Remote)",
+      "job_url": "https://jobs.lever.co/luxurypresence/b31bf523-2917-4422-b74f-33c87528c7c9"
+    },
+    "best_react_nextjs_fit": {
+      "job_id": "binance-us__lead-software-engineer-frontend-web__2026-04-08",
+      "company": "Binance.US",
+      "job_title": "Lead Software Engineer, Frontend (Web)",
+      "job_url": "https://remotive.com/remote/jobs/software-development/lead-software-engineer-frontend-web-4283735"
+    },
+    "best_design_systems_fit": {
+      "job_id": "luxury-presence__staff-frontend-engineer-us-remote__2026-04-08",
+      "company": "Luxury Presence",
+      "job_title": "Staff Frontend Engineer - US (Remote)",
+      "job_url": "https://jobs.lever.co/luxurypresence/b31bf523-2917-4422-b74f-33c87528c7c9"
+    },
+    "best_comp_visible_role": {
+      "job_id": "workwhile__staff-software-engineer-frontend__2026-04-08",
+      "company": "WorkWhile",
+      "job_title": "Staff Software Engineer, Frontend",
+      "job_url": "https://wellfound.com/jobs/4068207-staff-software-engineer-frontend"
+    },
+    "market_notes": [
+      "The strict last-24-hours filter still produced a thin but usable frontend-first slice.",
+      "Direct company postings were scarce today, so several included roles rely on reputable aggregator freshness signals rather than employer-side dates.",
+      "The strongest matches skewed toward React and TypeScript product work, with one standout design-systems role and several high-comp remote opportunities."
+    ]
+  }
+}

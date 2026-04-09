@@ -1,0 +1,660 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-03-31T08:00:48.8888196-05:00",
+  "meta": {
+    "run_date": "2026-03-31",
+    "target_locations": [
+      "US_REMOTE",
+      "HOUSTON_TX_METRO"
+    ],
+    "date_window": {
+      "from": "2026-03-30",
+      "to": "2026-03-31"
+    },
+    "candidate_profile_summary": "Senior frontend and senior software engineer focused on React, Next.js, TypeScript, UI engineering, design systems, frontend platform work, polished UX, accessibility, performance, and product-facing web applications.",
+    "source_preference": [
+      "DIRECT_COMPANY",
+      "AGGREGATOR",
+      "RECRUITER"
+    ]
+  },
+  "stats": {
+    "jobs_considered": 18,
+    "jobs_included": 8,
+    "jobs_excluded": 10,
+    "top_matches_count": 6,
+    "strong_maybes_count": 2
+  },
+  "jobs": [
+    {
+      "id": "reddit-senior-frontend-software-engineer-feeds-experience-2026-03-31",
+      "dedupe_key": "reddit|senior_frontend_software_engineer_feeds_experience|2026-03-31|us_remote",
+      "bucket": "TOP_MATCH",
+      "company": "Reddit",
+      "normalized_company": "reddit",
+      "job_title": "Senior Frontend Software Engineer, Feeds Experience",
+      "normalized_job_title": "senior_frontend_software_engineer_feeds_experience",
+      "location": "Remote, United States",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-03-31",
+      "found_date": "2026-03-31",
+      "source_type": "AGGREGATOR",
+      "source_name": "RemoteYeah",
+      "job_url": "https://remoteyeah.com/remote-javascript-jobs",
+      "fit_score": 10,
+      "confidence": "MEDIUM",
+      "match_reasons": [
+        "Senior frontend title with explicit React and TypeScript match",
+        "Posted about 7 hours ago and marked for United States",
+        "Product-facing feed experience aligns with polished UX and performance work",
+        "Compensation is visible and strong"
+      ],
+      "red_flags": [
+        "Source is a job board index snippet rather than a direct employer page",
+        "Search snippet does not expose deeper role details beyond the tag summary"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": true,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 191000,
+        "salary_max": 267000,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 1,
+        "best_for": [
+          "High-traffic product UI",
+          "React and TypeScript depth",
+          "Performance-sensitive consumer frontend"
+        ]
+      }
+    },
+    {
+      "id": "multi-media-llc-senior-frontend-engineer-video-streaming-2026-03-30",
+      "dedupe_key": "multi_media_llc|senior_frontend_engineer_video_streaming|2026-03-30|us_remote",
+      "bucket": "TOP_MATCH",
+      "company": "Multi Media LLC",
+      "normalized_company": "multi_media_llc",
+      "job_title": "Senior Frontend Engineer (Video Streaming)",
+      "normalized_job_title": "senior_frontend_engineer_video_streaming",
+      "location": "Remote, United States / North America",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-03-30",
+      "found_date": "2026-03-31",
+      "source_type": "AGGREGATOR",
+      "source_name": "RemoteYeah",
+      "job_url": "https://remoteyeah.com/jobs/remote-senior-frontend-engineer-video-streaming-multi-media-llc",
+      "fit_score": 9,
+      "confidence": "HIGH",
+      "match_reasons": [
+        "Explicit senior frontend role with React and TypeScript",
+        "Posted 16 hours ago with United States location requirements",
+        "Performance-sensitive user-facing video product work fits frontend depth",
+        "Visible compensation and full-time remote setup"
+      ],
+      "red_flags": [
+        "Video streaming specialization may narrow domain relevance if not of interest",
+        "Express.js appears in the skill tags, so this is not purely UI-only work"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": false,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 180000,
+        "salary_max": 215000,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 2,
+        "best_for": [
+          "Performance-heavy frontend",
+          "High-scale consumer interfaces",
+          "Senior IC scope"
+        ]
+      }
+    },
+    {
+      "id": "monte-carlo-senior-frontend-engineer-growth-2026-03-31",
+      "dedupe_key": "monte_carlo|senior_frontend_engineer_growth|2026-03-31|us_remote",
+      "bucket": "TOP_MATCH",
+      "company": "Monte Carlo",
+      "normalized_company": "monte_carlo",
+      "job_title": "Senior Frontend Engineer, Growth",
+      "normalized_job_title": "senior_frontend_engineer_growth",
+      "location": "Remote, United States",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-03-31",
+      "found_date": "2026-03-31",
+      "source_type": "AGGREGATOR",
+      "source_name": "Built In",
+      "job_url": "https://builtin.com/job/senior-frontend-engineer-growth/7283363",
+      "fit_score": 9,
+      "confidence": "MEDIUM",
+      "match_reasons": [
+        "Posted about 4 hours ago and marked hiring remotely in the US",
+        "Strong React and TypeScript alignment with product-minded frontend ownership",
+        "Growth experimentation work implies product-facing UX and data-driven UI",
+        "Compensation visibility is strong"
+      ],
+      "red_flags": [
+        "Built In summary page was used because direct employer fetch was blocked",
+        "Growth focus can skew toward experimentation over platform or design-systems depth"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": true,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 180000,
+        "salary_max": 230000,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 3,
+        "best_for": [
+          "React and TypeScript product engineering",
+          "Experimentation-heavy frontend",
+          "Senior IC impact"
+        ]
+      }
+    },
+    {
+      "id": "workboard-sr-frontend-engineer-2026-03-30",
+      "dedupe_key": "workboard|sr_frontend_engineer|2026-03-30|us_remote",
+      "bucket": "TOP_MATCH",
+      "company": "WorkBoard",
+      "normalized_company": "workboard",
+      "job_title": "Sr. Frontend Engineer",
+      "normalized_job_title": "sr_frontend_engineer",
+      "location": "Remote, United States",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-03-30",
+      "found_date": "2026-03-31",
+      "source_type": "AGGREGATOR",
+      "source_name": "Built In",
+      "job_url": "https://builtin.com/job/sr-frontend-engineer/8755998",
+      "fit_score": 8,
+      "confidence": "MEDIUM",
+      "match_reasons": [
+        "Posted yesterday and explicitly remote in the United States",
+        "Senior frontend title with leadership and UI quality emphasis",
+        "Compensation is visible",
+        "Platform appears product-facing with analytics and execution workflows"
+      ],
+      "red_flags": [
+        "Built In summary page does not expose the full original requisition",
+        "Search summary suggests AI-tooling emphasis but limited frontend stack detail"
+      ],
+      "skills_alignment": {
+        "react": false,
+        "nextjs": false,
+        "typescript": false,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": false
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": true,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 170000,
+        "salary_max": 170000,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 4,
+        "best_for": [
+          "Senior frontend ownership",
+          "B2B product UI",
+          "Visible comp and U.S. remote fit"
+        ]
+      }
+    },
+    {
+      "id": "callibrity-lead-front-end-software-engineer-2026-03-30",
+      "dedupe_key": "callibrity|lead_front_end_software_engineer|2026-03-30|us_remote",
+      "bucket": "TOP_MATCH",
+      "company": "Callibrity",
+      "normalized_company": "callibrity",
+      "job_title": "Lead Front End Software Engineer",
+      "normalized_job_title": "lead_front_end_software_engineer",
+      "location": "Remote, United States",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-03-30",
+      "found_date": "2026-03-31",
+      "source_type": "AGGREGATOR",
+      "source_name": "RemoteYeah",
+      "job_url": "https://remoteyeah.com/jobs/remote-senior-frontend-engineer-video-streaming-multi-media-llc",
+      "fit_score": 8,
+      "confidence": "MEDIUM",
+      "match_reasons": [
+        "Related listing snippet shows posted 22 hours ago with United States eligibility",
+        "Lead frontend title with React and TypeScript tags",
+        "Looks aligned to senior/staff-level ownership more than junior execution"
+      ],
+      "red_flags": [
+        "Only related-job snippet was accessible, not the full role page",
+        "Stack tags include substantial cross-stack/cloud signals, so frontend-centrality is somewhat inferred"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": false
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": false,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 0,
+        "salary_max": 0,
+        "currency": null,
+        "comp_visible": false
+      },
+      "application_metadata": {
+        "priority_rank": 5,
+        "best_for": [
+          "Lead-level frontend ownership",
+          "React and TypeScript",
+          "Remote U.S. option"
+        ]
+      }
+    },
+    {
+      "id": "scribd-senior-frontend-engineer-growth-2026-03-30",
+      "dedupe_key": "scribd|senior_frontend_engineer_growth|2026-03-30|us_remote",
+      "bucket": "TOP_MATCH",
+      "company": "Scribd, Inc.",
+      "normalized_company": "scribd",
+      "job_title": "Senior Frontend Engineer, Growth",
+      "normalized_job_title": "senior_frontend_engineer_growth",
+      "location": "Remote, United States",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-03-30",
+      "found_date": "2026-03-31",
+      "source_type": "AGGREGATOR",
+      "source_name": "RemoteYeah",
+      "job_url": "https://remoteyeah.com/jobs/remote-senior-frontend-engineer-video-streaming-multi-media-llc",
+      "fit_score": 8,
+      "confidence": "MEDIUM",
+      "match_reasons": [
+        "Related listing snippet shows about 1 day old with U.S. eligibility",
+        "Senior frontend growth title with React, Next.js, and TypeScript tags",
+        "Consumer product growth work is likely product-facing and experiment-heavy",
+        "Visible compensation range"
+      ],
+      "red_flags": [
+        "Full role page did not resolve from the snippet path",
+        "Location snippet also listed Canada and Mexico, so U.S. remote is one of several geographies"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": true,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": true,
+        "accessibility": false,
+        "performance": false
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": true,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 146000,
+        "salary_max": 228000,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 6,
+        "best_for": [
+          "React and Next.js fit",
+          "Growth engineering",
+          "Consumer product frontend"
+        ]
+      }
+    },
+    {
+      "id": "qode-react-developer-2026-03-31",
+      "dedupe_key": "qode|react_developer|2026-03-31|us_remote",
+      "bucket": "STRONG_MAYBE",
+      "company": "Qode",
+      "normalized_company": "qode",
+      "job_title": "React Developer",
+      "normalized_job_title": "react_developer",
+      "location": "Remote, United States",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-03-31",
+      "found_date": "2026-03-31",
+      "source_type": "AGGREGATOR",
+      "source_name": "RemoteYeah",
+      "job_url": "https://remoteyeah.com/jobs/remote-senior-frontend-engineer-video-streaming-multi-media-llc",
+      "fit_score": 7,
+      "confidence": "MEDIUM",
+      "match_reasons": [
+        "Very fresh related listing snippet marked just now with United States location",
+        "Direct React and TypeScript alignment",
+        "Includes GraphQL, micro-frontends, and modern frontend tooling"
+      ],
+      "red_flags": [
+        "Title is not explicitly senior",
+        "Only related-job snippet was accessible, not the full listing",
+        "No compensation data in the accessible snippet"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": true,
+        "graphql": true,
+        "accessibility": false,
+        "performance": false
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": false,
+        "product_facing": true,
+        "platform_or_design_systems": true,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 0,
+        "salary_max": 0,
+        "currency": null,
+        "comp_visible": false
+      },
+      "application_metadata": {
+        "priority_rank": 7,
+        "best_for": [
+          "Fresh React opening",
+          "Micro-frontend exposure",
+          "Fast-moving application target"
+        ]
+      }
+    },
+    {
+      "id": "code-metal-principal-frontend-engineer-2026-03-30",
+      "dedupe_key": "code_metal|principal_frontend_engineer|2026-03-30|us_remote",
+      "bucket": "STRONG_MAYBE",
+      "company": "Code Metal",
+      "normalized_company": "code_metal",
+      "job_title": "Principal Frontend Engineer",
+      "normalized_job_title": "principal_frontend_engineer",
+      "location": "Remote, United States",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-03-30",
+      "found_date": "2026-03-31",
+      "source_type": "AGGREGATOR",
+      "source_name": "Built In",
+      "job_url": "https://builtin.com/job/principal-frontend-engineer/8269413",
+      "fit_score": 7,
+      "confidence": "MEDIUM",
+      "match_reasons": [
+        "Reposted yesterday and explicitly remote in the United States",
+        "TypeScript and React centered frontend architecture scope",
+        "Complex geospatial workflow UI implies technically rich frontend work"
+      ],
+      "red_flags": [
+        "Title is a step above the target senior band",
+        "Built In summary page was used instead of a direct employer page",
+        "Mission-sensitive domain may require strong interest in defense-adjacent work"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": true,
+        "graphql": false,
+        "accessibility": false,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": true,
+        "product_facing": true,
+        "platform_or_design_systems": true,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 0,
+        "salary_max": 0,
+        "currency": null,
+        "comp_visible": false
+      },
+      "application_metadata": {
+        "priority_rank": 8,
+        "best_for": [
+          "Staff-plus frontend architecture",
+          "Complex workflow UI",
+          "Remote U.S. high-ownership role"
+        ]
+      }
+    }
+  ],
+  "excluded_jobs": [
+    {
+      "id": "ravenna-senior-frontend-engineer",
+      "dedupe_key": "ravenna|senior_frontend_engineer",
+      "company": "Ravenna Software",
+      "job_title": "Senior Frontend Engineer",
+      "location": "Remote, United States",
+      "job_url": "https://wellfound.com/jobs/3982820-senior-frontend-engineer",
+      "rejection_reasons": [
+        "Opened listing showed posted 2 weeks ago, outside the 24-hour window"
+      ]
+    },
+    {
+      "id": "sapience-ai-senior-frontend-engineer-mobile-first-ai-integration",
+      "dedupe_key": "sapience_ai|senior_frontend_engineer_mobile_first_ai_integration",
+      "company": "Sapience AI",
+      "job_title": "Senior Frontend Engineer ? Mobile-First AI Integration",
+      "location": "Remote, Canada and United States",
+      "job_url": "https://wellfound.com/jobs/3939352-senior-frontend-engineer-mobile-first-ai-integration",
+      "rejection_reasons": [
+        "Opened listing showed posted 2 days ago, outside the 24-hour window"
+      ]
+    },
+    {
+      "id": "grow-therapy-frontend-platform-engineer",
+      "dedupe_key": "grow_therapy|frontend_platform_engineer",
+      "company": "Grow Therapy",
+      "job_title": "Frontend Platform Engineer",
+      "location": "New York City / Seattle / San Francisco",
+      "job_url": "https://wellfound.com/jobs/4030041-frontend-platform-engineer",
+      "rejection_reasons": [
+        "Opened listing showed posted 2 days ago, outside the 24-hour window",
+        "Role is hybrid onsite in NYC, San Francisco, or Seattle rather than remote U.S. or Houston metro"
+      ]
+    },
+    {
+      "id": "kovo-senior-product-engineer",
+      "dedupe_key": "kovo|senior_product_engineer",
+      "company": "Kovo",
+      "job_title": "Senior Product Engineer",
+      "location": "Remote, United States",
+      "job_url": "https://wellfound.com/jobs/4015416-senior-product-engineer",
+      "rejection_reasons": [
+        "Opened listing showed posted 6 days ago, outside the 24-hour window"
+      ]
+    },
+    {
+      "id": "bindery-lead-product-engineer",
+      "dedupe_key": "bindery|lead_product_engineer",
+      "company": "BINDERY",
+      "job_title": "Lead Product Engineer",
+      "location": "Remote, United States",
+      "job_url": "https://wellfound.com/jobs/3971866-lead-product-engineer",
+      "rejection_reasons": [
+        "Opened listing showed posted 2 weeks ago, outside the 24-hour window",
+        "Role is broad full-stack product engineering rather than clearly frontend-first"
+      ]
+    },
+    {
+      "id": "apogee-global-rms-senior-front-end-ui-developer",
+      "dedupe_key": "apogee_global_rms|senior_front_end_ui_developer",
+      "company": "Apogee Global RMS",
+      "job_title": "Senior Front End UI Developer",
+      "location": "Remote, United States",
+      "job_url": "https://remoteyeah.com/jobs/remote-senior-front-end-ui-developer-apogee-global-rms",
+      "rejection_reasons": [
+        "Opened listing showed posted 1 week ago, outside the 24-hour window",
+        "Contract role with sparse company detail and no compensation visibility"
+      ]
+    },
+    {
+      "id": "itbrainiac-inc-senior-frontend-engineer-react-typescript-mui",
+      "dedupe_key": "itbrainiac_inc|senior_frontend_engineer_react_typescript_mui",
+      "company": "ITBrainiac Inc",
+      "job_title": "Senior Frontend Engineer (React, TypeScript, MUI)",
+      "location": "Houston, TX",
+      "job_url": "https://www.dice.com/job-detail/8292dadf-1c7a-47b5-b0d9-da5371a9c15b",
+      "rejection_reasons": [
+        "Posted 6 days ago, outside the 24-hour window",
+        "Staffing-firm contract listing with onsite or hybrid ambiguity"
+      ]
+    },
+    {
+      "id": "itech-us-react-js-developer",
+      "dedupe_key": "itech_us|react_js_developer",
+      "company": "iTech US, Inc.",
+      "job_title": "React JS Developer",
+      "location": "Houston, TX",
+      "job_url": "https://www.dice.com/job-detail/ad937812-316f-49d3-a0d2-51129753a2e2",
+      "rejection_reasons": [
+        "Staffing-firm contract listing",
+        "Not senior-titled and onsite Houston contract work is lower-value than direct company roles"
+      ]
+    },
+    {
+      "id": "livtech-remote-senior-software-engineer-frontend-remote",
+      "dedupe_key": "livtech|remote_senior_software_engineer_frontend_remote",
+      "company": "LivTech",
+      "job_title": "Senior Software Engineer (Frontend - Remote)",
+      "location": "Remote",
+      "job_url": "https://remoteyeah.com/jobs/remote-senior-software-engineer-frontend-remote-livtech",
+      "rejection_reasons": [
+        "Frontend stack appears Vue-focused rather than React or Next.js centered",
+        "Accessible snippet did not clearly confirm U.S.-only remote scope"
+      ]
+    },
+    {
+      "id": "sigma-global-fullstack-engineer",
+      "dedupe_key": "sigma_global|fullstack_engineer",
+      "company": "Sigma Global",
+      "job_title": "Fullstack Engineer",
+      "location": "Remote, United States",
+      "job_url": "https://wellfound.com/jobs/3851866-fullstack-engineer",
+      "rejection_reasons": [
+        "Generic full-stack contract role rather than frontend-first",
+        "Not senior-titled"
+      ]
+    }
+  ],
+  "summary": {
+    "best_overall": {
+      "job_id": "reddit-senior-frontend-software-engineer-feeds-experience-2026-03-31",
+      "company": "Reddit",
+      "job_title": "Senior Frontend Software Engineer, Feeds Experience",
+      "job_url": "https://remoteyeah.com/remote-javascript-jobs"
+    },
+    "best_react_nextjs_fit": {
+      "job_id": "scribd-senior-frontend-engineer-growth-2026-03-30",
+      "company": "Scribd, Inc.",
+      "job_title": "Senior Frontend Engineer, Growth",
+      "job_url": "https://remoteyeah.com/jobs/remote-senior-frontend-engineer-video-streaming-multi-media-llc"
+    },
+    "best_design_systems_fit": {
+      "job_id": "code-metal-principal-frontend-engineer-2026-03-30",
+      "company": "Code Metal",
+      "job_title": "Principal Frontend Engineer",
+      "job_url": "https://builtin.com/job/principal-frontend-engineer/8269413"
+    },
+    "best_comp_visible_role": {
+      "job_id": "reddit-senior-frontend-software-engineer-feeds-experience-2026-03-31",
+      "company": "Reddit",
+      "job_title": "Senior Frontend Software Engineer, Feeds Experience",
+      "job_url": "https://remoteyeah.com/remote-javascript-jobs"
+    },
+    "market_notes": [
+      "Fresh frontend postings inside the last 24 hours were scarce once stale board snippets were rechecked.",
+      "RemoteYeah surfaced the highest number of truly fresh U.S.-eligible frontend listings, but several were only available as board snippets rather than full direct-company pages.",
+      "The strongest current matches cluster around senior frontend, growth frontend, and lead frontend roles with React and TypeScript tags.",
+      "Houston-metro direct frontend roles were weak today; the only Houston hits were mostly staffing or contract listings and older than the target window."
+    ]
+  }
+}

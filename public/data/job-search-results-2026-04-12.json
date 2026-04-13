@@ -1,0 +1,183 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-04-12T08:06:52.8331393-05:00",
+  "meta": {
+    "run_date": "2026-04-12",
+    "target_locations": [
+      "US_REMOTE",
+      "HOUSTON_TX_METRO"
+    ],
+    "date_window": {
+      "from": "2026-04-11",
+      "to": "2026-04-12"
+    },
+    "candidate_profile_summary": "Senior frontend-leaning software engineer focused on React, Next.js, TypeScript, UI engineering, design systems, frontend platform work, accessibility, performance, and product-facing data-heavy interfaces.",
+    "source_preference": [
+      "DIRECT_COMPANY",
+      "AGGREGATOR",
+      "RECRUITER"
+    ]
+  },
+  "stats": {
+    "jobs_considered": 10,
+    "jobs_included": 0,
+    "jobs_excluded": 10,
+    "top_matches_count": 0,
+    "strong_maybes_count": 0
+  },
+  "jobs": [],
+  "excluded_jobs": [
+    {
+      "id": "dash0-senior-product-engineer-frontend-react-typescript-2026-04-11",
+      "dedupe_key": "dash0|senior-product-engineer-frontend-react-typescript|2026-04-11",
+      "company": "Dash0",
+      "job_title": "Senior Product Engineer, Frontend (React, TypeScript)",
+      "location": "EMEA - Remote",
+      "job_url": "https://jobs.accel.com/companies/dash0-2/jobs/73975082-senior-product-engineer-frontend-react-typescript",
+      "rejection_reasons": [
+        "Location does not satisfy U.S.-remote or Houston-metro rule",
+        "Direct board location section specifies EMEA remote"
+      ]
+    },
+    {
+      "id": "pearl-senior-agentic-software-engineer-react-python-llms-2026-04-11",
+      "dedupe_key": "pearl|senior-agentic-software-engineer-react-python-llms|2026-04-11",
+      "company": "Pearl",
+      "job_title": "Senior Agentic Software Engineer (React, Python, LLMs)",
+      "location": "United States · Remote",
+      "job_url": "https://jobs.accel.com/companies/pearl/jobs/73963753-senior-agentic-software-engineer-react-python-llms",
+      "rejection_reasons": [
+        "Role is not frontend-first",
+        "Posting emphasizes agentic and full-stack scope over UI/platform/design-systems fit"
+      ]
+    },
+    {
+      "id": "vanta-senior-software-engineer-frontend-platform-null",
+      "dedupe_key": "vanta|senior-software-engineer-frontend-platform|null",
+      "company": "Vanta",
+      "job_title": "Senior Software Engineer, Frontend Platform",
+      "location": "Remote, United States",
+      "job_url": "https://grepjob.com/jobs/1606ab16-d8fb-41c9-a478-859d3a20f9ca",
+      "rejection_reasons": [
+        "Aggregator copy indicated the role was already about 2 months old",
+        "Unable to verify a direct-company posting date within the last 24 hours",
+        "Likely repost or stale discovery result"
+      ]
+    },
+    {
+      "id": "filevine-senior-software-engineer-frontend-null",
+      "dedupe_key": "filevine|senior-software-engineer-frontend|null",
+      "company": "Filevine",
+      "job_title": "Senior Software Engineer (Frontend)",
+      "location": "San Francisco, CA",
+      "job_url": null,
+      "rejection_reasons": [
+        "Location is outside Houston metro and not U.S.-remote",
+        "Freshness could not be verified as posted within the last 24 hours"
+      ]
+    },
+    {
+      "id": "cointracker-senior-product-engineer-null",
+      "dedupe_key": "cointracker|senior-product-engineer|null",
+      "company": "CoinTracker",
+      "job_title": "Senior Product Engineer",
+      "location": "United States · Remote",
+      "job_url": "https://echojobs.io/job/cointracker-senior-product-engineer-v9fwn",
+      "rejection_reasons": [
+        "Available source showed the role as months old rather than newly posted",
+        "Could not verify a fresh direct-company posting within the last 24 hours"
+      ]
+    },
+    {
+      "id": "cointracker-product-engineer-null",
+      "dedupe_key": "cointracker|product-engineer|null",
+      "company": "CoinTracker",
+      "job_title": "Product Engineer",
+      "location": "United States · Remote",
+      "job_url": null,
+      "rejection_reasons": [
+        "Freshness could not be verified within the last 24 hours",
+        "Role appears more generalist and less clearly senior than target profile"
+      ]
+    },
+    {
+      "id": "cube-staff-frontend-software-engineer-null",
+      "dedupe_key": "cube|staff-frontend-software-engineer|null",
+      "company": "Cube",
+      "job_title": "Staff Frontend Software Engineer (Remote)",
+      "location": "Remote - United States & Canada",
+      "job_url": "https://jobs.ashbyhq.com/cubesoftware/34a53a31-1322-4c2b-b9b2-2a00c1947802",
+      "rejection_reasons": [
+        "Search evidence indicated the listing was not newly posted",
+        "Unable to tie the posting to 2026-04-11 or 2026-04-12"
+      ]
+    },
+    {
+      "id": "tambo-product-engineer-null",
+      "dedupe_key": "tambo|product-engineer|null",
+      "company": "Tambo",
+      "job_title": "Product Engineer",
+      "location": "Remote",
+      "job_url": "https://jobs.ashbyhq.com/tambo/8fca0f32-1fe2-45a5-b576-38de1f837055",
+      "rejection_reasons": [
+        "Could not verify U.S.-remote eligibility from the surfaced listing",
+        "Freshness within the last 24 hours was not established"
+      ]
+    },
+    {
+      "id": "tambo-design-engineer-null",
+      "dedupe_key": "tambo|design-engineer|null",
+      "company": "Tambo",
+      "job_title": "Design Engineer",
+      "location": "Remote",
+      "job_url": "https://jobs.ashbyhq.com/tambo/5c614796-70a7-46e2-ad31-b9a530f92c8e",
+      "rejection_reasons": [
+        "Could not verify U.S.-remote eligibility from the surfaced listing",
+        "Freshness within the last 24 hours was not established"
+      ]
+    },
+    {
+      "id": "vultr-frontend-engineer-null",
+      "dedupe_key": "vultr|frontend-engineer|null",
+      "company": "Vultr",
+      "job_title": "Frontend Engineer",
+      "location": "United States · Remote",
+      "job_url": null,
+      "rejection_reasons": [
+        "Role surfaced as older than the required 24-hour search window",
+        "Title fit is acceptable, but freshness rule failed"
+      ]
+    }
+  ],
+  "summary": {
+    "best_overall": {
+      "job_id": null,
+      "company": null,
+      "job_title": null,
+      "job_url": null
+    },
+    "best_react_nextjs_fit": {
+      "job_id": null,
+      "company": null,
+      "job_title": null,
+      "job_url": null
+    },
+    "best_design_systems_fit": {
+      "job_id": null,
+      "company": null,
+      "job_title": null,
+      "job_url": null
+    },
+    "best_comp_visible_role": {
+      "job_id": null,
+      "company": null,
+      "job_title": null,
+      "job_url": null
+    },
+    "market_notes": [
+      "The strict 24-hour freshness filter sharply reduced viable frontend-first matches on 2026-04-12.",
+      "Several relevant React and frontend-platform roles surfaced, but most resolved to older direct postings or repost-like aggregator copies.",
+      "Houston-metro opportunities again failed the freshness and quality threshold, so the search remains dependent on U.S.-remote openings."
+    ]
+  }
+}

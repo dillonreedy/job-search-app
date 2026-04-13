@@ -1,0 +1,433 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-04-10T08:23:50.3460489-05:00",
+  "meta": {
+    "run_date": "2026-04-10",
+    "target_locations": [
+      "US_REMOTE",
+      "HOUSTON_TX_METRO"
+    ],
+    "date_window": {
+      "from": "2026-04-09",
+      "to": "2026-04-10"
+    },
+    "candidate_profile_summary": "Senior frontend / senior software engineer focused on React, Next.js, TypeScript, UI engineering, frontend platform, design systems, data-heavy UI, accessibility, performance, component architecture, and product-facing frontend work.",
+    "source_preference": [
+      "DIRECT_COMPANY",
+      "AGGREGATOR",
+      "RECRUITER"
+    ]
+  },
+  "stats": {
+    "jobs_considered": 15,
+    "jobs_included": 4,
+    "jobs_excluded": 11,
+    "top_matches_count": 2,
+    "strong_maybes_count": 2
+  },
+  "jobs": [
+    {
+      "id": "servicetitan-senior-web-developer-2026-04-10",
+      "dedupe_key": "servicetitan|senior-web-developer|us-remote",
+      "bucket": "TOP_MATCH",
+      "company": "ServiceTitan",
+      "normalized_company": "servicetitan",
+      "job_title": "Senior Web Developer",
+      "normalized_job_title": "senior_web_developer",
+      "location": "United States - Remote",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-04-10",
+      "found_date": "2026-04-10",
+      "source_type": "DIRECT_COMPANY",
+      "source_name": "ServiceTitan Workday",
+      "job_url": "https://servicetitan.wd1.myworkdayjobs.com/servicetitan/job/us-remote/senior-web-developer_jr114480",
+      "fit_score": 8,
+      "confidence": "MEDIUM",
+      "match_reasons": [
+        "Senior web/frontend-oriented title",
+        "Remote U.S. listing surfaced as newly added today",
+        "Aggregator snippet aligned the role with React, TypeScript, Next.js, and modern web UI work",
+        "Compensation was visible in the aggregator result"
+      ],
+      "red_flags": [
+        "Direct Workday page did not render enough text in the search environment to independently confirm every skill signal"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": true,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": false
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": false,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 125700,
+        "salary_max": 168100,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 1,
+        "best_for": [
+          "Senior frontend application",
+          "React and TypeScript fit",
+          "Compensation-visible U.S. remote role"
+        ]
+      }
+    },
+    {
+      "id": "multitude-insights-senior-frontend-engineer-2026-04-10",
+      "dedupe_key": "multitude-insights|senior-frontend-engineer|us-remote",
+      "bucket": "TOP_MATCH",
+      "company": "Multitude Insights",
+      "normalized_company": "multitude_insights",
+      "job_title": "Senior Frontend Engineer",
+      "normalized_job_title": "senior_frontend_engineer",
+      "location": "United States - Remote",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-04-10",
+      "found_date": "2026-04-10",
+      "source_type": "DIRECT_COMPANY",
+      "source_name": "Ashby",
+      "job_url": "https://jobs.ashbyhq.com/multitude%20insights/2247ba74-5f29-4b70-9227-44c413d7a925",
+      "fit_score": 8,
+      "confidence": "MEDIUM",
+      "match_reasons": [
+        "Senior Frontend Engineer title is directly aligned",
+        "Remote U.S. listing surfaced as newly added today",
+        "Aggregator snippet identified React, Node.js, TypeScript, and accessibility",
+        "Product-facing frontend work building internal law-enforcement case-management tools"
+      ],
+      "red_flags": [
+        "Direct Ashby page required JavaScript in the search environment",
+        "Domain is sensitive public-sector tooling; review mission fit before applying"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": true,
+        "performance": false
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": true,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 120000,
+        "salary_max": 185000,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 2,
+        "best_for": [
+          "Senior frontend title match",
+          "Data-heavy UI",
+          "Accessibility signal"
+        ]
+      }
+    },
+    {
+      "id": "impiricus-front-end-engineer-2026-04-09",
+      "dedupe_key": "impiricus|front-end-engineer|us-remote",
+      "bucket": "STRONG_MAYBE",
+      "company": "Impiricus",
+      "normalized_company": "impiricus",
+      "job_title": "Front End Engineer",
+      "normalized_job_title": "front_end_engineer",
+      "location": "United States - Remote",
+      "remote_status": "US_REMOTE",
+      "posting_date": null,
+      "found_date": "2026-04-10",
+      "source_type": "DIRECT_COMPANY",
+      "source_name": "Greenhouse",
+      "job_url": "https://boards.greenhouse.io/impiricus/jobs/5141348008",
+      "fit_score": 7,
+      "confidence": "MEDIUM",
+      "match_reasons": [
+        "Frontend-first title and U.S. remote location",
+        "Aggregator listing showed React, Redux, TypeScript, and JavaScript",
+        "Healthcare engagement product suggests product-facing UI work",
+        "Compensation was visible in the aggregator result"
+      ],
+      "red_flags": [
+        "Aggregator freshness was approximately one day and direct page did not expose an exact posting date",
+        "Salary range is lower than typical senior frontend expectations"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": false
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": false,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 100000,
+        "salary_max": 115000,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 3,
+        "best_for": [
+          "Frontend-first healthcare product role",
+          "React and TypeScript fit",
+          "Lower-comp strong maybe"
+        ]
+      }
+    },
+    {
+      "id": "drivetrain-frontend-engineer-2026-04-09",
+      "dedupe_key": "drivetrain|frontend-engineer|us-remote",
+      "bucket": "STRONG_MAYBE",
+      "company": "Drivetrain",
+      "normalized_company": "drivetrain",
+      "job_title": "Frontend Engineer",
+      "normalized_job_title": "frontend_engineer",
+      "location": "United States",
+      "remote_status": "US_REMOTE",
+      "posting_date": null,
+      "found_date": "2026-04-10",
+      "source_type": "DIRECT_COMPANY",
+      "source_name": "Lever",
+      "job_url": "https://jobs.lever.co/drivetrain/5ebd7e09-3f2b-4c53-a0be-0649bdd84842",
+      "fit_score": 7,
+      "confidence": "HIGH",
+      "match_reasons": [
+        "Direct Lever page confirms United States remote full-time role",
+        "Frontend work includes accessible, responsive, interactive interfaces",
+        "Role includes reusable components, performance work, charts, tables, and spreadsheet-inspired business modeling UI",
+        "ReactJS is explicitly listed as important"
+      ],
+      "red_flags": [
+        "Direct page lists 1 to 3 years of experience, below the target seniority",
+        "Exact posting date was not shown on the direct page"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": false,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": true,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": true,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 0,
+        "salary_max": 0,
+        "currency": null,
+        "comp_visible": false
+      },
+      "application_metadata": {
+        "priority_rank": 4,
+        "best_for": [
+          "Data-heavy frontend UI",
+          "React product interface work",
+          "Strong maybe despite below-senior requirement"
+        ]
+      }
+    }
+  ],
+  "excluded_jobs": [
+    {
+      "id": "payabli-senior-software-engineer-frontend",
+      "dedupe_key": "payabli|senior-software-engineer-frontend|us-remote",
+      "company": "Payabli",
+      "job_title": "Senior Software Engineer, Frontend",
+      "location": "United States - Remote",
+      "job_url": "https://kickstartremote.com/remote-jobs/senior-software-engineer-frontend-united-states-remote-7184",
+      "rejection_reasons": [
+        "Aggregator detail page showed Posted 2d ago, outside the 24-hour filter",
+        "Strong fit but excluded to preserve freshness rule"
+      ]
+    },
+    {
+      "id": "zapier-senior-frontend-engineer-enterprise-zone",
+      "dedupe_key": "zapier|senior-frontend-engineer-enterprise-zone|americas-remote",
+      "company": "Zapier",
+      "job_title": "Senior Frontend Engineer, Enterprise Zone",
+      "location": "United States / Americas - Remote",
+      "job_url": "https://jobs.ashbyhq.com/zapier",
+      "rejection_reasons": [
+        "Aggregator showed a 19-hour freshness badge, but another indexed copy showed the same title as posted in March 2026",
+        "Potential repost or stale listing"
+      ]
+    },
+    {
+      "id": "infisical-design-engineer-site",
+      "dedupe_key": "infisical|design-engineer-site|americas-remote",
+      "company": "Infisical",
+      "job_title": "Design Engineer, Site (Americas)",
+      "location": "Americas - Remote",
+      "job_url": "https://jobs.ashbyhq.com/infisical/558d171f-9730-47d6-8d35-1026c2c3e316",
+      "rejection_reasons": [
+        "Aggregator freshness conflicted with another indexed source showing the role around four weeks old",
+        "Americas scope is broader than explicit U.S. remote"
+      ]
+    },
+    {
+      "id": "zip-web-developer-contract",
+      "dedupe_key": "zip|web-developer-contract|us-remote",
+      "company": "Zip",
+      "job_title": "Web Developer - Contract",
+      "location": "United States - Remote",
+      "job_url": "https://jobs.ashbyhq.com/zip",
+      "rejection_reasons": [
+        "Secondary source showed the same role as six days old",
+        "Contract marketing-web role is lower priority than product frontend roles"
+      ]
+    },
+    {
+      "id": "lean-focus-angular-engineer",
+      "dedupe_key": "lean-focus|angular-engineer|us-remote",
+      "company": "Lean Focus",
+      "job_title": "Angular Engineer",
+      "location": "United States - Remote",
+      "job_url": "https://jobs.ashbyhq.com/lean-focus",
+      "rejection_reasons": [
+        "Angular-only role with no React or TypeScript signal in the available listing",
+        "Lower alignment with candidate profile"
+      ]
+    },
+    {
+      "id": "holepunch-senior-frontend-engineer",
+      "dedupe_key": "holepunch|senior-frontend-engineer|worldwide-remote",
+      "company": "Holepunch",
+      "job_title": "Senior Frontend Engineer",
+      "location": "Anywhere in the World",
+      "job_url": "https://holepunch.recruitee.com",
+      "rejection_reasons": [
+        "Direct detail page showed February 12 rather than a last-24-hours posting",
+        "Worldwide remote was not explicit U.S. remote"
+      ]
+    },
+    {
+      "id": "leidos-senior-full-stack-node-react-developer",
+      "dedupe_key": "leidos|senior-full-stack-node-react-developer|remote-conflict",
+      "company": "Leidos",
+      "job_title": "Senior Full Stack Node/React Developer",
+      "location": "Baltimore, Maryland / remote conflict",
+      "job_url": "https://leidos.wd5.myworkdayjobs.com/external/job/6314-remoteteleworker-us/senior-full-stack-node-react-developer_r-00180388",
+      "rejection_reasons": [
+        "Full-stack role where frontend is not clearly central",
+        "Search results conflicted on remote versus Baltimore location"
+      ]
+    },
+    {
+      "id": "itbrainiac-net-react-developer",
+      "dedupe_key": "itbrainiac|net-react-developer|houston-tx",
+      "company": "ITBrainiac",
+      "job_title": ".NET React Developer",
+      "location": "Houston, Texas",
+      "job_url": "https://www.linkedin.com/jobs/view/net-react-developer-at-itbrainiac-inc-4206205917",
+      "rejection_reasons": [
+        "Staffing-firm style listing and likely duplicate req",
+        "Backend/.NET-heavy role with limited frontend-first evidence"
+      ]
+    },
+    {
+      "id": "argyllinfotech-dotnet-react-developer",
+      "dedupe_key": "argyll-infotech|dotnet-react-developer|houston-tx",
+      "company": "Argyll Infotech Inc",
+      "job_title": ".NET React Developer",
+      "location": "Houston, Texas",
+      "job_url": "https://www.linkedin.com/jobs/view/net-react-developer-at-argyll-infotech-inc-4206198567",
+      "rejection_reasons": [
+        "Appears to duplicate the Houston staffing req",
+        "Staffing-firm listing and backend/.NET-heavy scope"
+      ]
+    },
+    {
+      "id": "eteam-dotnet-react-developer",
+      "dedupe_key": "eteam|dotnet-react-developer|houston-tx",
+      "company": "eTeam",
+      "job_title": ".NET React Developer",
+      "location": "Houston, Texas",
+      "job_url": "https://www.linkedin.com/jobs/view/net-react-developer-at-eteam-4206197601",
+      "rejection_reasons": [
+        "Appears to duplicate the Houston staffing req",
+        "Staffing-firm listing and backend/.NET-heavy scope"
+      ]
+    },
+    {
+      "id": "tucows-software-engineer-front-end",
+      "dedupe_key": "tucows|software-engineer-front-end|canada",
+      "company": "Tucows Domains",
+      "job_title": "Software Engineer - Front End",
+      "location": "Canada",
+      "job_url": "https://boards.greenhouse.io/tucows",
+      "rejection_reasons": [
+        "Canada location does not meet U.S. remote or Houston metro rule"
+      ]
+    }
+  ],
+  "summary": {
+    "best_overall": {
+      "job_id": "servicetitan-senior-web-developer-2026-04-10",
+      "company": "ServiceTitan",
+      "job_title": "Senior Web Developer",
+      "job_url": "https://servicetitan.wd1.myworkdayjobs.com/servicetitan/job/us-remote/senior-web-developer_jr114480"
+    },
+    "best_react_nextjs_fit": {
+      "job_id": "servicetitan-senior-web-developer-2026-04-10",
+      "company": "ServiceTitan",
+      "job_title": "Senior Web Developer",
+      "job_url": "https://servicetitan.wd1.myworkdayjobs.com/servicetitan/job/us-remote/senior-web-developer_jr114480"
+    },
+    "best_design_systems_fit": {
+      "job_id": null,
+      "company": null,
+      "job_title": null,
+      "job_url": null
+    },
+    "best_comp_visible_role": {
+      "job_id": "servicetitan-senior-web-developer-2026-04-10",
+      "company": "ServiceTitan",
+      "job_title": "Senior Web Developer",
+      "job_url": "https://servicetitan.wd1.myworkdayjobs.com/servicetitan/job/us-remote/senior-web-developer_jr114480"
+    },
+    "market_notes": [
+      "Strict 24-hour freshness removed several otherwise high-fit roles because direct or secondary sources showed older posting dates.",
+      "Houston metro search again produced mostly staffing-firm duplicates rather than high-quality direct frontend-first openings.",
+      "The best fresh fits were U.S.-remote roles; direct-company verification was limited for JavaScript-rendered Ashby and Workday pages."
+    ]
+  }
+}

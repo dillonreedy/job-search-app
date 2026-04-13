@@ -1,0 +1,518 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-04-11T08:30:00-05:00",
+  "meta": {
+    "run_date": "2026-04-11",
+    "target_locations": [
+      "US_REMOTE",
+      "HOUSTON_TX_METRO"
+    ],
+    "date_window": {
+      "from": "2026-04-10",
+      "to": "2026-04-11"
+    },
+    "candidate_profile_summary": "Senior frontend / senior software engineer focused on React, Next.js, TypeScript, UI engineering, frontend platform, design systems, data-heavy UI, accessibility, performance, component architecture, and product-facing frontend work.",
+    "source_preference": [
+      "DIRECT_COMPANY",
+      "AGGREGATOR",
+      "RECRUITER"
+    ]
+  },
+  "stats": {
+    "jobs_considered": 14,
+    "jobs_included": 6,
+    "jobs_excluded": 8,
+    "top_matches_count": 4,
+    "strong_maybes_count": 2
+  },
+  "jobs": [
+    {
+      "id": "first-citizens-bank-senior-react-engineer-2026-04-11",
+      "dedupe_key": "first_citizens_bank|senior_react_engineer|us_remote",
+      "bucket": "TOP_MATCH",
+      "company": "First Citizens Bank",
+      "normalized_company": "first_citizens_bank",
+      "job_title": "Senior React Engineer",
+      "normalized_job_title": "senior_react_engineer",
+      "location": "Remote in Arizona, North Carolina, or Texas, United States",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-04-11",
+      "found_date": "2026-04-11",
+      "source_type": "AGGREGATOR",
+      "source_name": "Dice",
+      "job_url": "https://www.dice.com/job-detail/34d74ff2-f6be-4f26-9f84-1f4cfcbb1928",
+      "fit_score": 9,
+      "confidence": "MEDIUM",
+      "match_reasons": [
+        "Explicit Senior React Engineer title",
+        "Fresh same-day posting signal in the listing snippet",
+        "Texas-eligible remote scope satisfies the location rule",
+        "Frontend-first React role at an established employer"
+      ],
+      "red_flags": [
+        "Aggregator listing was used because a direct employer page was not reliably retrievable in the search environment",
+        "Next.js and design-systems scope were not confirmed"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": false,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": false
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": false,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 0,
+        "salary_max": 0,
+        "currency": null,
+        "comp_visible": false
+      },
+      "application_metadata": {
+        "priority_rank": 1,
+        "best_for": [
+          "Senior React match",
+          "Credible employer",
+          "Texas-eligible remote role"
+        ]
+      }
+    },
+    {
+      "id": "voxel51-senior-frontend-engineer-2026-04-11",
+      "dedupe_key": "voxel51|senior_frontend_engineer|us_remote",
+      "bucket": "TOP_MATCH",
+      "company": "Voxel51",
+      "normalized_company": "voxel51",
+      "job_title": "Senior Frontend Engineer",
+      "normalized_job_title": "senior_frontend_engineer",
+      "location": "United States - Remote",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-04-11",
+      "found_date": "2026-04-11",
+      "source_type": "AGGREGATOR",
+      "source_name": "JobLeads",
+      "job_url": "https://www.jobleads.com/us/job/senior-frontend-engineer-react-typescript-usa-remote--united-states--e0fb069833dc6de86dfd7587c85d4bf7a",
+      "fit_score": 9,
+      "confidence": "LOW",
+      "match_reasons": [
+        "Senior frontend title with explicit React and TypeScript fit in the snippet",
+        "Same-day freshness badge in the listing",
+        "Computer-vision product suggests data-heavy UI potential",
+        "Compensation was visible in the listing"
+      ],
+      "red_flags": [
+        "Aggregator-only evidence",
+        "Direct employer posting was not confirmed during this run"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": false
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": true,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 180000,
+        "salary_max": 220000,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 2,
+        "best_for": [
+          "React and TypeScript alignment",
+          "Data-heavy UI potential",
+          "High visible compensation"
+        ]
+      }
+    },
+    {
+      "id": "kard-financial-senior-frontend-engineer-2026-04-11",
+      "dedupe_key": "kard_financial|senior_frontend_engineer|us_remote",
+      "bucket": "TOP_MATCH",
+      "company": "Kard Financial",
+      "normalized_company": "kard_financial",
+      "job_title": "Senior Frontend Engineer",
+      "normalized_job_title": "senior_frontend_engineer",
+      "location": "United States - Remote",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-04-11",
+      "found_date": "2026-04-11",
+      "source_type": "AGGREGATOR",
+      "source_name": "JobLeads",
+      "job_url": "https://www.jobleads.com/us/job/senior-frontend-engineer--united-states--e55726ace08da4e192dcd3b4110b57c73",
+      "fit_score": 8,
+      "confidence": "LOW",
+      "match_reasons": [
+        "Senior Frontend Engineer title and remote U.S. scope",
+        "Snippet emphasized React, TypeScript, design tokens, and CSS architecture",
+        "Strong UI-engineering and design-systems relevance",
+        "Same-day freshness badge in the listing"
+      ],
+      "red_flags": [
+        "Aggregator-only evidence",
+        "Company and role details should be rechecked on the employer site before applying"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": true,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": false
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": false,
+        "product_facing": true,
+        "platform_or_design_systems": true,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 160000,
+        "salary_max": 200000,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 3,
+        "best_for": [
+          "Design-systems leaning frontend work",
+          "React and TypeScript fit",
+          "Visible salary band"
+        ]
+      }
+    },
+    {
+      "id": "jack-senior-frontend-engineer-2026-04-11",
+      "dedupe_key": "jack|senior_frontend_engineer|us_remote",
+      "bucket": "TOP_MATCH",
+      "company": "Jack",
+      "normalized_company": "jack",
+      "job_title": "Senior Frontend Engineer",
+      "normalized_job_title": "senior_frontend_engineer",
+      "location": "United States - Remote",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-04-11",
+      "found_date": "2026-04-11",
+      "source_type": "AGGREGATOR",
+      "source_name": "JobLeads",
+      "job_url": "https://www.jobleads.com/us/job/senior-frontend-engineer--united-states--e687a9d49518fcf0082816d8d714ebfd0",
+      "fit_score": 8,
+      "confidence": "LOW",
+      "match_reasons": [
+        "Senior frontend title",
+        "Snippet referenced React, TypeScript, micro-frontends, and product experience",
+        "Same-day freshness badge in the listing",
+        "Frontend architecture scope is aligned with senior UI engineering work"
+      ],
+      "red_flags": [
+        "Aggregator-only evidence",
+        "No direct confirmation of compensation or exact posting timestamp beyond the listing badge"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": true,
+        "graphql": false,
+        "accessibility": false,
+        "performance": false
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": false,
+        "product_facing": true,
+        "platform_or_design_systems": true,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 0,
+        "salary_max": 0,
+        "currency": null,
+        "comp_visible": false
+      },
+      "application_metadata": {
+        "priority_rank": 4,
+        "best_for": [
+          "Frontend architecture",
+          "React and TypeScript fit",
+          "Platform-leaning UI work"
+        ]
+      }
+    },
+    {
+      "id": "seek-senior-frontend-engineer-2026-04-11",
+      "dedupe_key": "seek|senior_frontend_engineer|us_remote",
+      "bucket": "STRONG_MAYBE",
+      "company": "Seek",
+      "normalized_company": "seek",
+      "job_title": "Senior Frontend Engineer",
+      "normalized_job_title": "senior_frontend_engineer",
+      "location": "United States - Remote",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-04-11",
+      "found_date": "2026-04-11",
+      "source_type": "AGGREGATOR",
+      "source_name": "JobLeads",
+      "job_url": "https://www.jobleads.com/us/job/senior-frontend-engineer-react-typescript-data-viz-analytics--united-states--e869e0c6648dce413a87b8bccf7a75c31",
+      "fit_score": 8,
+      "confidence": "LOW",
+      "match_reasons": [
+        "Snippet highlighted React, TypeScript, dashboards, analytics, and performance",
+        "Very strong data-heavy UI signal",
+        "Same-day freshness badge in the listing"
+      ],
+      "red_flags": [
+        "Aggregator-only evidence",
+        "Company credibility and direct posting path were not independently verified during this run"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": true
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": true,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 0,
+        "salary_max": 0,
+        "currency": null,
+        "comp_visible": false
+      },
+      "application_metadata": {
+        "priority_rank": 5,
+        "best_for": [
+          "Analytics dashboards",
+          "React and TypeScript fit",
+          "Performance-sensitive UI"
+        ]
+      }
+    },
+    {
+      "id": "koinly-senior-frontend-engineer-2026-04-11",
+      "dedupe_key": "koinly|senior_frontend_engineer|us_remote",
+      "bucket": "STRONG_MAYBE",
+      "company": "Koinly",
+      "normalized_company": "koinly",
+      "job_title": "Senior Frontend Engineer",
+      "normalized_job_title": "senior_frontend_engineer",
+      "location": "United States - Remote",
+      "remote_status": "US_REMOTE",
+      "posting_date": "2026-04-11",
+      "found_date": "2026-04-11",
+      "source_type": "AGGREGATOR",
+      "source_name": "JobLeads",
+      "job_url": "https://www.jobleads.com/us/job/senior-frontend-engineer-react-typescript-remote--united-states--e5f3bb4d3535a07c08663a5cb804485f2",
+      "fit_score": 7,
+      "confidence": "LOW",
+      "match_reasons": [
+        "Senior frontend title with React and TypeScript in the listing summary",
+        "Same-day freshness badge in the listing",
+        "Frontend product role, not backend-leaning"
+      ],
+      "red_flags": [
+        "Aggregator-only evidence",
+        "Crypto/tax domain may be lower-interest depending on company preference",
+        "Salary band is modest for senior frontend scope"
+      ],
+      "skills_alignment": {
+        "react": true,
+        "nextjs": false,
+        "typescript": true,
+        "design_systems": false,
+        "ui_engineering": true,
+        "frontend_platform": false,
+        "graphql": false,
+        "accessibility": false,
+        "performance": false
+      },
+      "role_signals": {
+        "frontend_first": true,
+        "data_heavy_ui": true,
+        "product_facing": true,
+        "platform_or_design_systems": false,
+        "managerial": false
+      },
+      "compensation": {
+        "salary_min": 120000,
+        "salary_max": 150000,
+        "currency": "USD",
+        "comp_visible": true
+      },
+      "application_metadata": {
+        "priority_rank": 6,
+        "best_for": [
+          "React and TypeScript fit",
+          "Product frontend work",
+          "Salary-visible strong maybe"
+        ]
+      }
+    }
+  ],
+  "excluded_jobs": [
+    {
+      "id": "sentilink-senior-software-engineer-frontend",
+      "dedupe_key": "sentilink|senior_software_engineer_frontend|us_remote",
+      "company": "SentiLink",
+      "job_title": "Senior Software Engineer, Frontend",
+      "location": "United States - Remote",
+      "job_url": "https://wellfound.com/jobs/3965230-senior-software-engineer-frontend",
+      "rejection_reasons": [
+        "The opened listing showed Posted: 1 month ago",
+        "Outside the 24-hour posting window"
+      ]
+    },
+    {
+      "id": "ravenna-senior-frontend-engineer",
+      "dedupe_key": "ravenna|senior_frontend_engineer|us_remote",
+      "company": "Ravenna",
+      "job_title": "Senior Frontend Engineer",
+      "location": "United States - Remote",
+      "job_url": "https://wellfound.com/jobs/3990381-senior-frontend-engineer",
+      "rejection_reasons": [
+        "The opened listing showed Posted: 3 weeks ago",
+        "Outside the 24-hour posting window"
+      ]
+    },
+    {
+      "id": "ravenna-design-engineer",
+      "dedupe_key": "ravenna|design_engineer|us_remote",
+      "company": "Ravenna",
+      "job_title": "Design Engineer",
+      "location": "United States - Remote",
+      "job_url": "https://wellfound.com/jobs/3985388-design-engineer",
+      "rejection_reasons": [
+        "The opened listing showed Posted: 3 weeks ago",
+        "Outside the 24-hour posting window"
+      ]
+    },
+    {
+      "id": "permitflow-design-system-engineer",
+      "dedupe_key": "permitflow|design_system_engineer|us_remote",
+      "company": "PermitFlow",
+      "job_title": "Design System Engineer",
+      "location": "United States - Remote",
+      "job_url": "https://wellfound.com/jobs/4005373-design-system-engineer",
+      "rejection_reasons": [
+        "The opened listing showed Posted: 4 days ago",
+        "Outside the 24-hour posting window"
+      ]
+    },
+    {
+      "id": "kovo-senior-product-engineer",
+      "dedupe_key": "kovo|senior_product_engineer|us_remote",
+      "company": "Kovo",
+      "job_title": "Senior Product Engineer",
+      "location": "Remote in North America",
+      "job_url": "https://wellfound.com/jobs/3991355-senior-product-engineer",
+      "rejection_reasons": [
+        "The opened listing showed Posted: 2 weeks ago",
+        "Remote scope was North America rather than explicitly U.S. remote"
+      ]
+    },
+    {
+      "id": "ebay-staff-frontend-engineer-ebay-live",
+      "dedupe_key": "ebay|staff_frontend_engineer_ebay_live|location_conflict",
+      "company": "eBay",
+      "job_title": "Staff Frontend Engineer, eBay Live",
+      "location": "San Jose, California / remote conflict",
+      "job_url": "https://www.dice.com/job-detail/69b7dc20-9394-45d6-afeb-e97c6c06f4e7",
+      "rejection_reasons": [
+        "Freshness looked acceptable, but source snippets conflicted on whether the role was remote or San Jose based",
+        "Location ambiguity made it fail the strict location rule"
+      ]
+    },
+    {
+      "id": "multitude-insights-senior-frontend-engineer",
+      "dedupe_key": "multitude_insights|senior_frontend_engineer|us_remote",
+      "company": "Multitude Insights",
+      "job_title": "Senior Frontend Engineer",
+      "location": "United States - Remote",
+      "job_url": "https://jobs.ashbyhq.com/multitude%20insights/2247ba74-5f29-4b70-9227-44c413d7a925",
+      "rejection_reasons": [
+        "Included in the prior run on 2026-04-10",
+        "No fresh 24-hour posting evidence was found during this run"
+      ]
+    },
+    {
+      "id": "servicetitan-senior-web-developer",
+      "dedupe_key": "servicetitan|senior_web_developer|us_remote",
+      "company": "ServiceTitan",
+      "job_title": "Senior Web Developer",
+      "location": "United States - Remote",
+      "job_url": "https://servicetitan.wd1.myworkdayjobs.com/servicetitan/job/us-remote/senior-web-developer_jr114480",
+      "rejection_reasons": [
+        "Included in the prior run on 2026-04-10",
+        "No fresh 24-hour posting evidence was found during this run"
+      ]
+    }
+  ],
+  "summary": {
+    "best_overall": {
+      "job_id": "first-citizens-bank-senior-react-engineer-2026-04-11",
+      "company": "First Citizens Bank",
+      "job_title": "Senior React Engineer",
+      "job_url": "https://www.dice.com/job-detail/34d74ff2-f6be-4f26-9f84-1f4cfcbb1928"
+    },
+    "best_react_nextjs_fit": {
+      "job_id": null,
+      "company": null,
+      "job_title": null,
+      "job_url": null
+    },
+    "best_design_systems_fit": {
+      "job_id": "kard-financial-senior-frontend-engineer-2026-04-11",
+      "company": "Kard Financial",
+      "job_title": "Senior Frontend Engineer",
+      "job_url": "https://www.jobleads.com/us/job/senior-frontend-engineer--united-states--e55726ace08da4e192dcd3b4110b57c73"
+    },
+    "best_comp_visible_role": {
+      "job_id": "voxel51-senior-frontend-engineer-2026-04-11",
+      "company": "Voxel51",
+      "job_title": "Senior Frontend Engineer",
+      "job_url": "https://www.jobleads.com/us/job/senior-frontend-engineer-react-typescript-usa-remote--united-states--e0fb069833dc6de86dfd7587c85d4bf7a"
+    },
+    "market_notes": [
+      "Fresh direct-company frontend postings were scarce in this 24-hour window; most usable leads came from aggregators with same-day freshness badges.",
+      "Houston metro again lacked high-quality direct frontend-first roles and mostly surfaced staffing or ambiguous listings.",
+      "Because freshness and location evidence were often fragmentary, confidence is intentionally conservative on aggregator-sourced inclusions."
+    ]
+  }
+}

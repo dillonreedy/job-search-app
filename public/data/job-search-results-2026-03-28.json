@@ -1,4 +1,4 @@
-﻿{
+{
   "schema_version": "1.0.0",
   "generated_at": "2026-03-28T08:35:26.7202712-05:00",
   "meta": {
@@ -93,7 +93,7 @@
       "id": "renewed-vision-software-engineer-react-nextjs-react-native-2026-03-28",
       "dedupe_key": "renewed_vision|software_engineer_react_next_js_react_native|us_remote",
       "company": "Renewed Vision",
-      "job_title": "Software Engineer — React / Next.js / React Native",
+      "job_title": "Software Engineer â€” React / Next.js / React Native",
       "location": "Remote",
       "job_url": "https://job-boards.greenhouse.io/renewedvision/jobs/5142014008",
       "rejection_reasons": [
@@ -130,26 +130,22 @@
     "best_overall": {
       "job_id": null,
       "company": null,
-      "job_title": null,
-      "job_url": null
+      "job_title": null
     },
     "best_react_nextjs_fit": {
       "job_id": null,
       "company": null,
-      "job_title": null,
-      "job_url": null
+      "job_title": null
     },
     "best_design_systems_fit": {
       "job_id": null,
       "company": null,
-      "job_title": null,
-      "job_url": null
+      "job_title": null
     },
     "best_comp_visible_role": {
       "job_id": null,
       "company": null,
-      "job_title": null,
-      "job_url": null
+      "job_title": null
     },
     "market_notes": [
       "Fresh frontend-targeted results in this 24-hour window were dominated by recruiter contracts, stale reposts, and aggregator resyndications.",

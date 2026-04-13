@@ -44,7 +44,7 @@
       "dedupe_key": "pearl|senior-agentic-software-engineer-react-python-llms|2026-04-11",
       "company": "Pearl",
       "job_title": "Senior Agentic Software Engineer (React, Python, LLMs)",
-      "location": "United States · Remote",
+      "location": "United States Ã‚Â· Remote",
       "job_url": "https://jobs.accel.com/companies/pearl/jobs/73963753-senior-agentic-software-engineer-react-python-llms",
       "rejection_reasons": [
         "Role is not frontend-first",
@@ -70,7 +70,6 @@
       "company": "Filevine",
       "job_title": "Senior Software Engineer (Frontend)",
       "location": "San Francisco, CA",
-      "job_url": null,
       "rejection_reasons": [
         "Location is outside Houston metro and not U.S.-remote",
         "Freshness could not be verified as posted within the last 24 hours"
@@ -81,7 +80,7 @@
       "dedupe_key": "cointracker|senior-product-engineer|null",
       "company": "CoinTracker",
       "job_title": "Senior Product Engineer",
-      "location": "United States · Remote",
+      "location": "United States Ã‚Â· Remote",
       "job_url": "https://echojobs.io/job/cointracker-senior-product-engineer-v9fwn",
       "rejection_reasons": [
         "Available source showed the role as months old rather than newly posted",
@@ -93,8 +92,7 @@
       "dedupe_key": "cointracker|product-engineer|null",
       "company": "CoinTracker",
       "job_title": "Product Engineer",
-      "location": "United States · Remote",
-      "job_url": null,
+      "location": "United States Ã‚Â· Remote",
       "rejection_reasons": [
         "Freshness could not be verified within the last 24 hours",
         "Role appears more generalist and less clearly senior than target profile"
@@ -141,8 +139,7 @@
       "dedupe_key": "vultr|frontend-engineer|null",
       "company": "Vultr",
       "job_title": "Frontend Engineer",
-      "location": "United States · Remote",
-      "job_url": null,
+      "location": "United States Ã‚Â· Remote",
       "rejection_reasons": [
         "Role surfaced as older than the required 24-hour search window",
         "Title fit is acceptable, but freshness rule failed"
@@ -153,26 +150,22 @@
     "best_overall": {
       "job_id": null,
       "company": null,
-      "job_title": null,
-      "job_url": null
+      "job_title": null
     },
     "best_react_nextjs_fit": {
       "job_id": null,
       "company": null,
-      "job_title": null,
-      "job_url": null
+      "job_title": null
     },
     "best_design_systems_fit": {
       "job_id": null,
       "company": null,
-      "job_title": null,
-      "job_url": null
+      "job_title": null
     },
     "best_comp_visible_role": {
       "job_id": null,
       "company": null,
-      "job_title": null,
-      "job_url": null
+      "job_title": null
     },
     "market_notes": [
       "The strict 24-hour freshness filter sharply reduced viable frontend-first matches on 2026-04-12.",

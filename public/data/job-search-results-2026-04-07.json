@@ -463,8 +463,7 @@
     "best_design_systems_fit": {
       "job_id": null,
       "company": null,
-      "job_title": null,
-      "job_url": null
+      "job_title": null
     },
     "best_comp_visible_role": {
       "job_id": "toast__senior-software-engineer-frontend-menus__2026-04-07",
@@ -475,7 +474,7 @@
     "market_notes": [
       "The last-24-hours slice produced only a small number of qualifying senior frontend roles after strict freshness enforcement.",
       "Several very strong-fit frontend listings surfaced in search, but opening the source pages showed they were older than 24 hours and had to be excluded.",
-      "Today’s qualifying set skewed toward React and TypeScript product UI work, with little clean Next.js or design-systems-specific inventory."
+      "TodayÃ¢â‚¬â„¢s qualifying set skewed toward React and TypeScript product UI work, with little clean Next.js or design-systems-specific inventory."
     ]
   }
 }

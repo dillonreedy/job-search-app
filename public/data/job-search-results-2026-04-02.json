@@ -1,4 +1,4 @@
-﻿{
+{
   "schema_version": "1.0.0",
   "generated_at": "2026-04-02T08:09:16.2250901-05:00",
   "meta": {
@@ -369,8 +369,7 @@
     "best_design_systems_fit": {
       "job_id": null,
       "company": null,
-      "job_title": null,
-      "job_url": null
+      "job_title": null
     },
     "best_comp_visible_role": {
       "job_id": "1password-senior-developer-growth-2026-04-01",

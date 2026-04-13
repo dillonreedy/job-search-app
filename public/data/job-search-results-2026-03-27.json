@@ -160,26 +160,22 @@
     "best_overall": {
       "job_id": null,
       "company": null,
-      "job_title": null,
-      "job_url": null
+      "job_title": null
     },
     "best_react_nextjs_fit": {
       "job_id": null,
       "company": null,
-      "job_title": null,
-      "job_url": null
+      "job_title": null
     },
     "best_design_systems_fit": {
       "job_id": null,
       "company": null,
-      "job_title": null,
-      "job_url": null
+      "job_title": null
     },
     "best_comp_visible_role": {
       "job_id": null,
       "company": null,
-      "job_title": null,
-      "job_url": null
+      "job_title": null
     },
     "market_notes": [
       "High-confidence, last-24-hours frontend matches were sparse after filtering for US-remote or Houston-metro only.",
